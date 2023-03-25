@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: din-round, sans-serif;
+    scroll-behavior: smooth;
+}
+
+--root {
+    --text-color: #777777;
+    --heading-color: #4b4b4b;
+    --main-color: #58cc02;
+}
+
+body {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--text-color);
+}

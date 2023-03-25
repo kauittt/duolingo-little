@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: din-round, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+}
+
+--root {
+    --primary-color: #777777;
+    --heading-color: #4b4b4b;
+}
