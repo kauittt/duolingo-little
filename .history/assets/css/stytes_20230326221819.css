@@ -64,7 +64,6 @@ body {
     width: 100%;
     background: var(--bgr-color);
     /* display: none; */
-    z-index: 2;
 }
 
 .header.stick {
@@ -163,12 +162,12 @@ body {
     margin-bottom: 24px;
 }
 
-.section:nth-of-type(n + 2)::after {
+.section:nth-child(n + 2)::after {
     content: "";
     display: block;
     position: absolute;
 
-    top: -12px;
+    top: 12px;
 
     width: 1065px;
     height: 2px;
@@ -176,10 +175,6 @@ body {
     border-radius: 999px;
     background-color: rgb(229, 229, 229);
 }
-
-/* .section:first-child {
-    height: 1002vh;
-} */
 .section__img {
 }
 
