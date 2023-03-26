@@ -163,12 +163,12 @@ body {
     margin-bottom: 24px;
 }
 
-.section:nth-of-type(n + 2)::after {
+.section:nth-child(n + 3)::after {
     content: "";
     display: block;
     position: absolute;
 
-    top: -12px;
+    top: 12px;
 
     width: 1065px;
     height: 2px;

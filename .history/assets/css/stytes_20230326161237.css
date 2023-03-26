@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: din-round, sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --text-color: #777777;
+    --heading-color: #4b4b4b;
+    --main-color: #58cc02;
+    --bgr-color: rgba(35, 83, 144);
+    --bgr-star: url(https://d35aaqx5ub95lt.cloudfront.net/images/4986531ca822d48e57b4a18f40ff5172.svg);
+}
+
+body {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.wrap {
+    width: 1065px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.btn {
+    padding: 15.5px 36px;
+
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--bgr-color);
+    box-shadow: 0 4px 0 rgb(4, 44, 96);
+    border: 2px solid rgb(4, 44, 96);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(1.1);
+}
+
+.btn--primary {
+    background-color: var(--main-color);
+    box-shadow: 0 4px 0 rgb(88, 167, 0);
+    border: 2px solid rgb(88, 167, 0);
+}
+
+/*! HEADER */
+.header {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background: var(--bgr-color);
+}
+
+.header__img {
+    height: 40px;
+}
+
+.header__img img {
+    height: 100%;
+}
+
+.header__language {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/*!! CONTENT */
+.content {
+}
+
+/*! hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bgr-color);
+    background-image: var(--bgr-star);
+}
+
+.hero-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1269px;
+    margin: 12px auto;
+    padding: 40px;
+}
+
+.hero__img {
+}
+
+.hero__img img {
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto 48px;
+}
+
+.hero-content__heading {
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+.hero-content-select {
+}
+
+.hero-content-select > :first-child {
+    margin-bottom: 15px;
+}
+
+/*! info  */
+.info {
+}

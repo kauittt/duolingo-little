@@ -64,7 +64,6 @@ body {
     width: 100%;
     background: var(--bgr-color);
     /* display: none; */
-    z-index: 2;
 }
 
 .header.stick {
@@ -163,23 +162,19 @@ body {
     margin-bottom: 24px;
 }
 
-.section:nth-of-type(n + 2)::after {
+.section::after {
     content: "";
     display: block;
     position: absolute;
 
-    top: -12px;
+    bottom: 0;
 
     width: 1065px;
-    height: 2px;
+    height: -12px;
 
     border-radius: 999px;
     background-color: rgb(229, 229, 229);
 }
-
-/* .section:first-child {
-    height: 1002vh;
-} */
 .section__img {
 }
 
