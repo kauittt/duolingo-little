@@ -1,0 +1,41 @@
+body {
+    color: var(--heading-color);
+}
+
+.survey {
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-progress {
+    position: relative;
+}
+
+.survey-progress > i {
+    position: absolute;
+}
+
+.survey-progress__bar {
+    width: 1086px;
+    height: 16px;
+    background-color: #ccc;
+    border-radius: 999px;
+}
+
+.survey-content {
+}
+
+.survey-content__heading {
+}
+
+.survey-content-grid {
+}
+
+.survey-content-item {
+}
+
+.survey-content-item__img {
+}
+
+.survey-content-item__desc {
+}

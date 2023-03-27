@@ -4,7 +4,7 @@
 
 html {
     font-size: 62.5%;
-    /* font-family: din-round, sans-serif; */
+    font-family: din-round, sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -20,6 +20,6 @@ html {
 body {
     font-size: 17px;
     font-weight: 500;
-    font-family: "DINRoundPro", sans-serif;
+    font-family: din-round, sans-serif;
     color: var(--text-color);
 }
