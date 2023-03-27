@@ -1,0 +1,29 @@
+body {
+    color: var(--heading-color);
+}
+
+.survey {
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-progress {
+}
+
+.survey-content {
+}
+
+.survey-content__heading {
+}
+
+.survey-content-grid {
+}
+
+.survey-content-item {
+}
+
+.survey-content-item__img {
+}
+
+.survey-content-item__desc {
+}
