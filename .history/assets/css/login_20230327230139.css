@@ -630,7 +630,6 @@ a {
 
 .modal-content-form-check__item.valid {
     color: #07a787;
-    color: var(--main-color);
 }
 
 .modal-content-form-email-check {
@@ -661,7 +660,6 @@ a {
 .modal-content-form-password-check.valid
     .modal-content-form-password-check__item {
     color: #07a787;
-    color: var(--main-color);
     opacity: 1;
     visibility: visible;
 }
@@ -670,13 +668,13 @@ a {
     position: absolute;
     right: 35px;
     display: flex;
-    top: 82px;
+    top: 86px;
 }
 
 .password-eye {
     font-size: 2rem;
     position: absolute;
-    top: 82px;
+    top: 86px;
     right: 15px;
     cursor: pointer;
 }

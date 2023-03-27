@@ -501,7 +501,6 @@ a {
     right: 0;
     left: 0;
     bottom: 0;
-    font-family: "DINRoundPro", sans-serif;
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -533,7 +532,7 @@ a {
 }
 
 .modal-content a {
-    color: var(--heading-color);
+    color: var(--text-color);
 }
 .modal-content-name {
     display: flex;
@@ -542,21 +541,19 @@ a {
 }
 
 .modal-content-name__text {
-    font-size: 25px;
-    font-weight: 700;
-    color: var(--heading-color);
+    font-size: 2rem;
 }
 
 .modal-content-name__icon {
-    padding: 8px;
     color: var(--text-color);
     font-size: 3rem;
-    cursor: pointer;
-    transition: all 0.1s ease;
+    padding: 8px;
+    transition: all 0.2s ease;
 }
 
 .modal-content-name__icon:hover {
-    filter: brightness(0.8);
+    cursor: pointer;
+    filter: brightness(1.5);
 }
 
 .modal-content-form {
@@ -578,7 +575,7 @@ a {
 }
 
 .modal-content-form__input {
-    /* font-family: "DINRoundPro", sans-s   erif; */
+    font-family: "Poppins", sans-serif;
     border-radius: 8px;
     padding: 12px;
     margin-bottom: 24px;
@@ -588,15 +585,14 @@ a {
 
 .modal-content-form__forgot {
     text-align: center;
-    transition: all 0.15s ease;
+    transition: all 0.12s linear;
 }
 
 .modal-content-form__forgot:hover,
 .modal-content-more__signUp:hover,
 .modal-content-more__signIn:hover {
-    color: var(--heading-color);
+    color: var(--main-color);
     font-weight: 600;
-    transition: all 0.3s ease;
 }
 
 .modal-content-form__btn:hover {
@@ -615,7 +611,7 @@ a {
 
 .modal-content-more__signUp,
 .modal-content-more__signIn {
-    transition: all 0.15s ease;
+    transition: all 0.12s linear;
     padding: 14px;
 }
 .modal-content-form-check {
@@ -623,20 +619,19 @@ a {
 
 .modal-content-form-check__item {
     transition: all 0.25s ease;
+    /* color: var(--text-color); */
     color: #e74c3c;
     padding: 5px 0;
-    font-weight: 700;
 }
 
 .modal-content-form-check__item.valid {
     color: #07a787;
-    color: var(--main-color);
 }
 
 .modal-content-form-email-check {
     position: absolute;
     right: 35px;
-    top: 12px;
+    top: 17px;
     display: flex;
 }
 
@@ -661,7 +656,6 @@ a {
 .modal-content-form-password-check.valid
     .modal-content-form-password-check__item {
     color: #07a787;
-    color: var(--main-color);
     opacity: 1;
     visibility: visible;
 }
@@ -670,13 +664,13 @@ a {
     position: absolute;
     right: 35px;
     display: flex;
-    top: 82px;
+    top: 92px;
 }
 
 .password-eye {
     font-size: 2rem;
     position: absolute;
-    top: 82px;
+    top: 92px;
     right: 15px;
     cursor: pointer;
 }

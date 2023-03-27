@@ -606,6 +606,7 @@ a {
 .modal-content-form__btn {
     color: white;
     margin-top: 16px;
+    background: var(--main-color);
 }
 
 .modal-content-more {
@@ -630,7 +631,6 @@ a {
 
 .modal-content-form-check__item.valid {
     color: #07a787;
-    color: var(--main-color);
 }
 
 .modal-content-form-email-check {
@@ -661,7 +661,6 @@ a {
 .modal-content-form-password-check.valid
     .modal-content-form-password-check__item {
     color: #07a787;
-    color: var(--main-color);
     opacity: 1;
     visibility: visible;
 }

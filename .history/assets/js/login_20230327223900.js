@@ -34,7 +34,7 @@ const tmpSignIn = ` <div class="modal">
         <a href="#!" class="modal-content-form__forgot">
             Forgot your password?
         </a>
-        <p class="btn btn--primary modal-content-form__btn">Sign in</p>
+        <p class="btn modal-content-form__btn">Sign in</p>
     </form>
 
     <div class="modal-content-more">
@@ -95,7 +95,7 @@ const tmpSignUp = `<div class="modal">
                 * 1 special character
             </p>
         </div>
-        <div class="btn  btn--primary modal-content-form__btn">Sign up</div>
+        <div class="btn modal-content-form__btn">Sign up</div>
     </form>
 
     <div class="modal-content-more">
@@ -109,7 +109,6 @@ const tmpSignUp = `<div class="modal">
 signInBtn.addEventListener("click", function (e) {
     document.body.insertAdjacentHTML("beforeend", tmpSignIn);
 });
-
 document.body.addEventListener("click", function (e) {
     //! close modal
     if (e.target.matches(".modal")) {
@@ -129,10 +128,6 @@ document.body.addEventListener("click", function (e) {
         const modal = e.target.parentNode.parentNode.parentNode;
         modal.parentNode.removeChild(modal);
         document.body.insertAdjacentHTML("beforeend", tmpSignUp);
-        const password = document.querySelector(".password");
-        password.addEventListener("focus", function (e) {
-            e.target.addEventListener("input", handlePasswordCheck);
-        });
         //! regex
     } else if (e.target.matches(".email")) {
         const icons = document.querySelector(".modal-content-form-email-check");

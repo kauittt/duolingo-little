@@ -662,6 +662,7 @@ a {
     .modal-content-form-password-check__item {
     color: #07a787;
     color: var(--main-color);
+
     opacity: 1;
     visibility: visible;
 }

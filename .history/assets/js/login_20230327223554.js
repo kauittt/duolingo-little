@@ -34,7 +34,7 @@ const tmpSignIn = ` <div class="modal">
         <a href="#!" class="modal-content-form__forgot">
             Forgot your password?
         </a>
-        <p class="btn btn--primary modal-content-form__btn">Sign in</p>
+        <p class="btn modal-content-form__btn">Sign in</p>
     </form>
 
     <div class="modal-content-more">
@@ -95,7 +95,7 @@ const tmpSignUp = `<div class="modal">
                 * 1 special character
             </p>
         </div>
-        <div class="btn  btn--primary modal-content-form__btn">Sign up</div>
+        <div class="btn modal-content-form__btn">Sign up</div>
     </form>
 
     <div class="modal-content-more">
@@ -106,10 +106,10 @@ const tmpSignUp = `<div class="modal">
 </div>
 </div>`;
 
-signInBtn.addEventListener("click", function (e) {
-    document.body.insertAdjacentHTML("beforeend", tmpSignIn);
-});
-
+signInBtn.addEventListener("click", function (e) {});
+// signUpBtn.addEventListener("click", function (e) {
+//     document.body.insertAdjacentHTML("beforeend", tmpSignUp);
+// });
 document.body.addEventListener("click", function (e) {
     //! close modal
     if (e.target.matches(".modal")) {
@@ -128,11 +128,7 @@ document.body.addEventListener("click", function (e) {
     } else if (e.target.matches(".modal-content-more__signIn")) {
         const modal = e.target.parentNode.parentNode.parentNode;
         modal.parentNode.removeChild(modal);
-        document.body.insertAdjacentHTML("beforeend", tmpSignUp);
-        const password = document.querySelector(".password");
-        password.addEventListener("focus", function (e) {
-            e.target.addEventListener("input", handlePasswordCheck);
-        });
+        document.body.insertAdjacentHTML("beforeend", tmpSignIn);
         //! regex
     } else if (e.target.matches(".email")) {
         const icons = document.querySelector(".modal-content-form-email-check");
@@ -152,10 +148,50 @@ document.body.addEventListener("click", function (e) {
                 icons.classList.add("error");
             }
         });
-        //! password
     } else if (e.target.matches(".password")) {
+        const items = document.querySelectorAll(
+            ".modal-content-form-check__item"
+        );
+        const passwordCheck = document.querySelector(
+            ".modal-content-form-password-check"
+        );
+
+        function handlePasswordCheck(E) {
+            let count = 0;
+            function handleValid(item, regex, input) {
+                if (regex.test(input)) {
+                    item.classList.add("valid");
+                    return true;
+                } else {
+                    item.classList.remove("valid");
+                    return false;
+                }
+            }
+
+            if (E.target.value.length >= 8 && E.target.value.length <= 12) {
+                items[0].classList.add("valid");
+                count++;
+            } else {
+                items[0].classList.remove("valid");
+                count++;
+            }
+
+            handleValid(items[1], /[A-Z]/, E.target.value) ? count++ : count--;
+            handleValid(items[2], /\d/, E.target.value) ? count++ : count--;
+            handleValid(
+                items[3],
+                /[-._!"`'#%&,:;<>=@{}~\$\(\)\*\+\/\\\?\[\]\^\|]+/,
+                E.target.value
+            )
+                ? count++
+                : count--;
+            if (count == 4) {
+                passwordCheck.classList.add("valid");
+            } else {
+                passwordCheck.classList.remove("valid");
+            }
+        }
         e.target.addEventListener("input", handlePasswordCheck);
-        //! eyes
     } else if (e.target.matches(".password-eye")) {
         const eye = document.querySelector(".password-eye");
         const input = eye.previousElementSibling;
@@ -170,43 +206,3 @@ document.body.addEventListener("click", function (e) {
         }
     }
 });
-
-function handlePasswordCheck(E) {
-    const items = document.querySelectorAll(".modal-content-form-check__item");
-    const passwordCheck = document.querySelector(
-        ".modal-content-form-password-check"
-    );
-    let count = 0;
-    function handleValid(item, regex, input) {
-        if (regex.test(input)) {
-            item.classList.add("valid");
-            return true;
-        } else {
-            item.classList.remove("valid");
-            return false;
-        }
-    }
-
-    if (E.target.value.length >= 8 && E.target.value.length <= 12) {
-        items[0].classList.add("valid");
-        count++;
-    } else {
-        items[0].classList.remove("valid");
-        count++;
-    }
-
-    handleValid(items[1], /[A-Z]/, E.target.value) ? count++ : count--;
-    handleValid(items[2], /\d/, E.target.value) ? count++ : count--;
-    handleValid(
-        items[3],
-        /[-._!"`'#%&,:;<>=@{}~\$\(\)\*\+\/\\\?\[\]\^\|]+/,
-        E.target.value
-    )
-        ? count++
-        : count--;
-    if (count == 4) {
-        passwordCheck.classList.add("valid");
-    } else {
-        passwordCheck.classList.remove("valid");
-    }
-}

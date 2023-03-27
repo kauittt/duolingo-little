@@ -95,7 +95,7 @@ const tmpSignUp = `<div class="modal">
                 * 1 special character
             </p>
         </div>
-        <div class="btn  btn--primary modal-content-form__btn">Sign up</div>
+        <div class="btn  btn--primarymodal-content-form__btn">Sign up</div>
     </form>
 
     <div class="modal-content-more">
