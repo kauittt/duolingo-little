@@ -158,8 +158,6 @@ closeBtn.addEventListener("click", function (e) {
         closeBtn.classList.remove("fa-xmark");
     }
     id--;
-    grid.innerHTML = "";
-    surveyBtn.classList.remove("btn--primary");
     loadSurvey();
     console.log(id);
 
@@ -171,7 +169,7 @@ surveyBtn.addEventListener("click", function (e) {
         grid.innerHTML = "";
         surveyBtn.classList.remove("btn--primary");
         console.log(`ID: ${id}`);
-        id < 2 ? loadSurvey() : loadLogIn();
+        id < 3 ? loadSurvey() : loadLogIn();
     }
 });
 loadSurvey();
@@ -203,18 +201,15 @@ function loadSurvey() {
         closeBtn.classList.remove("fa-xmark");
     }
 
-    const percent = (id / 4) * 100;
-    const color = `linear-gradient(90deg, #58cc02 ${percent}%, rgb(229, 229, 229) ${percent}%)`;
-    progress.style.background = color;
-
-    grid.style.display = "grid";
-    grid.classList.remove("survey-content-flex");
-    surveyBtn.style.display = "block";
+    const percent = (id / duration) * 100;
+    const color = `linear-gradient(90deg, #d14781 ${percent}%, #e0b2b1 ${percent}%)`;
+    progress.style.background;
 
     const item = data.items[id];
     console.log(item.heading);
     heading.textContent = item.heading;
 
+    console.log(Object.keys(item.choices).length);
     for (let i = 0; i < Object.keys(item.choices).length; i++) {
         const choice = item.choices[i];
         // console.log(choice);
@@ -256,21 +251,6 @@ function loadSurvey() {
 }
 
 function loadLogIn() {
-    id++;
-
-    console.log(id);
-    if (!id) {
-        closeBtn.classList.remove("fa-arrow-left");
-        closeBtn.classList.add("fa-xmark");
-    } else {
-        closeBtn.classList.add("fa-arrow-left");
-        closeBtn.classList.remove("fa-xmark");
-    }
-
-    const percent = (id / 4) * 100;
-    const color = `linear-gradient(90deg, #58cc02 ${percent}%, rgb(229, 229, 229) ${percent}%)`;
-    progress.style.background = color;
-
     const grid = document.querySelector(".survey-content-grid");
     grid.style.display = "flex";
     grid.classList.add("survey-content-flex");
