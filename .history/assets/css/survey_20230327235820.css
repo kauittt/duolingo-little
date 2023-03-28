@@ -1,0 +1,137 @@
+body {
+    color: var(--heading-color);
+}
+
+.btn {
+    width: 100%;
+    padding: 16px 51.5px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--bgr-color);
+    box-shadow: 0 4px 0 rgb(4, 44, 96);
+    border: 2px solid rgb(4, 44, 96);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    filter: brightness(1.1);
+}
+
+.btn--primary {
+    background-color: var(--main-color);
+    box-shadow: 0 4px 0 rgb(88, 167, 0);
+    border: 2px solid rgb(88, 167, 0);
+}
+
+.survey {
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-progress {
+    width: 100%;
+    padding: 42px 0 24px;
+}
+
+.survey-progress__bar i {
+    position: absolute;
+    left: -30px;
+    top: -7px;
+    font-size: 30px;
+    color: var(--text-color);
+    transition: all 0.2s ease;
+}
+
+.survey-progress__bar i:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+
+.survey-progress__bar {
+    position: relative;
+    width: 1086px;
+    max-width: calc(100% - 48px);
+    height: 16px;
+    margin: 0 auto;
+    background-color: #ccc;
+    border-radius: 999px;
+}
+
+.survey-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 185px;
+}
+
+.survey-content__heading {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.survey-content-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.survey-content-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 185px;
+    height: 185px;
+    padding: 24px;
+
+    background-color: white;
+    border: 2px solid rgb(229, 229, 229);
+    border-radius: 10px;
+    bottom: -2px;
+    box-shadow: 0 2px 0 rgb(229, 229, 229);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.survey-content-item:hover {
+    filter: brightness(0.9);
+}
+
+.survey-content-item__img {
+    width: 80%;
+}
+
+.survey-content-item__img img {
+    height: 80px;
+    width: 100%;
+}
+
+.survey-content-item-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.survey-content-item-info__heading {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+
+.survey-content-item-info__desc {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--text-color);
+}
