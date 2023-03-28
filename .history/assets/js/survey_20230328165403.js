@@ -158,8 +158,6 @@ closeBtn.addEventListener("click", function (e) {
         closeBtn.classList.remove("fa-xmark");
     }
     id--;
-    grid.innerHTML = "";
-    surveyBtn.classList.remove("btn--primary");
     loadSurvey();
     console.log(id);
 
@@ -206,10 +204,6 @@ function loadSurvey() {
     const percent = (id / 4) * 100;
     const color = `linear-gradient(90deg, #58cc02 ${percent}%, rgb(229, 229, 229) ${percent}%)`;
     progress.style.background = color;
-
-    grid.style.display = "grid";
-    grid.classList.remove("survey-content-flex");
-    surveyBtn.style.display = "block";
 
     const item = data.items[id];
     console.log(item.heading);

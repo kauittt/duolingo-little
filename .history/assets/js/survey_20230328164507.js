@@ -131,6 +131,21 @@ const data = {
                 },
             },
         },
+        4: {
+            heading: "Chọn hướng đi của bạn",
+            choices: {
+                0: {
+                    url: "https://d35aaqx5ub95lt.cloudfront.net/images/owls/3ddd27fd32d1910636ead35ea966b488.svg",
+                    heading: "Đây là lần đầu bạn học Tiếng Anh?",
+                    desc: "Bắt đầu từ bài tập cơ bản nhé!",
+                },
+                1: {
+                    url: "https://d35aaqx5ub95lt.cloudfront.net/images/owls/84d58856b19e9d0ec3c59cb014139853.svg",
+                    heading: "Bạn đã biết một chút Tiếng Anh?",
+                    desc: "Hãy tiếp tục cố gắng nhé!",
+                },
+            },
+        },
     },
 };
 
@@ -138,7 +153,6 @@ const heading = document.querySelector(".survey-content__heading");
 const grid = document.querySelector(".survey-content-grid");
 const surveyBtn = document.querySelector(".survey-content .btn");
 const closeBtn = document.querySelector(".survey-progress__bar>i");
-const progress = document.querySelector(".survey-progress__bar");
 
 let id = -1;
 console.log(data);
@@ -158,8 +172,6 @@ closeBtn.addEventListener("click", function (e) {
         closeBtn.classList.remove("fa-xmark");
     }
     id--;
-    grid.innerHTML = "";
-    surveyBtn.classList.remove("btn--primary");
     loadSurvey();
     console.log(id);
 
@@ -171,7 +183,7 @@ surveyBtn.addEventListener("click", function (e) {
         grid.innerHTML = "";
         surveyBtn.classList.remove("btn--primary");
         console.log(`ID: ${id}`);
-        id < 2 ? loadSurvey() : loadLogIn();
+        id < 3 ? loadSurvey() : loadLogIn();
     }
 });
 loadSurvey();
@@ -203,18 +215,11 @@ function loadSurvey() {
         closeBtn.classList.remove("fa-xmark");
     }
 
-    const percent = (id / 4) * 100;
-    const color = `linear-gradient(90deg, #58cc02 ${percent}%, rgb(229, 229, 229) ${percent}%)`;
-    progress.style.background = color;
-
-    grid.style.display = "grid";
-    grid.classList.remove("survey-content-flex");
-    surveyBtn.style.display = "block";
-
     const item = data.items[id];
     console.log(item.heading);
     heading.textContent = item.heading;
 
+    console.log(Object.keys(item.choices).length);
     for (let i = 0; i < Object.keys(item.choices).length; i++) {
         const choice = item.choices[i];
         // console.log(choice);
@@ -256,21 +261,6 @@ function loadSurvey() {
 }
 
 function loadLogIn() {
-    id++;
-
-    console.log(id);
-    if (!id) {
-        closeBtn.classList.remove("fa-arrow-left");
-        closeBtn.classList.add("fa-xmark");
-    } else {
-        closeBtn.classList.add("fa-arrow-left");
-        closeBtn.classList.remove("fa-xmark");
-    }
-
-    const percent = (id / 4) * 100;
-    const color = `linear-gradient(90deg, #58cc02 ${percent}%, rgb(229, 229, 229) ${percent}%)`;
-    progress.style.background = color;
-
     const grid = document.querySelector(".survey-content-grid");
     grid.style.display = "flex";
     grid.classList.add("survey-content-flex");
