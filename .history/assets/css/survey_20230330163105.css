@@ -16,8 +16,6 @@ body {
     text-transform: uppercase;
     color: rgb(175, 175, 175);
     background-color: rgb(229, 229, 229);
-    box-shadow: 0 4px 0 #ccc;
-    border: 2px solid #ccc;
     border-radius: 16px;
     transition: all 0.2s ease;
     margin-top: 24px;

@@ -25,7 +25,7 @@ body {
     color: var(--text-color);
 }
 .lesson {
-    /* display: none; */
+    display: none;
 }
 /*! main */
 .logo {
@@ -107,10 +107,9 @@ body {
     height: 32px;
 }
 .icon-school {
-    margin-left: -70px;
+    margin-left: -22px;
     width: 32px;
-    /* height: 30px; */
-    line-height: 45px;
+    height: 32px;
 }
 .menu-more::before {
     content: "";
@@ -123,7 +122,7 @@ body {
 }
 .menu-more {
     width: 220px;
-    height: 185px;
+    height: 200px;
     border-style: solid;
     border-radius: 12px;
     border-width: 1.7px;
@@ -138,14 +137,13 @@ body {
     font-weight: 700;
     letter-spacing: 0.8px;
     text-transform: uppercase;
+    font-family: sans-serif;
     color: #777;
-    /* margin-left: -41px; */
-    /* margin-bottom: 8px; */
-    padding-left: 20px;
-    width: 219px;
+    margin-left: -41px;
+    margin-bottom: 8px;
+    width: 223px;
     display: flex;
-    /* border-radius: 8px; */
-    /* justify-content: center; */
+    justify-content: center;
 }
 .more-ul li:hover {
     border-color: transparent;
@@ -169,26 +167,17 @@ a {
 hr {
     display: block;
     margin-top: 9px;
-    margin-left: 0px;
-    width: 218px;
+    margin-left: 8px;
+    width: 201px;
     border-width: 1px;
     border-color: rgb(229, 229, 229);
 }
 .more-ul-school {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7px;
-    margin-left: 0px;
+    margin-top: 3px;
+    margin-left: 16px;
     height: 45px;
-    width: 218px;
-    /* padding-left: 30px; */
-}
-
-.more-ul-school a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 190px;
+    padding-left: 30px;
 }
 /* hover school */
 .more-ul-school:hover {
@@ -224,14 +213,14 @@ h1 {
 }
 p {
     font-size: 17px;
+    font-family: sans-serif;
     color: #fff;
     font-weight: 500;
-    margin-top: 20px;
 }
 .btn-guide {
     position: absolute;
     margin-left: 400px;
-    margin-top: -54px;
+    margin-top: -75px;
     width: 157px;
     height: 52px;
     background-color: #58cc02;
@@ -240,12 +229,13 @@ p {
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
     border-radius: 16px;
     cursor: pointer;
-    transition: all 0.2s linear;
+    transition: opacity 0.2s linear;
 }
 .btn-guide:hover {
-    filter: brightness(1.1);
+    opacity: 0.8;
 }
 .btn-text {
+    font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.8px;
     color: #fff;
@@ -270,7 +260,6 @@ p {
     height: 98px;
 }
 .btn-start-border {
-    text-align: center;
     background: #ffffff;
     border: 2px solid #e5e5e5;
     border-radius: 10px;
@@ -284,13 +273,15 @@ p {
     position: relative;
     width: 52px;
     height: 17px;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     letter-spacing: 0.8px;
     text-transform: uppercase;
     color: #58cc02;
-    line-height: 45px;
+    top: 15px;
+    left: 10px;
 }
 /* Chỉnh nhỏ hình ảnh và di chuyển */
 .btn-icon {
@@ -398,6 +389,7 @@ p {
     margin-left: 1000px;
 }
 .num {
+    font-family: sans-serif;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -420,6 +412,7 @@ p {
     height: 26px;
 }
 .superduo-text {
+    font-family: sans-serif;
     font-weight: 700;
     font-size: 15px;
     line-height: 20px;
@@ -455,12 +448,9 @@ p {
     background: #3c4dff;
     box-shadow: 0px 4px 0px #3f22ec;
     border-radius: 16px;
-    transition: all 0.2s linear 0s;
-}
-.btn-trysuper-2w:hover {
-    filter: brightness(1.3);
 }
 .btn-trysuper-2w-text {
+    font-family: sans-serif;
     font-weight: 800;
     font-size: 13px;
     line-height: 18px;
@@ -481,9 +471,9 @@ p {
 }
 .leaderboard-header {
     position: absolute;
-
+    font-family: sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 26px;
     color: #4b4b4b;
     margin-top: 26px;
@@ -495,8 +485,9 @@ p {
     margin-left: 40px;
 }
 .leaderboard-title {
-    font-size: 17px;
+    font-family: sans-serif;
     font-weight: 500;
+    font-size: 16px;
     line-height: 25px;
     width: 204.68px;
     height: 50px;
@@ -514,12 +505,12 @@ p {
     border-radius: 16px;
 }
 .xp-progress-header-text {
-    width: 135px;
+    width: 132px;
     height: 26px;
-
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 26px;
     color: #4b4b4b;
     display: flex;
@@ -527,6 +518,7 @@ p {
     margin-left: 26px;
 }
 .edit-goal {
+    font-family: sans-serif;
     font-weight: 700;
     font-size: 13px;
     line-height: 18px;
@@ -542,11 +534,11 @@ p {
 }
 .daily-goal-text {
     position: absolute;
-    width: 85px;
+    width: 72px;
     height: 25px;
-
-    font-size: 17px;
+    font-family: sans-serif;
     font-weight: 500;
+    font-size: 15px;
     line-height: 25px;
     color: #777777;
     margin-top: 10px;
@@ -564,7 +556,7 @@ p {
 .sum-xp-text {
     width: 65px;
     height: 20px;
-
+    font-family: sans-serif;
     font-weight: 500;
     font-size: 15px;
     position: absolute;
@@ -595,12 +587,12 @@ p {
     height: 75px;
 }
 .remove-header {
-    width: 235px;
+    width: 214px;
     height: 30px;
-
+    font-family: sans-serif;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 21px;
+    line-height: 30px;
     color: #fff;
     position: absolute;
     margin-top: -250px;
@@ -609,7 +601,7 @@ p {
 .remove-title {
     width: 290px;
     height: 50px;
-
+    font-family: sans-serif;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
@@ -629,16 +621,11 @@ p {
     background: #ffffff;
     box-shadow: 0px 4px 0px rgba(255, 255, 255, 0.5);
     border-radius: 16px;
-    transition: all 0.3s ease;
-}
-
-.btn-trysuper-free:hover {
-    filter: brightness(0.9);
 }
 .btn-trysuper-free-text {
     width: 160px;
     height: 18px;
-
+    font-family: sans-serif;
     font-weight: 700;
     font-size: 13px;
     line-height: 18px;
@@ -653,7 +640,7 @@ p {
 .btn-remove-ad {
     width: 165px;
     height: 20px;
-
+    font-family: sans-serif;
     font-weight: 700;
     font-size: 13px;
     line-height: 20px;
