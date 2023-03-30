@@ -201,11 +201,6 @@ a {
 .section-content__desc a {
     display: inline-block;
     text-decoration: underline;
-    transition: all 0.2s ease;
-}
-
-.section-content__desc a:hover {
-    filter: brightness(0.8);
 }
 
 .section-content__desc b {
@@ -248,10 +243,6 @@ a {
 
 .download .section-content__link:hover {
     filter: none;
-}
-
-.section-content__link-item p {
-    color: rgb(75, 75, 75);
 }
 
 .section-content__link-item > i {
@@ -651,7 +642,7 @@ a {
 .modal-content-form-email-check {
     position: absolute;
     right: 35px;
-    top: 14px;
+    top: 12px;
     display: flex;
 }
 
@@ -685,13 +676,13 @@ a {
     position: absolute;
     right: 35px;
     display: flex;
-    top: 86px;
+    top: 82px;
 }
 
 .password-eye {
     font-size: 2rem;
     position: absolute;
-    top: 86px;
+    top: 82px;
     right: 15px;
     cursor: pointer;
 }

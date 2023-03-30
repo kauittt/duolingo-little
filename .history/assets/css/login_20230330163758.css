@@ -651,7 +651,7 @@ a {
 .modal-content-form-email-check {
     position: absolute;
     right: 35px;
-    top: 14px;
+    top: 12px;
     display: flex;
 }
 
@@ -685,13 +685,13 @@ a {
     position: absolute;
     right: 35px;
     display: flex;
-    top: 86px;
+    top: 82px;
 }
 
 .password-eye {
     font-size: 2rem;
     position: absolute;
-    top: 86px;
+    top: 82px;
     right: 15px;
     cursor: pointer;
 }
