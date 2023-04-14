@@ -4,11 +4,14 @@ async function getData(index) {
     console.log(data);
     data = data[index];
 
+    // console.log(data);
+
     const adap = data.adaptiveChallenges || [];
     const challenges = data.challenges;
+    console.log("work");
     console.log([...adap, ...challenges]);
     lessonLength = [...adap, ...challenges].length;
-    console.log("lesson length: " + lessonLength);
+    console.log(lessonLength);
     if (lessonLength == 4) {
         window.open("home.html", "_self");
     }
@@ -149,6 +152,8 @@ document.body.addEventListener("click", function (e) {
 });
 
 loadLearn(++id);
+console.log("here");
+console.log(id, lessonLength);
 
 async function loadLearn(index, thumb = true) {
     console.log("IDDDDD: " + id);
@@ -181,6 +186,7 @@ async function loadLearn(index, thumb = true) {
             key = loadListen(item, data.length, item.character);
             break;
         default:
+            console.log("default");
             loadLearn(++id);
             return;
     }
@@ -203,12 +209,15 @@ function loadSelect(data, len, thumb = true) {
     input.style.display = "none";
     grid.style.gridTemplateColumns = `repeat(${itemsLength}, 1fr)`;
 
+    // const item = data.items[id];
+    // console.log(item.heading);
     heading.textContent = `Đâu là "${data.prompt}"`;
 
     const hashtable = {};
     for (let i = 0; i < data.choices.length; i++) {
         hashtable[data.choices[i].phrase] = i;
     }
+    console.log(hashtable);
     data.choices.sort(() => 0.5 - Math.random());
 
     for (let i = 0; i < data.choices.length; i++) {
@@ -417,16 +426,21 @@ function loadSound(link) {
 function loadFinish() {
     heading.textContent = `Bạn đã hoàn thành bài học`;
     input.style.display = "none";
+    console.log(learnBtn);
     learnBtn.textContent = "Trở về";
     learnBtn.classList.add("btn--primary");
     lesson++;
     localStorage.setItem("lesson", lesson);
+    console.log("saved");
 }
 function loadStart() {
     if (id == -1) {
+        console.log("true");
         closeBtn.classList.remove("fa-arrow-left");
         closeBtn.classList.add("fa-xmark");
     } else {
+        console.log("false");
+
         closeBtn.classList.add("fa-arrow-left");
         closeBtn.classList.remove("fa-xmark");
     }
