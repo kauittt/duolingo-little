@@ -1,0 +1,74 @@
+* {
+    font-family: "DINRoundPro", sans-serif;
+}
+
+.leaderboard-logo{
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 272px;
+    height: 168px;
+}
+.lb-header{
+    top: 50px;
+    margin-left: -280px;
+    position: relative;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #3C3C3C;
+}
+.lb-title{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    font-size: 19px;
+    font-family: sans-serif;
+    color: #777;
+}
+.btn-batdauhoc{
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: rgb(229, 229, 229);
+    background-color: #FFF;
+    box-shadow: 0 2px 0 rgb(229, 229, 229);
+    height: 45px;
+    width: 255px;
+    text-align: center;
+    position: relative;
+    top: 120px; left: 200px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #1CB0F6;
+    cursor: pointer;
+}
+.btn-batdauhoc span{
+    top: 14px;
+    position: relative;
+}
+.btn-batdauhoc:hover{
+    filter: brightness(0.94);
+    transition: all 0.2s linear 0s;
+}
+.lb-img{
+    margin-left: 100px;
+    margin-top: 180px;
+}
+.whatislb-img{
+    width: 370px;
+    height: 250px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: rgb(229, 229, 229);
+    border-width: 2px;
+}
+.center{
+    position: relative;
+    height: 900px;
+    top: 20px;
+}
+.header-right{
+    position: relative;
+    top: 595px;
+}

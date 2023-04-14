@@ -1,0 +1,238 @@
+* {
+    font-family: "DINRoundPro", sans-serif;
+}
+
+.center{
+    width: 1100px;
+    margin-left: -120px;
+}
+a{
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+    font-size: 15px;
+   
+}
+.footer-link:hover{
+    color: #1CAFF6;
+}
+.avt-profile{
+    width: 200px;height: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.info-profile{
+    width: 400px;
+    height: 160px;
+    position: relative;
+    top: -160px; left: 280px;
+}
+.name-profile{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #3C3C3C;
+    font-weight: 700;
+}
+.user-profile{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #AFAFAF;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    top: 10px;
+}
+.used-profile{
+    position: relative;
+    top: 30px;
+    color: #777;
+    font-size: 17px;
+    
+}
+.follow-profile{
+    position: relative;
+    top: 45px;
+    color: #777;
+    font-size: 17px;
+}
+.btn-edit-profile{
+    position: absolute;
+    top: 0;
+    left: 955px;
+    margin-top: 80px;
+    background-color: #1CB0F6;
+    border-radius: 16px;
+    width: 145px;
+    height: 46px;
+    box-shadow: 0 4px 0 0px rgb(24,153,214);
+    cursor: pointer;
+}
+.btn-edit-profile:active{
+    box-shadow: none;
+    margin-top: 85px;
+}
+.btn-edit-text{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 15px; left: 42px;
+}
+.list-friend{
+    width: 368px;
+    height: 687px;
+    position: relative;
+    top: -100px;
+    left: 95px;
+}
+.friend-text{
+    position: absolute;
+    font-size: 24px;
+    color: #3C3C3C;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.friend{
+    width: 366px;
+    height: 340px;
+    position: absolute;
+    top: 60px;
+    cursor: pointer;
+}
+.folowing-text{
+    color: #1CAFF6;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    margin-left: 35px;
+}
+.folower-text{
+    color: #999999;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    margin-left: 20px;
+}
+.hr-line{
+    position: absolute;
+    top: 50px;
+    border-color: rgb(28, 175, 246);
+    border-width: 2px;
+    width: 184px;
+    border-bottom-style: solid;
+}
+.folower{
+    margin-left: 185px;
+    margin-top: 2px;
+    width: 177px;
+    height: 48px;
+}
+.folower-line{
+    border-color: rgb(229, 229, 229);
+    top: 49.5px;
+}
+.folower:hover .folower-text, .folower:hover .folower-line{
+    color: #1CAFF6;
+    border-color: rgb(28, 175, 246);
+}
+.friend-footer-text{
+    position: relative;
+    top: 20px;
+    color: #777;
+    font-size: 18px;
+    font-family: sans-serif;
+    left: 6px;
+}
+.folowing{
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 2px;
+    border-color: rgb(229, 229, 229);
+}
+.selection-connect{
+    width: 368px;
+    height: 260px;
+    border-style: solid;
+    position: relative;
+    margin-top: -350px;
+    margin-left: 98px;
+    border-radius: 16px;
+    border-color: rgb(229, 229, 229);
+    border-width: 2px;
+}
+.selection-icon{
+    position: relative;
+    margin-left: 20px; top: 20px;
+}
+.option-header{
+    color: #4B4B4B;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    position: absolute;
+    top: 30px;
+    margin-left: 10px;
+}
+.option-title{
+    color: #AFAFAF;
+    font-size: 17px;
+    font-family: sans-serif;
+    position: relative;
+    top: 8px; left: 12px;
+}
+
+.hr-select{
+    position: relative;
+    top: 10px;
+    left: 38px;
+    width: 370px;
+    border-color: rgb(229, 229, 229);
+    border-style: solid;
+}
+.end-hr{
+    border-style: none;
+}
+.invite{
+    position: absolute;
+    margin-top: 75px;
+}
+.connect-fb{
+    position: absolute;
+    top: 185px;
+}
+.selection-icon{
+    width: 65px;
+    height: 57px;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0 12px 20px;
+}
+.ul-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 570px;
+    height: 124px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #AFAFAF;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+.footer-profile{
+    margin-top: -250px;
+}
+.hr-footer{
+    width: 548px;
+    margin-top: 50px;
+    margin-left: 250px;
+    border: 0;
+    border-top: 2px solid rgb(229, 229, 229);
+}

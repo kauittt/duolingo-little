@@ -1,0 +1,58 @@
+.center {
+    height: 100%;
+}
+.center-text {
+    font-size: 27px;
+    font-weight: 700;
+
+    position: relative;
+    top: 8px;
+    color: #3c3c3c;
+}
+h5 {
+    font-size: 14px;
+    color: #4b4b4b;
+    font-weight: 700;
+}
+.course-text {
+    position: relative;
+    top: 45px;
+    left: 110px;
+}
+.ql-course {
+    margin-left: 220px;
+    margin-top: -10px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: rgb(229, 229, 229);
+    width: 380px;
+    height: 66px;
+}
+.flag-us {
+    width: 39px;
+    border-radius: 5px;
+    margin-top: 19px;
+}
+.title-us {
+    font-size: 17px;
+    color: #999;
+    font-weight: bolder;
+    position: relative;
+    top: -8px;
+    left: 10px;
+}
+.link-reset {
+    position: absolute;
+    margin-left: 50px;
+    font-size: 15px;
+
+    font-weight: bolder;
+    color: #ff4b4b;
+    margin-top: 28px;
+    right: 0;
+}
+.line-2 {
+    width: 620px;
+    border-width: 1px;
+}

@@ -1,0 +1,76 @@
+* {
+    font-family: "DINRoundPro", sans-serif;
+}
+
+.header-right{
+    position: relative;
+    margin-top: -1470px; 
+    left: 40px;
+}
+.center{
+    width: 590px;
+    height: 1500px;
+    position: relative;
+    left: 360px;
+    top: 0;
+}
+.text{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C3C3C;
+    position: relative;
+    top: 25px;
+}
+.super-kng-logo{
+    width: 585px;
+    height: 300px;
+    background-color: aliceblue;
+    position: relative;
+    margin-top: 40px;
+    border-radius: 16px;
+   
+}
+.btn-unl-kng{
+    width: 105px;
+    height: 42px;
+    background: transparent;
+    border-radius: 16px;
+    position: relative;
+    top: -71px; left: 22px;
+    border: none ;
+    cursor: pointer;
+}
+
+.gochoctap{
+    margin-top: -10px;
+    position: relative;
+    top: -20px;
+}
+.super{
+    width: 585px;
+    height: 115px;
+    border-radius: 16px;
+    border-style: solid;
+    border-bottom-style: none;
+    border-width: 2px;
+    border-color: #E5E5E5;
+    box-shadow: 0px 4px 0px rgba(133, 128, 128, 0.5);
+}
+.khotruyen-img{
+    margin-top: 20px;
+}
+.khotruyen-img:hover, .cacloisai-img:hover, .luyennoi-img:hover, .luyennghe-img:hover{
+   filter: brightness(0.94);
+   transition: all 0.2s linear 0s;
+}
+.ontap-db{
+    position: relative;
+    top: 40px;
+}
+.luyennghe-img{
+    margin-top: 60px;
+}
+.luyennoi-img{
+    margin-top: 15px;
+}

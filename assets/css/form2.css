@@ -1,0 +1,46 @@
+* {
+    font-family: "DINRoundPro", sans-serif;
+}
+
+.bar {
+    width: 28px;
+    height: 268px;
+    margin-left: 670px;
+    margin-top: -20px;
+    background-color: #3c4dff;
+    border-radius: 98px;
+    text-align: center;
+}
+.lock-icon {
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+.bell-icon {
+    margin-bottom: 85px;
+}
+.shadow {
+    width: 28px;
+    height: 84px;
+    background: linear-gradient(
+        180deg,
+        rgba(60, 77, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+.text-bar {
+    margin-top: -275px;
+    margin-left: 720px;
+}
+p {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 700;
+}
+.p2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    font-weight: 500;
+
+    margin-top: -14px;
+    max-width: 250px;
+}

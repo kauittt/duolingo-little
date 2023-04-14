@@ -1,0 +1,108 @@
+.center-text {
+    font-size: 27px;
+    font-weight: 700;
+
+    position: relative;
+    top: 8px;
+    color: #3c3c3c;
+}
+.center {
+    height: 100vh;
+}
+h5 {
+    font-size: 19px;
+    color: #4b4b4b;
+    font-weight: 700;
+}
+.tongquan {
+    margin-top: 50px;
+}
+.send-text {
+    font-size: 15px;
+    color: #4b4b4b;
+
+    font-weight: 700;
+    cursor: default;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.hr-checkbox {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: rgb(229, 229, 229);
+    height: 510px;
+    margin-top: -25px;
+}
+.ql-check {
+    margin-left: 200px;
+    margin-top: 70px;
+}
+input {
+    margin-bottom: 25px;
+}
+.tick {
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    border-color: rgb(229, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tick:after {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-size: 13px;
+    font-weight: 900;
+    color: #1caff6;
+    display: none;
+}
+.tick:checked {
+    border-color: #1caff6;
+}
+.tick:checked:after {
+    display: block;
+}
+label {
+    font-size: 17px;
+    color: #777;
+
+    position: relative;
+    margin-left: 40px;
+    top: -44px;
+    text-align: right;
+    cursor: pointer;
+}
+.tbhn-text {
+    font-size: 19px;
+    color: #4b4b4b;
+    font-weight: 700;
+}
+.two {
+    margin-top: 60px;
+}
+.ql-hr-2 {
+    margin-top: 30px;
+}
+.send-mail {
+    margin-left: 200px;
+    margin-top: 55px;
+}
+._1-bWL {
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    color: #afafaf;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    left: 242px;
+}
+._24isA {
+    color: rgb(75, 75, 75);
+}
