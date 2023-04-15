@@ -19,10 +19,7 @@ document.addEventListener("click", function (e) {
     }
 });
 
-const jumpBtn = document.querySelectorAll(".btn-jump");
-console.log(jumpBtn);
-jumpBtn.forEach((item) => {
-    item.addEventListener("click", function () {
-        error.classList.add("show");
-    });
+const jumpBtn = document.querySelector(".btn-jump");
+jumpBtn.addEventListener("click", function () {
+    error.classList.add("show");
 });

@@ -1,9 +1,9 @@
 async function getData(index) {
-    const res = await fetch(`/assets/data/session1-${lesson}.json`);
+    const res = await fetch(`/assets/data/session1-${lesson}`);
     console.log(`/assets/data/session1-${lesson}`);
     let data = await res.json();
     console.log(data);
-    // data = data[index];
+    data = data[index];
 
     const adap = data.adaptiveChallenges || [];
     const challenges = data.challenges;
@@ -17,7 +17,7 @@ async function getData(index) {
     //! combined
 }
 // 4,5
-let lesson = localStorage.getItem("lesson") || 1;
+let lesson = localStorage.getItem("lesson") || 0;
 let lessonLength = null;
 console.log("lesson: " + lesson);
 

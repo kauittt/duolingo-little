@@ -1,9 +1,9 @@
 async function getData(index) {
-    const res = await fetch(`/assets/data/session1-${lesson}.json`);
+    const res = await fetch(`/assets/data/session1-${lesson}`);
     console.log(`/assets/data/session1-${lesson}`);
     let data = await res.json();
     console.log(data);
-    // data = data[index];
+    data = data[index];
 
     const adap = data.adaptiveChallenges || [];
     const challenges = data.challenges;

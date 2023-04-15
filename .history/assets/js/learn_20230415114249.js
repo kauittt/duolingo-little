@@ -3,7 +3,7 @@ async function getData(index) {
     console.log(`/assets/data/session1-${lesson}`);
     let data = await res.json();
     console.log(data);
-    // data = data[index];
+    data = data[index];
 
     const adap = data.adaptiveChallenges || [];
     const challenges = data.challenges;
