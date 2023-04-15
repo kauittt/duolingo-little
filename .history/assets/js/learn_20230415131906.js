@@ -79,8 +79,6 @@ closeBtn.addEventListener("click", function (e) {
     loadLearn(id);
 });
 learnBtn.addEventListener("click", function (e) {
-    learnBtn.textContent = "Xác nhận";
-
     if (learnBtn.classList.contains("btn--primary")) {
         if (id == lessonLength) {
             window.open("home.html", "_self");
