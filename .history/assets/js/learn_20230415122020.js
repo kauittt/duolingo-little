@@ -1,6 +1,6 @@
 async function getData(index) {
-    const res = await fetch(`/data/session1-${lesson}.json`);
-    console.log(`/data/session1-${lesson}.json`);
+    const res = await fetch(`/assets/data/session1-${lesson}.json`);
+    console.log(`/assets/data/session1-${lesson}`);
     let data = await res.json();
     console.log(data);
     // data = data[index];

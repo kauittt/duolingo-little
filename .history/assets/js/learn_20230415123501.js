@@ -1,6 +1,8 @@
 async function getData(index) {
-    const res = await fetch(`/data/session1-${lesson}.json`);
-    console.log(`/data/session1-${lesson}.json`);
+    const res = await fetch(
+        `https://github.com/kauittt/duolingo-little/assets/session1-1.json`
+    );
+    console.log(`./assets/data/session1-${lesson}.json`);
     let data = await res.json();
     console.log(data);
     // data = data[index];
