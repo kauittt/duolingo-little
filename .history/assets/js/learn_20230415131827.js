@@ -449,3 +449,5 @@ function loadStart() {
     learnBtn.textContent = "Bắt đầu";
     learnBtn.classList.add("btn--primary");
 }
+
+function loadAnswer(type) {}

@@ -1,31 +1,20 @@
+console.log(lesson1);
 async function getData(index) {
-    let data = null;
-    switch (+lesson) {
-        case 1:
-            data = lesson1;
-            break;
-        case 2:
-            data = lesson2;
-            break;
-        case 3:
-            data = lesson3;
-            break;
-        case 4:
-            data = lesson4;
-            break;
-        default:
-            window.open("home.html", "_self");
-            console.log("default");
-            break;
-    }
-    console.log(lesson);
+    // const res = await fetch(`/docs/data/session1-${lesson}.json`);
+    // console.log(`/docs/data/session1-${lesson}.json`);
+
+    let data = await res.json();
     console.log(data);
+    // data = data[index];
 
     const adap = data.adaptiveChallenges || [];
     const challenges = data.challenges;
     console.log([...adap, ...challenges]);
     lessonLength = [...adap, ...challenges].length;
     console.log("lesson length: " + lessonLength);
+    if (lessonLength == 4) {
+        window.open("home.html", "_self");
+    }
     return [...adap, ...challenges];
     //! combined
 }
@@ -449,3 +438,5 @@ function loadStart() {
     learnBtn.textContent = "Bắt đầu";
     learnBtn.classList.add("btn--primary");
 }
+
+function loadAnswer(type) {}

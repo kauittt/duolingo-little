@@ -1,6 +1,11 @@
+console.log(lesson1);
 async function getData(index) {
+    // const res = await fetch(`/docs/data/session1-${lesson}.json`);
+    // console.log(`/docs/data/session1-${lesson}.json`);
+
+    // let data = lesson{};
     let data = null;
-    switch (+lesson) {
+    switch (lesson) {
         case 1:
             data = lesson1;
             break;
@@ -15,11 +20,10 @@ async function getData(index) {
             break;
         default:
             window.open("home.html", "_self");
-            console.log("default");
             break;
     }
-    console.log(lesson);
     console.log(data);
+    // data = data[index];
 
     const adap = data.adaptiveChallenges || [];
     const challenges = data.challenges;
@@ -449,3 +453,5 @@ function loadStart() {
     learnBtn.textContent = "Bắt đầu";
     learnBtn.classList.add("btn--primary");
 }
+
+function loadAnswer(type) {}

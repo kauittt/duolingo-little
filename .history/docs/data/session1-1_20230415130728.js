@@ -1,0 +1,13298 @@
+const data = JSON.parse({
+    id: "Nd1v0g9b3JtyAaxL",
+    learningLanguage: "en",
+    fromLanguage: "vi",
+    type: "LESSON",
+    challenges: [
+        {
+            prompt: "cà phê",
+            choices: [
+                {
+                    image: "https://d2pur3iezf4d1j.cloudfront.net/images/6fd84b8a838c43c4a84b44b08b10177e",
+                    phrase: "coffee",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/6fd84b8a838c43c4a84b44b08b10177e",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/miranda/5c4b35c4e7a5d8b8d32fb1e9d1fff6d3",
+                    hint: "cà phê",
+                },
+                {
+                    image: "https://d2pur3iezf4d1j.cloudfront.net/images/645fa42dcea02c7e2970a1285e321562",
+                    phrase: "milk",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/645fa42dcea02c7e2970a1285e321562",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/miranda/d66a0d5b3c279d4f245a91f297d610d6",
+                    hint: "sữa",
+                },
+                {
+                    image: "https://d2pur3iezf4d1j.cloudfront.net/images/8bfd8aa1eee085e4972123b2a78dd503",
+                    phrase: "rice",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/8bfd8aa1eee085e4972123b2a78dd503",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/harrison/ec429870d5ba07d65a1f5fd0097c4954",
+                    hint: "cơm",
+                },
+            ],
+            correctIndex: 0,
+            type: "select",
+            id: "ee372cce54aa48aa93972a10911f7fbb",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                birdbrain_source: "birdbrain_v2",
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.77520937,
+                content_length: 6.0,
+                tagged_kc_ids: ["f21a429c717dd93b9f5723f20d87ab8a"],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.77520937,
+                    birdbrain_source: "birdbrain_v2",
+                    content_length: 6,
+                },
+                highlight: ["coffee"],
+                hint: "cà phê",
+                phrase: "coffee",
+                solution_key: "f21a429c717dd93b9f5723f20d87ab8a",
+                source_language: "en",
+                specific_type: "name_example",
+                language: "en",
+                lexeme_ids_to_update: ["f21a429c717dd93b9f5723f20d87ab8a"],
+                type: "select",
+                lexemes_to_update: ["f21a429c717dd93b9f5723f20d87ab8a"],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: ["coffee"],
+            progressUpdates: [],
+            challengeGeneratorIdentifier: {
+                specificType: "name_example",
+                generatorId: "f21a429c717dd93b9f5723f20d87ab8a",
+            },
+        },
+        {
+            prompt: "sữa",
+            choices: [
+                {
+                    image: "https://d2pur3iezf4d1j.cloudfront.net/images/6fd84b8a838c43c4a84b44b08b10177e",
+                    phrase: "coffee",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/6fd84b8a838c43c4a84b44b08b10177e",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/harrison/5132582196725fca0d6a34ce5661cc3e",
+                    hint: "cà phê",
+                },
+                {
+                    image: "https://d2pur3iezf4d1j.cloudfront.net/images/8bfd8aa1eee085e4972123b2a78dd503",
+                    phrase: "rice",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/8bfd8aa1eee085e4972123b2a78dd503",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/harrison/ec429870d5ba07d65a1f5fd0097c4954",
+                    hint: "cơm",
+                },
+                {
+                    image: "https://d2pur3iezf4d1j.cloudfront.net/images/645fa42dcea02c7e2970a1285e321562",
+                    phrase: "milk",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/645fa42dcea02c7e2970a1285e321562",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/miranda/d66a0d5b3c279d4f245a91f297d610d6",
+                    hint: "sữa",
+                },
+            ],
+            correctIndex: 2,
+            type: "select",
+            id: "bda6e77ce9774274ad72a7b4f9a8c495",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                birdbrain_source: "birdbrain_v2",
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.71947354,
+                content_length: 4.0,
+                tagged_kc_ids: ["55f383178cf0fdc463ef1ebf91bd288d"],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.71947354,
+                    birdbrain_source: "birdbrain_v2",
+                    content_length: 4,
+                },
+                highlight: ["milk"],
+                hint: "sữa",
+                phrase: "milk",
+                solution_key: "55f383178cf0fdc463ef1ebf91bd288d",
+                source_language: "en",
+                specific_type: "name_example",
+                language: "en",
+                lexeme_ids_to_update: ["55f383178cf0fdc463ef1ebf91bd288d"],
+                type: "select",
+                lexemes_to_update: ["55f383178cf0fdc463ef1ebf91bd288d"],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: ["milk"],
+            progressUpdates: [],
+            challengeGeneratorIdentifier: {
+                specificType: "name_example",
+                generatorId: "55f383178cf0fdc463ef1ebf91bd288d",
+            },
+        },
+        {
+            prompt: "Hi.",
+            correctSolutions: ["Xin chào."],
+            compactTranslations: [
+                "Xin chào.",
+                "[Chào/Xin chào] [bạn/] [nhé/nha/ạ/].",
+            ],
+            correctTokens: ["Xin", "chào"],
+            wrongTokens: ["và", "cà phê", "tạm biệt", "Vui"],
+            choices: [
+                {
+                    text: "Xin",
+                },
+                {
+                    text: "chào",
+                },
+                {
+                    text: "và",
+                },
+                {
+                    text: "cà phê",
+                },
+                {
+                    text: "tạm biệt",
+                },
+                {
+                    text: "Vui",
+                },
+            ],
+            correctIndices: [0, 1],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 4,
+                            lenient: "chào",
+                            orig: "Chào",
+                        },
+                        {
+                            to: 8,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "chào",
+                            orig: "chào.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "",
+                        },
+                        {
+                            to: 7,
+                            lenient: "bạn",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "",
+                            orig: ".",
+                        },
+                        {
+                            to: 10,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 10,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 10,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 10,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 10,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 10,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "chào",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "ce973b348662dd5828cc1c7b6505b668",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Hi",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/d911b99586407285544c767b92982685",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "xin chào",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "chào",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ".",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/2746db625598971b54d3966ba507d160",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/b24ffc3b19f1fc9ffbc108d1d3936dd8",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/b24ffc3b19f1fc9ffbc108d1d3936dd8",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/50af330449fbbaf257fc9868c4321586",
+                },
+                gender: "FEMALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_CORRECT_Cropped_V2.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_INCORRECT_Cropped_V2.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_IDLE_Cropped_V2.json",
+            },
+            type: "translate",
+            id: "d49f8eedecb94edc8c0764471a90ed6d",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 759,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 2.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.9146498,
+                content_length: 3.0,
+                tagged_kc_ids: ["ce973b348662dd5828cc1c7b6505b668"],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.9146498,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 3,
+                    num_correct_answer_tokens: 2,
+                },
+                highlight: ["Hi"],
+                sentence: "Hi.",
+                solution_key: "62443d9634eeb0cb5c57e8437f5f9a28",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Xin", "chào"],
+                translation: "Xin chào.",
+                wrong_tokens: ["và", "cà phê", "tạm biệt", "Vui"],
+                text: "Hi.",
+                specific_type: "tap",
+                lexeme_ids_to_update: ["ce973b348662dd5828cc1c7b6505b668"],
+                type: "translate",
+                lexemes_to_update: ["ce973b348662dd5828cc1c7b6505b668"],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: ["Hi"],
+            progressUpdates: [],
+            sentenceId: "62443d9634eeb0cb5c57e8437f5f9a28",
+            sentenceDiscussionId: "62443d9634eeb0cb5c57e8437f5f9a28",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "62443d9634eeb0cb5c57e8437f5f9a28",
+            },
+        },
+        {
+            prompt: "Yes.",
+            correctSolutions: ["Vâng."],
+            compactTranslations: [
+                "Vâng.",
+                "[Có/Vâng/Đúng/Đúng đấy/Đúng rồi/Phải/Phải đấy/Phải rồi/Được] [ạ/nhé/nha/].",
+                "Ừ [nhé/nha/ạ/].",
+                "[Đúng vậy/Được rồi/Vâng có ạ].",
+                "Dạ.",
+            ],
+            correctTokens: ["Vâng"],
+            wrongTokens: ["cho", "cơm", "chào", "và"],
+            choices: [
+                {
+                    text: "Vâng",
+                },
+                {
+                    text: "cho",
+                },
+                {
+                    text: "cơm",
+                },
+                {
+                    text: "chào",
+                },
+                {
+                    text: "và",
+                },
+            ],
+            correctIndices: [0],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "vâng",
+                            orig: "Vâng.",
+                        },
+                        {
+                            to: 2,
+                            lenient: "ừ",
+                            orig: "Ừ",
+                        },
+                        {
+                            to: 16,
+                            lenient: "dạ",
+                            orig: "Dạ.",
+                        },
+                        {
+                            to: 2,
+                            lenient: "có",
+                            orig: "Có",
+                        },
+                        {
+                            to: 2,
+                            lenient: "phải",
+                            orig: "Phải",
+                        },
+                        {
+                            to: 4,
+                            lenient: "phải",
+                            orig: "Phải",
+                        },
+                        {
+                            to: 6,
+                            lenient: "phải",
+                            orig: "Phải",
+                        },
+                        {
+                            to: 2,
+                            lenient: "vâng",
+                            orig: "Vâng",
+                        },
+                        {
+                            to: 2,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 4,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 6,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 2,
+                            lenient: "được",
+                            orig: "Được",
+                        },
+                        {
+                            to: 8,
+                            lenient: "vâng",
+                            orig: "Vâng",
+                        },
+                        {
+                            to: 12,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 14,
+                            lenient: "được",
+                            orig: "Được",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "",
+                            orig: ".",
+                        },
+                        {
+                            to: 16,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 16,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 16,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "rồi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "đấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "có",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 13,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "vậy",
+                            orig: "vậy.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "rồi",
+                            orig: "rồi.",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "d94aa893b5c536f2a4664637d9bec191",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Yes",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/9dc15af4158b38033225195033ef6121",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vâng",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "phải",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "được",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ".",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/ed94a9c2cd8f0f5dc1f017750ac99e9b",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/b53f870ed38105349d4d83edf682d77f",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/b53f870ed38105349d4d83edf682d77f",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/096d0b1f6280b962cd7080a7736dd2bb",
+                },
+                gender: "MALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Eddy_CORRECT_Cropped_Cheer.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Coach_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Eddy_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "7d11ce613d874ce6865c3684af5aeeaf",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 1307,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 1.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.92076355,
+                content_length: 4.0,
+                tagged_kc_ids: ["d94aa893b5c536f2a4664637d9bec191"],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.92076355,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 4,
+                    num_correct_answer_tokens: 1,
+                },
+                highlight: ["Yes"],
+                sentence: "Yes.",
+                solution_key: "190417b420d9bd69a6baa32ab16d6766",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Vâng"],
+                translation: "Vâng.",
+                wrong_tokens: ["cho", "cơm", "chào", "và"],
+                text: "Yes.",
+                specific_type: "tap",
+                lexeme_ids_to_update: ["d94aa893b5c536f2a4664637d9bec191"],
+                type: "translate",
+                lexemes_to_update: ["d94aa893b5c536f2a4664637d9bec191"],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: ["Yes"],
+            progressUpdates: [],
+            sentenceId: "190417b420d9bd69a6baa32ab16d6766",
+            sentenceDiscussionId: "190417b420d9bd69a6baa32ab16d6766",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "190417b420d9bd69a6baa32ab16d6766",
+            },
+        },
+        {
+            prompt: "Milk, please!",
+            correctSolutions: ["Vui lòng cho sữa!"],
+            compactTranslations: [
+                "Vui lòng cho sữa!",
+                "[Cho/Lấy cho/] sữa [đi/nhé/nha/ạ/đi nhé/đi ạ]!",
+                "[Cho/Lấy cho/] sữa [nhé/nha/ạ/], [xin/] [vui lòng/làm ơn/cảm phiền]!",
+                "[Xin/] [vui lòng/làm ơn/cảm phiền] [cho/lấy cho/cho tôi/lấy cho tôi/cho tôi xin/cho xin/] sữa [nhé/nha/ạ/]!",
+            ],
+            correctTokens: ["Vui", "lòng", "cho", "sữa"],
+            wrongTokens: ["Vâng", "Xin", "nước", "trà"],
+            choices: [
+                {
+                    text: "Vui",
+                },
+                {
+                    text: "lòng",
+                },
+                {
+                    text: "cho",
+                },
+                {
+                    text: "sữa",
+                },
+                {
+                    text: "Vâng",
+                },
+                {
+                    text: "Xin",
+                },
+                {
+                    text: "nước",
+                },
+                {
+                    text: "trà",
+                },
+            ],
+            correctIndices: [0, 1, 2, 3],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "",
+                        },
+                        {
+                            to: 19,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 21,
+                            lenient: "lấy",
+                            orig: "Lấy",
+                        },
+                        {
+                            to: 23,
+                            lenient: "vui",
+                            orig: "Vui",
+                        },
+                        {
+                            to: 29,
+                            lenient: "",
+                        },
+                        {
+                            to: 52,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 12,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 13,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 14,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 13,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 13,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 14,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 14,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 13,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 13,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 13,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 13,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 13,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 14,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 14,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 14,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 14,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 14,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 54,
+                            lenient: "nha",
+                            orig: "nha!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "nhé",
+                            orig: "nhé!",
+                        },
+                        {
+                            to: 15,
+                            lenient: "đi",
+                        },
+                        {
+                            to: 17,
+                            lenient: "đi",
+                        },
+                        {
+                            to: 54,
+                            lenient: "đi",
+                            orig: "đi!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "ạ",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 8,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 10,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "phiền",
+                            orig: "phiền!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "ơn",
+                            orig: "ơn!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "lòng",
+                            orig: "lòng!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 13,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "nhé",
+                            orig: "nhé!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 18,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "ạ",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 20,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 22,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 19,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 25,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 26,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 27,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 28,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "sữa",
+                            orig: "sữa!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 30,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 48,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 50,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 31,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 32,
+                            lenient: "phiền",
+                        },
+                    ],
+                    [
+                        {
+                            to: 33,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 34,
+                            lenient: "",
+                        },
+                        {
+                            to: 37,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 38,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 40,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 42,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 44,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 46,
+                            lenient: "lấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 35,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 36,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "",
+                            orig: "!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "nha",
+                            orig: "nha!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "nhé",
+                            orig: "nhé!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "ạ",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 54,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 34,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 39,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 37,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 41,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 42,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 43,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 37,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 45,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 37,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 47,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 38,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 49,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 32,
+                            lenient: "ơn",
+                        },
+                    ],
+                    [
+                        {
+                            to: 51,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 32,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 53,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 30,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 48,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 50,
+                            lenient: "vui",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "55f383178cf0fdc463ef1ebf91bd288d",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "d1bbffb5492216c3c1aee1ce49ef79c7",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Milk",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/acc8109446679686e7b78dfc9a21d14b",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "sữa",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ",",
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "please",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/3966e375db89d84680fab50078b9fa5e",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng cho",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "nhé",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: "!",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/b461e8db483aae69b4d0a1eebd4dda2c",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/b53f870ed38105349d4d83edf682d77f",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/b53f870ed38105349d4d83edf682d77f",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/096d0b1f6280b962cd7080a7736dd2bb",
+                },
+                gender: "MALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Eddy_CORRECT_Cropped_Cheer.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Coach_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Eddy_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "39cf68400e6d4ad7be8060ce865e89ef",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 3855,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 4.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.70022506,
+                content_length: 13.0,
+                tagged_kc_ids: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.70022506,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 13,
+                    num_correct_answer_tokens: 4,
+                },
+                highlight: ["please"],
+                sentence: "Milk, please!",
+                solution_key: "e811a2f52e870ec41e8dd1c6a61e53fb",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Vui", "lòng", "cho", "sữa"],
+                translation: "Vui lòng cho sữa!",
+                wrong_tokens: ["Vâng", "Xin", "nước", "trà"],
+                text: "Milk, please!",
+                specific_type: "tap",
+                lexeme_ids_to_update: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: ["please"],
+            progressUpdates: [],
+            sentenceId: "e811a2f52e870ec41e8dd1c6a61e53fb",
+            sentenceDiscussionId: "e811a2f52e870ec41e8dd1c6a61e53fb",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "e811a2f52e870ec41e8dd1c6a61e53fb",
+            },
+        },
+        {
+            prompt: "milk and coffee",
+            correctSolutions: ["sữa và cà phê"],
+            compactTranslations: [
+                "sữa và cà phê",
+                "sữa [và/với/cùng với/với cả] [cà phê/cafe]",
+            ],
+            correctTokens: ["sữa", "và", "cà", "phê"],
+            wrongTokens: ["lòng", "Xin", "cho", "Vâng"],
+            choices: [
+                {
+                    text: "sữa",
+                },
+                {
+                    text: "và",
+                },
+                {
+                    text: "cà",
+                },
+                {
+                    text: "phê",
+                },
+                {
+                    text: "lòng",
+                },
+                {
+                    text: "Xin",
+                },
+                {
+                    text: "cho",
+                },
+                {
+                    text: "Vâng",
+                },
+            ],
+            correctIndices: [0, 1, 2, 3],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 6,
+                            lenient: "và",
+                        },
+                        {
+                            to: 6,
+                            lenient: "với",
+                        },
+                        {
+                            to: 10,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 8,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "cả",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "55f383178cf0fdc463ef1ebf91bd288d",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "0d9244f805fd55af1281a1bcb1a2cba6",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "f21a429c717dd93b9f5723f20d87ab8a",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "milk",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/980d25e143974fe1ccd2e1dea453eea6",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "sữa",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "and",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/52512b5b213f1323bd34c7978cb139a6",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "và",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "với",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "còn",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "coffee",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/2e8cd78e30e51c6643beafb84602f13c",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "cà phê",
+                                },
+                            ],
+                        ],
+                    },
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/2b8abb9a9588ecbe3d70efcf77f26bf7",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/b24ffc3b19f1fc9ffbc108d1d3936dd8",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/b24ffc3b19f1fc9ffbc108d1d3936dd8",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/50af330449fbbaf257fc9868c4321586",
+                },
+                gender: "FEMALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_CORRECT_Cropped_V2.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_INCORRECT_Cropped_V2.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_IDLE_Cropped_V2.json",
+            },
+            type: "translate",
+            id: "8264446f799f42b0bfb8eda75afe0bb9",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 500,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 4.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.7687355,
+                content_length: 15.0,
+                tagged_kc_ids: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.7687355,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 15,
+                    num_correct_answer_tokens: 4,
+                },
+                highlight: ["and"],
+                sentence: "milk and coffee",
+                solution_key: "01c26be7697ad6b405679fd8df17083b",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["sữa", "và", "cà", "phê"],
+                translation: "sữa và cà phê",
+                wrong_tokens: ["lòng", "Xin", "cho", "Vâng"],
+                text: "milk and coffee",
+                specific_type: "tap",
+                lexeme_ids_to_update: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: ["and"],
+            progressUpdates: [],
+            sentenceId: "01c26be7697ad6b405679fd8df17083b",
+            sentenceDiscussionId: "01c26be7697ad6b405679fd8df17083b",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "01c26be7697ad6b405679fd8df17083b",
+            },
+        },
+        {
+            prompt: "Coffee and milk!",
+            correctTokens: ["Coffee", "and", "milk"],
+            wrongTokens: ["hi", "hot", "yes", "tea"],
+            choices: [
+                {
+                    text: "Coffee",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/miranda/5c4b35c4e7a5d8b8d32fb1e9d1fff6d3",
+                },
+                {
+                    text: "and",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/miranda/3642ddb2554e44e12cf7136989720ec6",
+                },
+                {
+                    text: "milk",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/miranda/d66a0d5b3c279d4f245a91f297d610d6",
+                },
+                {
+                    text: "hi",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/miranda/da4a41f15b09e98515f389ca3482c99d",
+                },
+                {
+                    text: "hot",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/miranda/1e98d4a348c99786b74fd6e5feb43148",
+                },
+                {
+                    text: "yes",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/miranda/8eff9a0dc6c96cd19937a7c4c995c133",
+                },
+                {
+                    text: "tea",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/miranda/5a642b17f3d75eebbfcdb07b26327b6c",
+                },
+            ],
+            correctIndices: [0, 1, 2],
+            solutionTranslation: "Cà phê và sữa!",
+            tts: "https://d1vq87e9lcf771.cloudfront.net/miranda/3768c70fa4f40d9366bbf52ffd234ac0",
+            slowTts:
+                "https://d1vq87e9lcf771.cloudfront.net/miranda/e9e2ca3310ba13e9530a5cfd838c338f",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "coffee",
+                            orig: "Coffee",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "and",
+                        },
+                        {
+                            to: 4,
+                            lenient: "&",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "milk",
+                            orig: "milk!",
+                        },
+                        {
+                            to: 6,
+                            lenient: "mi̇lk",
+                            orig: "mi̇lk!",
+                        },
+                        {
+                            to: 6,
+                            lenient: "mılk",
+                            orig: "mılk!",
+                        },
+                        {
+                            to: 6,
+                            lenient: "mılk",
+                        },
+                        {
+                            to: 6,
+                            lenient: "mi̇lk",
+                        },
+                    ],
+                    [],
+                ],
+                language: "en",
+                whitespaceDelimited: true,
+            },
+            type: "listenTap",
+            id: "3f4191ed176f49da9ea2fa81c78671f2",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 428,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 3.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.7464476,
+                content_length: 16.0,
+                tagged_kc_ids: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.7464476,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 16,
+                    num_correct_answer_tokens: 3,
+                },
+                highlight: [],
+                language: "en",
+                language_name: "English",
+                solution_key: "6ec4c45a383e232473e7a4d88be491f3",
+                solution_translation: "Cà phê và sữa!",
+                source_language: "en",
+                text: "Coffee and milk!",
+                tokens: ["Coffee", "and", "milk"],
+                wrong_tokens: ["hi", "hot", "yes", "tea"],
+                specific_type: "listen_tap",
+                lexeme_ids_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                ],
+                type: "listen_tap",
+                lexemes_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "6ec4c45a383e232473e7a4d88be491f3",
+            sentenceDiscussionId: "6ec4c45a383e232473e7a4d88be491f3",
+            challengeGeneratorIdentifier: {
+                specificType: "listen_tap",
+                generatorId: "6ec4c45a383e232473e7a4d88be491f3",
+            },
+        },
+        {
+            prompt: "Hi!",
+            correctSolutions: ["Xin chào!"],
+            compactTranslations: [
+                "Xin chào!",
+                "[Chào/Xin chào] [bạn/cậu/các bạn/các cậu/anh/chị/em/con/cháu/cô/chú/bác/ông/bà/] [nhé/nha/]!",
+                "[Con/Cháu] chào [cô/chú/bác/ông/bà] [ạ/]!",
+                "[Chào/Xin chào] [anh/chị/cô/chú/bác/ông/bà] [ạ/]!",
+                "[Em chào anh/Em chào chị/Anh chào em/Chị chào em/Tớ chào bạn/Tớ chào cậu] [nhé/nha/]!",
+            ],
+            correctTokens: ["Xin", "chào"],
+            wrongTokens: ["cà phê", "cơm", "và", "cà"],
+            choices: [
+                {
+                    text: "Xin",
+                },
+                {
+                    text: "chào",
+                },
+                {
+                    text: "cà phê",
+                },
+                {
+                    text: "cơm",
+                },
+                {
+                    text: "và",
+                },
+                {
+                    text: "cà",
+                },
+            ],
+            correctIndices: [0, 1],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 4,
+                            lenient: "chào",
+                            orig: "Chào",
+                        },
+                        {
+                            to: 14,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 16,
+                            lenient: "anh",
+                            orig: "Anh",
+                        },
+                        {
+                            to: 16,
+                            lenient: "chị",
+                            orig: "Chị",
+                        },
+                        {
+                            to: 20,
+                            lenient: "em",
+                            orig: "Em",
+                        },
+                        {
+                            to: 24,
+                            lenient: "em",
+                            orig: "Em",
+                        },
+                        {
+                            to: 28,
+                            lenient: "tớ",
+                            orig: "Tớ",
+                        },
+                        {
+                            to: 30,
+                            lenient: "tớ",
+                            orig: "Tớ",
+                        },
+                        {
+                            to: 32,
+                            lenient: "cháu",
+                            orig: "Cháu",
+                        },
+                        {
+                            to: 32,
+                            lenient: "con",
+                            orig: "Con",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 36,
+                            lenient: "chào",
+                            orig: "chào!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "anh",
+                        },
+                        {
+                            to: 6,
+                            lenient: "bà",
+                        },
+                        {
+                            to: 6,
+                            lenient: "bác",
+                        },
+                        {
+                            to: 6,
+                            lenient: "chú",
+                        },
+                        {
+                            to: 6,
+                            lenient: "chị",
+                        },
+                        {
+                            to: 6,
+                            lenient: "cô",
+                        },
+                        {
+                            to: 6,
+                            lenient: "ông",
+                        },
+                        {
+                            to: 8,
+                            lenient: "",
+                        },
+                        {
+                            to: 9,
+                            lenient: "anh",
+                        },
+                        {
+                            to: 9,
+                            lenient: "bà",
+                        },
+                        {
+                            to: 9,
+                            lenient: "bác",
+                        },
+                        {
+                            to: 9,
+                            lenient: "bạn",
+                        },
+                        {
+                            to: 9,
+                            lenient: "cháu",
+                        },
+                        {
+                            to: 9,
+                            lenient: "chú",
+                        },
+                        {
+                            to: 9,
+                            lenient: "chị",
+                        },
+                        {
+                            to: 9,
+                            lenient: "con",
+                        },
+                        {
+                            to: 10,
+                            lenient: "các",
+                        },
+                        {
+                            to: 12,
+                            lenient: "các",
+                        },
+                        {
+                            to: 9,
+                            lenient: "cô",
+                        },
+                        {
+                            to: 9,
+                            lenient: "cậu",
+                        },
+                        {
+                            to: 9,
+                            lenient: "em",
+                        },
+                        {
+                            to: 9,
+                            lenient: "ông",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 36,
+                            lenient: "",
+                            orig: "!",
+                        },
+                        {
+                            to: 36,
+                            lenient: "ạ",
+                            orig: "ạ!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 36,
+                            lenient: "",
+                            orig: "!",
+                        },
+                        {
+                            to: 36,
+                            lenient: "nha",
+                            orig: "nha!",
+                        },
+                        {
+                            to: 36,
+                            lenient: "nhé",
+                            orig: "nhé!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 8,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: "bạn",
+                        },
+                    ],
+                    [
+                        {
+                            to: 13,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: "cậu",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "chào",
+                        },
+                    ],
+                    [
+                        {
+                            to: 17,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 18,
+                            lenient: "chào",
+                        },
+                    ],
+                    [
+                        {
+                            to: 19,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: "em",
+                        },
+                    ],
+                    [
+                        {
+                            to: 21,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 22,
+                            lenient: "chào",
+                        },
+                    ],
+                    [
+                        {
+                            to: 23,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: "anh",
+                        },
+                    ],
+                    [
+                        {
+                            to: 25,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 26,
+                            lenient: "chào",
+                        },
+                    ],
+                    [
+                        {
+                            to: 27,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: "chị",
+                        },
+                    ],
+                    [
+                        {
+                            to: 29,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "chào",
+                        },
+                    ],
+                    [
+                        {
+                            to: 31,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: "chào",
+                        },
+                    ],
+                    [
+                        {
+                            to: 33,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 34,
+                            lenient: "chào",
+                        },
+                    ],
+                    [
+                        {
+                            to: 35,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "bà",
+                        },
+                        {
+                            to: 6,
+                            lenient: "bác",
+                        },
+                        {
+                            to: 6,
+                            lenient: "chú",
+                        },
+                        {
+                            to: 6,
+                            lenient: "cô",
+                        },
+                        {
+                            to: 6,
+                            lenient: "ông",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "ce973b348662dd5828cc1c7b6505b668",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Hi",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/d911b99586407285544c767b92982685",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "xin chào",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "chào",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: "!",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/6c2508d7d39fa419f3d75856159dcb5a",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/b24ffc3b19f1fc9ffbc108d1d3936dd8",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/b24ffc3b19f1fc9ffbc108d1d3936dd8",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/50af330449fbbaf257fc9868c4321586",
+                },
+                gender: "FEMALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_CORRECT_Cropped_FistPump.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_INCORRECT_Cropped_V2.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_IDLE_Cropped_V2.json",
+            },
+            type: "translate",
+            id: "a84254c593554152afdcf5e18788a6af",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 2262,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 2.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.912808,
+                content_length: 3.0,
+                tagged_kc_ids: ["ce973b348662dd5828cc1c7b6505b668"],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.912808,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 3,
+                    num_correct_answer_tokens: 2,
+                },
+                highlight: [],
+                sentence: "Hi!",
+                solution_key: "62a93a521c55978386b12b70be1f936e",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Xin", "chào"],
+                translation: "Xin chào!",
+                wrong_tokens: ["cà phê", "cơm", "và", "cà"],
+                text: "Hi!",
+                specific_type: "tap",
+                lexeme_ids_to_update: ["ce973b348662dd5828cc1c7b6505b668"],
+                type: "translate",
+                lexemes_to_update: ["ce973b348662dd5828cc1c7b6505b668"],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "62a93a521c55978386b12b70be1f936e",
+            sentenceDiscussionId: "62a93a521c55978386b12b70be1f936e",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "62a93a521c55978386b12b70be1f936e",
+            },
+        },
+        {
+            prompt: "Yes!",
+            correctSolutions: ["Vâng!"],
+            compactTranslations: [
+                "Vâng!",
+                "Ừ [nhé/nha/ạ/]!",
+                "[Dạ/Dạ vâng/Được/Được rồi/Được ạ/Vâng được/Dạ được]!",
+                "[Có/Vâng/Đúng/Đúng đấy/Đúng rồi/Phải/Phải đấy/Phải rồi] [ạ/nhé/nha/]!",
+            ],
+            correctTokens: ["Vâng"],
+            wrongTokens: ["trà", "nước", "nóng", "cà"],
+            choices: [
+                {
+                    text: "Vâng",
+                },
+                {
+                    text: "trà",
+                },
+                {
+                    text: "nước",
+                },
+                {
+                    text: "nóng",
+                },
+                {
+                    text: "cà",
+                },
+            ],
+            correctIndices: [0],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "dạ",
+                            orig: "Dạ",
+                        },
+                        {
+                            to: 4,
+                            lenient: "dạ",
+                            orig: "Dạ",
+                        },
+                        {
+                            to: 16,
+                            lenient: "dạ",
+                            orig: "Dạ!",
+                        },
+                        {
+                            to: 4,
+                            lenient: "vâng",
+                            orig: "Vâng",
+                        },
+                        {
+                            to: 6,
+                            lenient: "được",
+                            orig: "Được",
+                        },
+                        {
+                            to: 8,
+                            lenient: "được",
+                            orig: "Được",
+                        },
+                        {
+                            to: 16,
+                            lenient: "được",
+                            orig: "Được!",
+                        },
+                        {
+                            to: 10,
+                            lenient: "ừ",
+                            orig: "Ừ",
+                        },
+                        {
+                            to: 10,
+                            lenient: "có",
+                            orig: "Có",
+                        },
+                        {
+                            to: 10,
+                            lenient: "phải",
+                            orig: "Phải",
+                        },
+                        {
+                            to: 12,
+                            lenient: "phải",
+                            orig: "Phải",
+                        },
+                        {
+                            to: 14,
+                            lenient: "phải",
+                            orig: "Phải",
+                        },
+                        {
+                            to: 10,
+                            lenient: "vâng",
+                            orig: "Vâng",
+                        },
+                        {
+                            to: 10,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 12,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 14,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 16,
+                            lenient: "vâng",
+                            orig: "Vâng!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "vâng",
+                            orig: "vâng!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "được",
+                            orig: "được!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "rồi",
+                            orig: "rồi!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "ạ",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 16,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 16,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 16,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "",
+                            orig: "!",
+                        },
+                        {
+                            to: 16,
+                            lenient: "nha",
+                            orig: "nha!",
+                        },
+                        {
+                            to: 16,
+                            lenient: "nhé",
+                            orig: "nhé!",
+                        },
+                        {
+                            to: 16,
+                            lenient: "ạ",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 16,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 16,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 16,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 13,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "rồi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "đấy",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "d94aa893b5c536f2a4664637d9bec191",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Yes",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/zarien/05832eb0ac4abf3e2a2e4bc178ab20bf",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vâng",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "phải",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "được",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: "!",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/zarien/42656ffa1f4f166d1734c3a005592016",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/3f4adf80c0b6e9a0dc438f3ba8119703",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/3f4adf80c0b6e9a0dc438f3ba8119703",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/6d99bc8306bdaacc3c8acc911214c557",
+                },
+                gender: "FEMALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Zari_CORRECT_Cropped_HappyDance.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Pink_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Zari_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "ee54420144984d5994227aed4dca1c4a",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 1744,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 1.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.90027833,
+                content_length: 4.0,
+                tagged_kc_ids: ["d94aa893b5c536f2a4664637d9bec191"],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.90027833,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 4,
+                    num_correct_answer_tokens: 1,
+                },
+                highlight: [],
+                sentence: "Yes!",
+                solution_key: "ea6d781c7f300aeb1a73e26dede99e31",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Vâng"],
+                translation: "Vâng!",
+                wrong_tokens: ["trà", "nước", "nóng", "cà"],
+                text: "Yes!",
+                specific_type: "tap",
+                lexeme_ids_to_update: ["d94aa893b5c536f2a4664637d9bec191"],
+                type: "translate",
+                lexemes_to_update: ["d94aa893b5c536f2a4664637d9bec191"],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "ea6d781c7f300aeb1a73e26dede99e31",
+            sentenceDiscussionId: "ea6d781c7f300aeb1a73e26dede99e31",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "ea6d781c7f300aeb1a73e26dede99e31",
+            },
+        },
+        {
+            prompt: "Yes, coffee.",
+            correctSolutions: ["Vâng, cà phê."],
+            compactTranslations: [
+                "Vâng, cà phê.",
+                "[Có/Vâng/Ừ/Dạ/Đúng/Phải/Đúng rồi/Đúng vậy/Phải rồi/Được/Đúng ạ/Đúng vậy], [cho/] [cốc/ly/tách/] [cà phê/cafe] [nhé/nha/ạ/].",
+            ],
+            correctTokens: ["Vâng", "cà", "phê"],
+            wrongTokens: ["nóng", "sữa", "Xin", "cơm"],
+            choices: [
+                {
+                    text: "Vâng",
+                },
+                {
+                    text: "cà",
+                },
+                {
+                    text: "phê",
+                },
+                {
+                    text: "nóng",
+                },
+                {
+                    text: "sữa",
+                },
+                {
+                    text: "Xin",
+                },
+                {
+                    text: "cơm",
+                },
+            ],
+            correctIndices: [0, 1, 2],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "có",
+                            orig: "Có,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 2,
+                            lenient: "co",
+                            orig: "Có,",
+                            type: "accent",
+                        },
+                        {
+                            to: 10,
+                            lenient: "có",
+                            orig: "Có,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 10,
+                            lenient: "co",
+                            orig: "Có,",
+                            type: "accent",
+                        },
+                        {
+                            to: 2,
+                            lenient: "dạ",
+                            orig: "Dạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 2,
+                            lenient: "da",
+                            orig: "Dạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 10,
+                            lenient: "dạ",
+                            orig: "Dạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 10,
+                            lenient: "da",
+                            orig: "Dạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 12,
+                            lenient: "phải",
+                            orig: "Phải",
+                        },
+                        {
+                            to: 14,
+                            lenient: "phải",
+                            orig: "Phải",
+                        },
+                        {
+                            to: 2,
+                            lenient: "phải",
+                            orig: "Phải,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 2,
+                            lenient: "phai",
+                            orig: "Phải,",
+                            type: "accent",
+                        },
+                        {
+                            to: 10,
+                            lenient: "phải",
+                            orig: "Phải,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 10,
+                            lenient: "phai",
+                            orig: "Phải,",
+                            type: "accent",
+                        },
+                        {
+                            to: 2,
+                            lenient: "vâng",
+                            orig: "Vâng,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 2,
+                            lenient: "vang",
+                            orig: "Vâng,",
+                            type: "accent",
+                        },
+                        {
+                            to: 10,
+                            lenient: "vâng",
+                            orig: "Vâng,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 10,
+                            lenient: "vang",
+                            orig: "Vâng,",
+                            type: "accent",
+                        },
+                        {
+                            to: 12,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 14,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 16,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 18,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 20,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 22,
+                            lenient: "đúng",
+                            orig: "Đúng",
+                        },
+                        {
+                            to: 2,
+                            lenient: "đúng",
+                            orig: "Đúng,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 2,
+                            lenient: "dung",
+                            orig: "Đúng,",
+                            type: "accent",
+                        },
+                        {
+                            to: 10,
+                            lenient: "đúng",
+                            orig: "Đúng,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 10,
+                            lenient: "dung",
+                            orig: "Đúng,",
+                            type: "accent",
+                        },
+                        {
+                            to: 2,
+                            lenient: "được",
+                            orig: "Được,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 2,
+                            lenient: "duoc",
+                            orig: "Được,",
+                            type: "accent",
+                        },
+                        {
+                            to: 10,
+                            lenient: "được",
+                            orig: "Được,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 10,
+                            lenient: "duoc",
+                            orig: "Được,",
+                            type: "accent",
+                        },
+                        {
+                            to: 2,
+                            lenient: "ừ",
+                            orig: "Ừ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 2,
+                            lenient: "u",
+                            orig: "Ừ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 10,
+                            lenient: "ừ",
+                            orig: "Ừ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 10,
+                            lenient: "u",
+                            orig: "Ừ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 24,
+                            lenient: "vâng",
+                            orig: "Vâng,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 24,
+                            lenient: "vang",
+                            orig: "Vâng,",
+                            type: "accent",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "",
+                        },
+                        {
+                            to: 9,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 9,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 9,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 7,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 28,
+                            lenient: "",
+                            orig: ".",
+                        },
+                        {
+                            to: 28,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 28,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 28,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 28,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 28,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 28,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 8,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 13,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "rồi",
+                            orig: "rồi,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 2,
+                            lenient: "roi",
+                            orig: "rồi,",
+                            type: "accent",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "rồi",
+                            orig: "rồi,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 10,
+                            lenient: "roi",
+                            orig: "rồi,",
+                            type: "accent",
+                        },
+                    ],
+                    [
+                        {
+                            to: 17,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "vậy",
+                            orig: "vậy,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 2,
+                            lenient: "vay",
+                            orig: "vậy,",
+                            type: "accent",
+                        },
+                    ],
+                    [
+                        {
+                            to: 19,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "vậy",
+                            orig: "vậy,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 10,
+                            lenient: "vay",
+                            orig: "vậy,",
+                            type: "accent",
+                        },
+                    ],
+                    [
+                        {
+                            to: 21,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 2,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 2,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 2,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 2,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                    ],
+                    [
+                        {
+                            to: 23,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 10,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 10,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 10,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 10,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                    ],
+                    [
+                        {
+                            to: 25,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 26,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 27,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 28,
+                            lenient: "phê",
+                            orig: "phê.",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "d94aa893b5c536f2a4664637d9bec191",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "f21a429c717dd93b9f5723f20d87ab8a",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Yes",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/falstaffen/7dc95c57e230126b6ede44408266cec0",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vâng",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "phải",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "được",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ",",
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "coffee",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/falstaffen/a4c54cfc8fc48b719a8e6178ac8828f8",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "cà phê",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ".",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/falstaffen/e016b7369db33eeacafd71e80c1659c5",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/51d3bded9ecbd8bf6e9869041c437ba9",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/51d3bded9ecbd8bf6e9869041c437ba9",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/0f284113af41f7f7296263183701a13b",
+                },
+                gender: "MALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bear_CORRECT_Cropped.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bear_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Falstaff_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "1ef73601e2cd43898d0b996d2a9f1bf0",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 4182,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 3.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.83292586,
+                content_length: 12.0,
+                tagged_kc_ids: [
+                    "d94aa893b5c536f2a4664637d9bec191",
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.83292586,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 12,
+                    num_correct_answer_tokens: 3,
+                },
+                highlight: [],
+                sentence: "Yes, coffee.",
+                solution_key: "278f2dc264e0313fee46935adc2d04a2",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Vâng", "cà", "phê"],
+                translation: "Vâng, cà phê.",
+                wrong_tokens: ["nóng", "sữa", "Xin", "cơm"],
+                text: "Yes, coffee.",
+                specific_type: "tap",
+                lexeme_ids_to_update: [
+                    "d94aa893b5c536f2a4664637d9bec191",
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "d94aa893b5c536f2a4664637d9bec191",
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "278f2dc264e0313fee46935adc2d04a2",
+            sentenceDiscussionId: "278f2dc264e0313fee46935adc2d04a2",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "278f2dc264e0313fee46935adc2d04a2",
+            },
+        },
+        {
+            prompt: "Hi, Duo.",
+            correctSolutions: ["Xin chào, Duo."],
+            compactTranslations: [
+                "Xin chào, Duo.",
+                "Duo, [chào/xin chào] [bạn/] [nhé/nha/ạ].",
+                "[Chào/Xin chào] [bạn/cậu/] [nhé/nha/ạ/] Duo.",
+                "[Chào/Xin chào], Duo [nhé/nha/ạ/].",
+            ],
+            correctTokens: ["Xin", "chào", "Duo"],
+            wrongTokens: ["tạm biệt", "phê", "cho", "nóng"],
+            choices: [
+                {
+                    text: "Xin",
+                },
+                {
+                    text: "chào",
+                },
+                {
+                    text: "Duo",
+                },
+                {
+                    text: "tạm biệt",
+                },
+                {
+                    text: "phê",
+                },
+                {
+                    text: "cho",
+                },
+                {
+                    text: "nóng",
+                },
+            ],
+            correctIndices: [0, 1, 2],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "duo",
+                            orig: "Duo,",
+                        },
+                        {
+                            to: 10,
+                            lenient: "chào",
+                            orig: "Chào",
+                        },
+                        {
+                            to: 16,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 18,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 22,
+                            lenient: "chào",
+                            orig: "Chào,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 22,
+                            lenient: "chao",
+                            orig: "Chào,",
+                            type: "accent",
+                        },
+                        {
+                            to: 26,
+                            lenient: "chào",
+                            orig: "Chào,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 26,
+                            lenient: "chao",
+                            orig: "Chào,",
+                            type: "accent",
+                        },
+                        {
+                            to: 30,
+                            lenient: "chào",
+                            orig: "Chào,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 30,
+                            lenient: "chao",
+                            orig: "Chào,",
+                            type: "accent",
+                        },
+                        {
+                            to: 34,
+                            lenient: "chào",
+                            orig: "Chào,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 34,
+                            lenient: "chao",
+                            orig: "Chào,",
+                            type: "accent",
+                        },
+                        {
+                            to: 38,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 40,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 42,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 44,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "chào",
+                        },
+                        {
+                            to: 8,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "",
+                        },
+                        {
+                            to: 7,
+                            lenient: "bạn",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 46,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 46,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 46,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 46,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 46,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "chào",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: "",
+                        },
+                        {
+                            to: 15,
+                            lenient: "bạn",
+                        },
+                        {
+                            to: 15,
+                            lenient: "cậu",
+                        },
+                    ],
+                    [
+                        {
+                            to: 13,
+                            lenient: "",
+                        },
+                        {
+                            to: 14,
+                            lenient: "nha",
+                        },
+                        {
+                            to: 14,
+                            lenient: "nhé",
+                        },
+                        {
+                            to: 14,
+                            lenient: "ạ",
+                        },
+                        {
+                            to: 14,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ",
+                        },
+                        {
+                            to: 14,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ",
+                        },
+                        {
+                            to: 14,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: "duo",
+                            orig: "Duo.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 13,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 17,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "chào",
+                        },
+                    ],
+                    [
+                        {
+                            to: 19,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 20,
+                            lenient: "chào",
+                            orig: "chào,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 20,
+                            lenient: "chao",
+                            orig: "chào,",
+                            type: "accent",
+                        },
+                    ],
+                    [
+                        {
+                            to: 21,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: "duo",
+                            orig: "Duo.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 23,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: "duo",
+                            orig: "Duo",
+                        },
+                    ],
+                    [
+                        {
+                            to: 25,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: "",
+                            orig: ".",
+                        },
+                    ],
+                    [
+                        {
+                            to: 27,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 28,
+                            lenient: "duo",
+                            orig: "Duo",
+                        },
+                    ],
+                    [
+                        {
+                            to: 29,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 31,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 32,
+                            lenient: "duo",
+                            orig: "Duo",
+                        },
+                    ],
+                    [
+                        {
+                            to: 33,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 35,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 36,
+                            lenient: "duo",
+                            orig: "Duo",
+                        },
+                    ],
+                    [
+                        {
+                            to: 37,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 46,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 46,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 46,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 39,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 22,
+                            lenient: "chào",
+                            orig: "chào,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 22,
+                            lenient: "chao",
+                            orig: "chào,",
+                            type: "accent",
+                        },
+                    ],
+                    [
+                        {
+                            to: 41,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 26,
+                            lenient: "chào",
+                            orig: "chào,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 26,
+                            lenient: "chao",
+                            orig: "chào,",
+                            type: "accent",
+                        },
+                    ],
+                    [
+                        {
+                            to: 43,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 30,
+                            lenient: "chào",
+                            orig: "chào,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 30,
+                            lenient: "chao",
+                            orig: "chào,",
+                            type: "accent",
+                        },
+                    ],
+                    [
+                        {
+                            to: 45,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 34,
+                            lenient: "chào",
+                            orig: "chào,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 34,
+                            lenient: "chao",
+                            orig: "chào,",
+                            type: "accent",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "ce973b348662dd5828cc1c7b6505b668",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "fd97e5a47eac81f84e30c198701927bd",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Hi",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/falstaffen/1fe05377ce4ed8099668239e48e26c48",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "xin chào",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "chào",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ",",
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "Duo",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/falstaffen/162c7e5330abdada655ef1ed992d7380",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "Duo",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "Duo ơi",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ".",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/falstaffen/0b77baf65ea965b6df3da0a5bcd2adc1",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/51d3bded9ecbd8bf6e9869041c437ba9",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/51d3bded9ecbd8bf6e9869041c437ba9",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/0f284113af41f7f7296263183701a13b",
+                },
+                gender: "MALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Falstaff_CORRECT_Cropped_NotBad.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bear_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Falstaff_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "8e6f7254212740b99fd76c3ce146b34b",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 3431,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 3.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.7879155,
+                content_length: 8.0,
+                tagged_kc_ids: [
+                    "ce973b348662dd5828cc1c7b6505b668",
+                    "fd97e5a47eac81f84e30c198701927bd",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.7879155,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 8,
+                    num_correct_answer_tokens: 3,
+                },
+                highlight: [],
+                sentence: "Hi, Duo.",
+                solution_key: "6ebeb21cf538a693de48654d1c22797c",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Xin", "chào", "Duo"],
+                translation: "Xin chào, Duo.",
+                wrong_tokens: ["tạm biệt", "phê", "cho", "nóng"],
+                text: "Hi, Duo.",
+                specific_type: "tap",
+                lexeme_ids_to_update: [
+                    "ce973b348662dd5828cc1c7b6505b668",
+                    "fd97e5a47eac81f84e30c198701927bd",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "ce973b348662dd5828cc1c7b6505b668",
+                    "fd97e5a47eac81f84e30c198701927bd",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "6ebeb21cf538a693de48654d1c22797c",
+            sentenceDiscussionId: "6ebeb21cf538a693de48654d1c22797c",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "6ebeb21cf538a693de48654d1c22797c",
+            },
+        },
+        {
+            prompt: "Coffee and milk, please!",
+            correctSolutions: ["Vui lòng cho cà phê và sữa!"],
+            compactTranslations: [
+                "Vui lòng cho cà phê và sữa!",
+                "[Cà phê/Cafe] [và/với/cùng với/với cả] sữa [nhé/nha/ạ/đi/đi nhé]!",
+                "[Xin/] [vui lòng/làm ơn/cảm phiền/] [cho/lấy cho/cho xin/cho tôi/lấy cho tôi/cho tôi xin] [cốc/ly/tách/] [cà phê/cafe] [và/với/cùng với/với cả/và cho] sữa [nhé/nha/ạ/]!",
+                "[Cho/Lấy cho/] [tôi/] [cốc/ly/tách/] [cà phê/cafe] [và/với/cùng với/với cả] sữa [nhé/nha/ạ/], [xin/] [vui lòng/làm ơn/cảm phiền]!",
+                "[Cho/Lấy cho/Cho xin/Cho tôi/Lấy cho tôi/Cho tôi xin] [cốc/ly/tách/] [cà phê/cafe] [và/với/cùng với/với cả] sữa [nhé/nha/ạ/]!",
+            ],
+            correctTokens: ["Vui", "lòng", "cho", "cà", "phê", "và", "sữa"],
+            wrongTokens: ["tạm biệt", "Vâng", "nước", "mì"],
+            choices: [
+                {
+                    text: "Vui",
+                },
+                {
+                    text: "lòng",
+                },
+                {
+                    text: "cho",
+                },
+                {
+                    text: "cà",
+                },
+                {
+                    text: "phê",
+                },
+                {
+                    text: "và",
+                },
+                {
+                    text: "sữa",
+                },
+                {
+                    text: "tạm biệt",
+                },
+                {
+                    text: "Vâng",
+                },
+                {
+                    text: "nước",
+                },
+                {
+                    text: "mì",
+                },
+            ],
+            correctIndices: [0, 1, 2, 3, 4, 5, 6],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "vui",
+                            orig: "Vui",
+                        },
+                        {
+                            to: 14,
+                            lenient: "",
+                        },
+                        {
+                            to: 43,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 45,
+                            lenient: "lấy",
+                            orig: "Lấy",
+                        },
+                        {
+                            to: 47,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 63,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 65,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 67,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 69,
+                            lenient: "lấy",
+                            orig: "Lấy",
+                        },
+                        {
+                            to: 71,
+                            lenient: "lấy",
+                            orig: "Lấy",
+                        },
+                        {
+                            to: 73,
+                            lenient: "cafe",
+                            orig: "Cafe",
+                        },
+                        {
+                            to: 85,
+                            lenient: "cà",
+                            orig: "Cà",
+                        },
+                        {
+                            to: 87,
+                            lenient: "",
+                        },
+                        {
+                            to: 117,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 8,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: "và",
+                        },
+                    ],
+                    [
+                        {
+                            to: 13,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 119,
+                            lenient: "sữa",
+                            orig: "sữa!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "",
+                        },
+                        {
+                            to: 41,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "",
+                        },
+                        {
+                            to: 39,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 39,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 39,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 17,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 37,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 18,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 19,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 21,
+                            lenient: "và",
+                        },
+                        {
+                            to: 21,
+                            lenient: "với",
+                        },
+                        {
+                            to: 35,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 20,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 21,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 22,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 23,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 25,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 32,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 33,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 34,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 33,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 33,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 34,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 34,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 33,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 33,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 33,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 33,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 33,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 34,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 34,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 34,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 34,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 34,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                    ],
+                    [
+                        {
+                            to: 26,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 28,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 30,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 27,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 119,
+                            lenient: "phiền",
+                            orig: "phiền!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 29,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 119,
+                            lenient: "ơn",
+                            orig: "ơn!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 31,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 119,
+                            lenient: "lòng",
+                            orig: "lòng!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 33,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 25,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 32,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 36,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 21,
+                            lenient: "cả",
+                        },
+                    ],
+                    [
+                        {
+                            to: 38,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 17,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 40,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 17,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 37,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 42,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 40,
+                            lenient: "",
+                        },
+                        {
+                            to: 39,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 39,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 39,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 44,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 42,
+                            lenient: "",
+                        },
+                        {
+                            to: 41,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 43,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 48,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 49,
+                            lenient: "",
+                        },
+                        {
+                            to: 62,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 62,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 62,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 50,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 60,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 51,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 52,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 54,
+                            lenient: "và",
+                        },
+                        {
+                            to: 54,
+                            lenient: "với",
+                        },
+                        {
+                            to: 58,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 53,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 55,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 56,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 57,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 119,
+                            lenient: "",
+                            orig: "!",
+                        },
+                        {
+                            to: 119,
+                            lenient: "nha",
+                            orig: "nha!",
+                        },
+                        {
+                            to: 119,
+                            lenient: "nhé",
+                            orig: "nhé!",
+                        },
+                        {
+                            to: 119,
+                            lenient: "ạ",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 119,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 119,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 119,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 59,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "cả",
+                        },
+                    ],
+                    [
+                        {
+                            to: 61,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 50,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 49,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 64,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 47,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 66,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 67,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 68,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 47,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 70,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 47,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 72,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 63,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 74,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 75,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 77,
+                            lenient: "và",
+                        },
+                        {
+                            to: 77,
+                            lenient: "với",
+                        },
+                        {
+                            to: 83,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 76,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 77,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 78,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 79,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 80,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 119,
+                            lenient: "nha",
+                            orig: "nha!",
+                        },
+                        {
+                            to: 119,
+                            lenient: "nhé",
+                            orig: "nhé!",
+                        },
+                        {
+                            to: 81,
+                            lenient: "đi",
+                        },
+                        {
+                            to: 119,
+                            lenient: "đi",
+                            orig: "đi!",
+                        },
+                        {
+                            to: 119,
+                            lenient: "ạ",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 119,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 119,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                        {
+                            to: 119,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 82,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 119,
+                            lenient: "nhé",
+                            orig: "nhé!",
+                        },
+                    ],
+                    [
+                        {
+                            to: 84,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 77,
+                            lenient: "cả",
+                        },
+                    ],
+                    [
+                        {
+                            to: 86,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 73,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 88,
+                            lenient: "",
+                        },
+                        {
+                            to: 109,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 113,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 115,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 89,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 99,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 101,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 103,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 105,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 107,
+                            lenient: "lấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 90,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 91,
+                            lenient: "",
+                        },
+                        {
+                            to: 98,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 98,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 98,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 92,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 96,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 93,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 52,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 54,
+                            lenient: "và",
+                        },
+                        {
+                            to: 94,
+                            lenient: "và",
+                        },
+                        {
+                            to: 54,
+                            lenient: "với",
+                        },
+                        {
+                            to: 58,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 95,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 97,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 92,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 91,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 100,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 89,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 102,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 103,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 104,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 89,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 106,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 89,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 108,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 99,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 110,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 111,
+                            lenient: "phiền",
+                        },
+                    ],
+                    [
+                        {
+                            to: 112,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 89,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 99,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 101,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 103,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 105,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 107,
+                            lenient: "lấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 114,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 111,
+                            lenient: "ơn",
+                        },
+                    ],
+                    [
+                        {
+                            to: 116,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 111,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 118,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 112,
+                            lenient: "",
+                        },
+                        {
+                            to: 109,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 113,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 115,
+                            lenient: "vui",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "f21a429c717dd93b9f5723f20d87ab8a",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "0d9244f805fd55af1281a1bcb1a2cba6",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "55f383178cf0fdc463ef1ebf91bd288d",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "d1bbffb5492216c3c1aee1ce49ef79c7",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Coffee",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/37a5d19960f33d6f3f4c9c51719592d1",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "cà phê",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "and",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/f8bbe7530cfb5e8dbaf1ad18c2a005d0",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "và",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "với",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "còn",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "milk",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/acc8109446679686e7b78dfc9a21d14b",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "sữa",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ",",
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "please",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/3966e375db89d84680fab50078b9fa5e",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng cho",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "nhé",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: "!",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/9fe82aa2a1c2e7d680519ae7acf008a4",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/b53f870ed38105349d4d83edf682d77f",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/b53f870ed38105349d4d83edf682d77f",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/096d0b1f6280b962cd7080a7736dd2bb",
+                },
+                gender: "MALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Eddy_CORRECT_Cropped_Flex.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Coach_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Eddy_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "a3860dfea21c41edb53e462f18195c6d",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 6764,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 7.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.7668771,
+                content_length: 24.0,
+                tagged_kc_ids: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.7668771,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 24,
+                    num_correct_answer_tokens: 7,
+                },
+                highlight: [],
+                sentence: "Coffee and milk, please!",
+                solution_key: "35df304eeebec0c51c286dbd36567505",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Vui", "lòng", "cho", "cà", "phê", "và", "sữa"],
+                translation: "Vui lòng cho cà phê và sữa!",
+                wrong_tokens: ["tạm biệt", "Vâng", "nước", "mì"],
+                text: "Coffee and milk, please!",
+                specific_type: "tap",
+                lexeme_ids_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "35df304eeebec0c51c286dbd36567505",
+            sentenceDiscussionId: "35df304eeebec0c51c286dbd36567505",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "35df304eeebec0c51c286dbd36567505",
+            },
+        },
+        {
+            prompt: "coffee and milk",
+            correctSolutions: ["cà phê và sữa"],
+            compactTranslations: [
+                "cà phê và sữa",
+                "[cà phê/cafe] [và/với/cùng với/với cả] sữa",
+            ],
+            correctTokens: ["cà", "phê", "và", "sữa"],
+            wrongTokens: ["Xin", "cho", "nóng", "mì"],
+            choices: [
+                {
+                    text: "cà",
+                },
+                {
+                    text: "phê",
+                },
+                {
+                    text: "và",
+                },
+                {
+                    text: "sữa",
+                },
+                {
+                    text: "Xin",
+                },
+                {
+                    text: "cho",
+                },
+                {
+                    text: "nóng",
+                },
+                {
+                    text: "mì",
+                },
+            ],
+            correctIndices: [0, 1, 2, 3],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 10,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 6,
+                            lenient: "và",
+                        },
+                        {
+                            to: 6,
+                            lenient: "với",
+                        },
+                        {
+                            to: 8,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "cả",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "phê",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "f21a429c717dd93b9f5723f20d87ab8a",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "0d9244f805fd55af1281a1bcb1a2cba6",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "55f383178cf0fdc463ef1ebf91bd288d",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "coffee",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/oscaren/30ec7d09b0b9555e6db6a8e8abe85620",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "cà phê",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "and",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/oscaren/d20f8298a95dc91df62b03c41c045084",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "và",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "với",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "còn",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "milk",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/oscaren/9213215fb4f08d46a6def69367328f45",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "sữa",
+                                },
+                            ],
+                        ],
+                    },
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/oscaren/1c82d70df3188ae3823ad18dd2fc5fac",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/1d4af8ffd16389a7c68b88b0d358ce92",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/1d4af8ffd16389a7c68b88b0d358ce92",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/f4639160abfb44c54829ebeb62c0542d",
+                },
+                gender: "MALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Oscar_CORRECT_Cropped_Hair.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Mo_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Oscar_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "6e4aba1bffb347648a12b21e847a73d4",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 499,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 4.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.76440763,
+                content_length: 15.0,
+                tagged_kc_ids: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.76440763,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 15,
+                    num_correct_answer_tokens: 4,
+                },
+                highlight: [],
+                sentence: "coffee and milk",
+                solution_key: "fcafa924b3711b4acafa60e6fc4dc97a",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["cà", "phê", "và", "sữa"],
+                translation: "cà phê và sữa",
+                wrong_tokens: ["Xin", "cho", "nóng", "mì"],
+                text: "coffee and milk",
+                specific_type: "tap",
+                lexeme_ids_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "fcafa924b3711b4acafa60e6fc4dc97a",
+            sentenceDiscussionId: "fcafa924b3711b4acafa60e6fc4dc97a",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "fcafa924b3711b4acafa60e6fc4dc97a",
+            },
+        },
+        {
+            prompt: "Milk, please.",
+            correctSolutions: ["Vui lòng cho sữa."],
+            compactTranslations: [
+                "Vui lòng cho sữa.",
+                "[Xin/] [vui lòng/làm ơn/cảm phiền] [hãy/] [cho/lấy cho/cho xin/cho tôi/cho tôi xin/lấy cho tôi/đem cho tôi/mang cho tôi/mang ra cho tôi/] [một/1/] [cốc/ly/tách/] sữa [nhé/nha/ạ/].",
+                "[Cho/Lấy cho/Xin hãy cho/Xin hãy lấy cho/Cho xin/Cho tôi xin/Lấy cho tôi/Xin hãy lấy cho tôi/Đem cho tôi/Mang cho tôi/Mang ra cho tôi/Đem ra cho tôi/] [một/1/] [cốc/ly/tách/] sữa [nhé/nha/ạ/], [xin/] [vui lòng/làm ơn/cảm phiền].",
+                "[Một/1/] [cốc/ly/tách/] sữa [nhé/nha/ạ/đi/đi nhé/đi ạ].",
+                "[Xin hãy/Hãy/] [cho/cho tôi/lấy cho tôi/lấy tôi/đem cho tôi/mang cho tôi/cho tôi xin] [một/1/] [cốc/ly/tách/] sữa [nhé/nha/ạ/].",
+            ],
+            correctTokens: ["Vui", "lòng", "cho", "sữa"],
+            wrongTokens: ["trà", "không", "và", "Xin"],
+            choices: [
+                {
+                    text: "Vui",
+                },
+                {
+                    text: "lòng",
+                },
+                {
+                    text: "cho",
+                },
+                {
+                    text: "sữa",
+                },
+                {
+                    text: "trà",
+                },
+                {
+                    text: "không",
+                },
+                {
+                    text: "và",
+                },
+                {
+                    text: "Xin",
+                },
+            ],
+            correctIndices: [0, 1, 2, 3],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "",
+                        },
+                        {
+                            to: 33,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 35,
+                            lenient: "",
+                        },
+                        {
+                            to: 54,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 56,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 58,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 60,
+                            lenient: "lấy",
+                            orig: "Lấy",
+                        },
+                        {
+                            to: 62,
+                            lenient: "lấy",
+                            orig: "Lấy",
+                        },
+                        {
+                            to: 62,
+                            lenient: "mang",
+                            orig: "Mang",
+                        },
+                        {
+                            to: 66,
+                            lenient: "mang",
+                            orig: "Mang",
+                        },
+                        {
+                            to: 68,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 70,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 74,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 62,
+                            lenient: "đem",
+                            orig: "Đem",
+                        },
+                        {
+                            to: 66,
+                            lenient: "đem",
+                            orig: "Đem",
+                        },
+                        {
+                            to: 78,
+                            lenient: "vui",
+                            orig: "Vui",
+                        },
+                        {
+                            to: 84,
+                            lenient: "",
+                        },
+                        {
+                            to: 85,
+                            lenient: "hãy",
+                            orig: "Hãy",
+                        },
+                        {
+                            to: 87,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 89,
+                            lenient: "",
+                        },
+                        {
+                            to: 99,
+                            lenient: "1",
+                        },
+                        {
+                            to: 99,
+                            lenient: "một",
+                            orig: "Một",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 29,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 31,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: "phiền",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: "",
+                        },
+                        {
+                            to: 28,
+                            lenient: "hãy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 8,
+                            lenient: "",
+                        },
+                        {
+                            to: 15,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 16,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 18,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 20,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 22,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 24,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 24,
+                            lenient: "mang",
+                        },
+                        {
+                            to: 26,
+                            lenient: "mang",
+                        },
+                        {
+                            to: 24,
+                            lenient: "đem",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: "",
+                        },
+                        {
+                            to: 14,
+                            lenient: "1",
+                        },
+                        {
+                            to: 14,
+                            lenient: "một",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "",
+                        },
+                        {
+                            to: 13,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 13,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 13,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "",
+                            orig: ".",
+                        },
+                        {
+                            to: 101,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 101,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 101,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 8,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 17,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 19,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 20,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 21,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 23,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 25,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 27,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: "ra",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 30,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: "ơn",
+                        },
+                    ],
+                    [
+                        {
+                            to: 32,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 34,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 29,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 31,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 36,
+                            lenient: "",
+                        },
+                        {
+                            to: 52,
+                            lenient: "1",
+                        },
+                        {
+                            to: 52,
+                            lenient: "một",
+                        },
+                    ],
+                    [
+                        {
+                            to: 37,
+                            lenient: "",
+                        },
+                        {
+                            to: 50,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 50,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 50,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 38,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 39,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 40,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 47,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 48,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 49,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 48,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 48,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 49,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 49,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 48,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 48,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 49,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 49,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                    ],
+                    [
+                        {
+                            to: 41,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 43,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 45,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 42,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "phiền",
+                            orig: "phiền.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 44,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "ơn",
+                            orig: "ơn.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "lòng",
+                            orig: "lòng.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 48,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 40,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 47,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 51,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 38,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 53,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 51,
+                            lenient: "",
+                        },
+                        {
+                            to: 50,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 50,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 50,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 55,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 53,
+                            lenient: "",
+                        },
+                        {
+                            to: 52,
+                            lenient: "1",
+                        },
+                        {
+                            to: 52,
+                            lenient: "một",
+                        },
+                    ],
+                    [
+                        {
+                            to: 57,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 58,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 59,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 61,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 63,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 64,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 65,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 67,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "ra",
+                        },
+                    ],
+                    [
+                        {
+                            to: 69,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 60,
+                            lenient: "hãy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 71,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 72,
+                            lenient: "hãy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 73,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 60,
+                            lenient: "lấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 75,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 76,
+                            lenient: "hãy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 77,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "lấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 79,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 80,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 81,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 82,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 83,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "sữa",
+                            orig: "sữa.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 16,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 18,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 24,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 16,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 24,
+                            lenient: "mang",
+                        },
+                        {
+                            to: 24,
+                            lenient: "đem",
+                        },
+                    ],
+                    [
+                        {
+                            to: 86,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 16,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 18,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 24,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 16,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 24,
+                            lenient: "mang",
+                        },
+                        {
+                            to: 24,
+                            lenient: "đem",
+                        },
+                    ],
+                    [
+                        {
+                            to: 88,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 85,
+                            lenient: "hãy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 90,
+                            lenient: "",
+                        },
+                        {
+                            to: 97,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 97,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 97,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 91,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 92,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 101,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 93,
+                            lenient: "đi",
+                        },
+                        {
+                            to: 95,
+                            lenient: "đi",
+                        },
+                        {
+                            to: 101,
+                            lenient: "đi",
+                            orig: "đi.",
+                        },
+                        {
+                            to: 101,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 96,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 98,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 91,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 100,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 98,
+                            lenient: "",
+                        },
+                        {
+                            to: 97,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 97,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 97,
+                            lenient: "tách",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "55f383178cf0fdc463ef1ebf91bd288d",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "d1bbffb5492216c3c1aee1ce49ef79c7",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Milk",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/zarien/0f8bf19faf7d21b99884e109bd7f36a1",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "sữa",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ",",
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "please",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/zarien/8895161d551d975ca53bbedb58cdba34",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng cho",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "nhé",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ".",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/zarien/5eead7d35dc25a27b9b624bece62aa5a",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/3f4adf80c0b6e9a0dc438f3ba8119703",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/3f4adf80c0b6e9a0dc438f3ba8119703",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/6d99bc8306bdaacc3c8acc911214c557",
+                },
+                gender: "FEMALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Zari_CORRECT_Cropped_HappyDance.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Pink_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Zari_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "9cabee790ba4473797b16ede840848d4",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 5892,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 4.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.7066036,
+                content_length: 13.0,
+                tagged_kc_ids: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.7066036,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 13,
+                    num_correct_answer_tokens: 4,
+                },
+                highlight: [],
+                sentence: "Milk, please.",
+                solution_key: "ce7dd20c9ce3b6c769edc8037154c732",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Vui", "lòng", "cho", "sữa"],
+                translation: "Vui lòng cho sữa.",
+                wrong_tokens: ["trà", "không", "và", "Xin"],
+                text: "Milk, please.",
+                specific_type: "tap",
+                lexeme_ids_to_update: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "ce7dd20c9ce3b6c769edc8037154c732",
+            sentenceDiscussionId: "ce7dd20c9ce3b6c769edc8037154c732",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "ce7dd20c9ce3b6c769edc8037154c732",
+            },
+        },
+        {
+            prompt: "Coffee and milk, please.",
+            correctSolutions: ["Vui lòng cho cà phê và sữa."],
+            compactTranslations: [
+                "Vui lòng cho cà phê và sữa.",
+                "[Cà phê/Cafe] [và/với/cùng với/với cả] sữa [nhé/nha/ạ/đi/đi nhé/đi ạ].",
+                "[Cho/Lấy cho/] [cốc/ly/tách/] [cà phê/cafe] [và/với/cùng với/với cả] sữa [nhé/nha/ạ/], [xin/] [vui lòng/làm ơn/cảm phiền].",
+                "[Xin/] [vui lòng/làm ơn/cảm phiền/] [cho/lấy cho/cho xin] [tôi/tớ/mình/] [cốc/ly/tách/] [cà phê/cafe] [và/với/cùng với/với cả] sữa [nhé/nha/ạ/].",
+            ],
+            correctTokens: ["Vui", "lòng", "cho", "cà", "phê", "và", "sữa"],
+            wrongTokens: ["nóng", "nước", "trà", "tạm biệt"],
+            choices: [
+                {
+                    text: "Vui",
+                },
+                {
+                    text: "lòng",
+                },
+                {
+                    text: "cho",
+                },
+                {
+                    text: "cà",
+                },
+                {
+                    text: "phê",
+                },
+                {
+                    text: "và",
+                },
+                {
+                    text: "sữa",
+                },
+                {
+                    text: "nóng",
+                },
+                {
+                    text: "nước",
+                },
+                {
+                    text: "trà",
+                },
+                {
+                    text: "tạm biệt",
+                },
+            ],
+            correctIndices: [0, 1, 2, 3, 4, 5, 6],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "vui",
+                            orig: "Vui",
+                        },
+                        {
+                            to: 14,
+                            lenient: "",
+                        },
+                        {
+                            to: 40,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 42,
+                            lenient: "lấy",
+                            orig: "Lấy",
+                        },
+                        {
+                            to: 44,
+                            lenient: "cafe",
+                            orig: "Cafe",
+                        },
+                        {
+                            to: 58,
+                            lenient: "cà",
+                            orig: "Cà",
+                        },
+                        {
+                            to: 60,
+                            lenient: "",
+                        },
+                        {
+                            to: 92,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 8,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: "và",
+                        },
+                    ],
+                    [
+                        {
+                            to: 13,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "sữa",
+                            orig: "sữa.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "",
+                        },
+                        {
+                            to: 38,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 38,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 38,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 36,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 17,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 18,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 20,
+                            lenient: "và",
+                        },
+                        {
+                            to: 20,
+                            lenient: "với",
+                        },
+                        {
+                            to: 34,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 19,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 20,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 21,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 22,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 23,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 31,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 32,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 33,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 32,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 32,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 33,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 33,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 32,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 32,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 32,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 32,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 32,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 33,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 33,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 33,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 33,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 33,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                    ],
+                    [
+                        {
+                            to: 25,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 27,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 29,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 26,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "phiền",
+                            orig: "phiền.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 28,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "ơn",
+                            orig: "ơn.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 30,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "lòng",
+                            orig: "lòng.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 32,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 31,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 35,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 20,
+                            lenient: "cả",
+                        },
+                    ],
+                    [
+                        {
+                            to: 37,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 39,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 36,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 41,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 39,
+                            lenient: "",
+                        },
+                        {
+                            to: 38,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 38,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 38,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 43,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 40,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 45,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 48,
+                            lenient: "và",
+                        },
+                        {
+                            to: 48,
+                            lenient: "với",
+                        },
+                        {
+                            to: 56,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 47,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 48,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 49,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 50,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 51,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 52,
+                            lenient: "đi",
+                        },
+                        {
+                            to: 54,
+                            lenient: "đi",
+                        },
+                        {
+                            to: 94,
+                            lenient: "đi",
+                            orig: "đi.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 53,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 55,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 57,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 48,
+                            lenient: "cả",
+                        },
+                    ],
+                    [
+                        {
+                            to: 59,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 44,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 61,
+                            lenient: "",
+                        },
+                        {
+                            to: 84,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 88,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 90,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 80,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 82,
+                            lenient: "lấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 63,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 64,
+                            lenient: "",
+                        },
+                        {
+                            to: 79,
+                            lenient: "mình",
+                        },
+                        {
+                            to: 79,
+                            lenient: "tôi",
+                        },
+                        {
+                            to: 79,
+                            lenient: "tớ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 65,
+                            lenient: "",
+                        },
+                        {
+                            to: 78,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 78,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 78,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 66,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 76,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 67,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 68,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 70,
+                            lenient: "và",
+                        },
+                        {
+                            to: 70,
+                            lenient: "với",
+                        },
+                        {
+                            to: 74,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 69,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 70,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 71,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 72,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 73,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "",
+                            orig: ".",
+                        },
+                        {
+                            to: 94,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 75,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 70,
+                            lenient: "cả",
+                        },
+                    ],
+                    [
+                        {
+                            to: 77,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 66,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 65,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 64,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 81,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 83,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 85,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 86,
+                            lenient: "phiền",
+                        },
+                    ],
+                    [
+                        {
+                            to: 87,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 80,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 82,
+                            lenient: "lấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 89,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 86,
+                            lenient: "ơn",
+                        },
+                    ],
+                    [
+                        {
+                            to: 91,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 86,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 93,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 87,
+                            lenient: "",
+                        },
+                        {
+                            to: 84,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 88,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 90,
+                            lenient: "vui",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "f21a429c717dd93b9f5723f20d87ab8a",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "0d9244f805fd55af1281a1bcb1a2cba6",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "55f383178cf0fdc463ef1ebf91bd288d",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "d1bbffb5492216c3c1aee1ce49ef79c7",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Coffee",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/2e8cd78e30e51c6643beafb84602f13c",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "cà phê",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "and",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/52512b5b213f1323bd34c7978cb139a6",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "và",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "với",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "còn",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "milk",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/980d25e143974fe1ccd2e1dea453eea6",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "sữa",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ",",
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "please",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/57d53fc1017d148b77875df7c12186b0",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng cho",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "nhé",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ".",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/beaen/cabae3a0af5a0b9e3421debdb71726ee",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/b24ffc3b19f1fc9ffbc108d1d3936dd8",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/b24ffc3b19f1fc9ffbc108d1d3936dd8",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/50af330449fbbaf257fc9868c4321586",
+                },
+                gender: "FEMALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_CORRECT_Cropped_V2.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_INCORRECT_Cropped_V2.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Bea_IDLE_Cropped_V2.json",
+            },
+            type: "translate",
+            id: "c361313d277b473ab615aa744f9b1610",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 5647,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 7.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.6383798,
+                content_length: 24.0,
+                tagged_kc_ids: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.6383798,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 24,
+                    num_correct_answer_tokens: 7,
+                },
+                highlight: [],
+                sentence: "Coffee and milk, please.",
+                solution_key: "a5d8e5b6271116bf4fa16eee26c00b39",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Vui", "lòng", "cho", "cà", "phê", "và", "sữa"],
+                translation: "Vui lòng cho cà phê và sữa.",
+                wrong_tokens: ["nóng", "nước", "trà", "tạm biệt"],
+                text: "Coffee and milk, please.",
+                specific_type: "tap",
+                lexeme_ids_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "a5d8e5b6271116bf4fa16eee26c00b39",
+            sentenceDiscussionId: "a5d8e5b6271116bf4fa16eee26c00b39",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "a5d8e5b6271116bf4fa16eee26c00b39",
+            },
+        },
+    ],
+    adaptiveChallenges: [
+        {
+            prompt: "Vâng, cà phê.",
+            correctSolutions: ["Yes, coffee."],
+            compactTranslations: [
+                "Yes, coffee.",
+                "[Yes/Yep/Yup/Yeah/Yea/Ya/Aye], coffee [please/].",
+            ],
+            correctTokens: ["Yes", "coffee"],
+            wrongTokens: ["water", "rice", "or", "tea"],
+            choices: [
+                {
+                    text: "Yes",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/9dc15af4158b38033225195033ef6121",
+                },
+                {
+                    text: "coffee",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/37a5d19960f33d6f3f4c9c51719592d1",
+                },
+                {
+                    text: "water",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/677d36ebdf487c0a934ce8adb6ea7c4f",
+                },
+                {
+                    text: "rice",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/08a90e2588c74334d32b02f5f5e50dd3",
+                },
+                {
+                    text: "or",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/694d36d50f9779e02e828bc24f3f376b",
+                },
+                {
+                    text: "tea",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/eddyen/583f299988a289dc687a96665bfeecdb",
+                },
+            ],
+            correctIndices: [0, 1],
+            sourceLanguage: "vi",
+            targetLanguage: "en",
+            solutionTts:
+                "https://d1vq87e9lcf771.cloudfront.net/eddyen/c4310d17c4047d15452b0b23ea88c2ad",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "yes",
+                            orig: "Yes,",
+                        },
+                        {
+                            to: 4,
+                            lenient: "aye",
+                            orig: "Aye,",
+                        },
+                        {
+                            to: 8,
+                            lenient: "aye",
+                            orig: "Aye,",
+                        },
+                        {
+                            to: 4,
+                            lenient: "ya",
+                            orig: "Ya,",
+                        },
+                        {
+                            to: 8,
+                            lenient: "ya",
+                            orig: "Ya,",
+                        },
+                        {
+                            to: 4,
+                            lenient: "yea",
+                            orig: "Yea,",
+                        },
+                        {
+                            to: 8,
+                            lenient: "yea",
+                            orig: "Yea,",
+                        },
+                        {
+                            to: 4,
+                            lenient: "yeah",
+                            orig: "Yeah,",
+                        },
+                        {
+                            to: 4,
+                            lenient: "yea",
+                            type: "typo",
+                            orig: "Yeah,",
+                        },
+                        {
+                            to: 8,
+                            lenient: "yeah",
+                            orig: "Yeah,",
+                        },
+                        {
+                            to: 8,
+                            lenient: "yea",
+                            type: "typo",
+                            orig: "Yeah,",
+                        },
+                        {
+                            to: 4,
+                            lenient: "yep",
+                            orig: "Yep,",
+                        },
+                        {
+                            to: 8,
+                            lenient: "yep",
+                            orig: "Yep,",
+                        },
+                        {
+                            to: 4,
+                            lenient: "yes",
+                            orig: "Yes,",
+                        },
+                        {
+                            to: 8,
+                            lenient: "yes",
+                            orig: "Yes,",
+                        },
+                        {
+                            to: 4,
+                            lenient: "yup",
+                            orig: "Yup,",
+                        },
+                        {
+                            to: 8,
+                            lenient: "yup",
+                            orig: "Yup,",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: "coffee",
+                            orig: "coffee.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "coffee",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: "",
+                            orig: ".",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "coffee",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: "please",
+                            orig: "please.",
+                        },
+                    ],
+                    [],
+                ],
+                language: "en",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "d94aa893b5c536f2a4664637d9bec191",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "f21a429c717dd93b9f5723f20d87ab8a",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Vâng",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "yes",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "(politely)",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ",",
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "cà",
+                    hintTable: {
+                        headers: ["cà", "phê"],
+                        rows: [
+                            [
+                                {
+                                    colspan: 2,
+                                    hint: "coffee",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "phê",
+                    hintTable: {
+                        headers: ["cà", "phê"],
+                        rows: [
+                            [
+                                {
+                                    colspan: 2,
+                                    hint: "coffee",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ".",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/danh/713dafd2ac4a98f15151aa84122a5b7b",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/b53f870ed38105349d4d83edf682d77f",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/b53f870ed38105349d4d83edf682d77f",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/096d0b1f6280b962cd7080a7736dd2bb",
+                },
+                gender: "male",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Eddy_CORRECT_Cropped_Flex.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Coach_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Eddy_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "8c7473a4aeaa4ccc941ae5f5df1c67bb",
+            challengeResponseTrackingProperties: {
+                best_solution: "Yes, coffee.",
+                level_session_index: 0,
+                grading_graph_size: 1110,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 2.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.87486935,
+                content_length: 12.0,
+                tagged_kc_ids: [
+                    "d94aa893b5c536f2a4664637d9bec191",
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.87486935,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 12,
+                    best_solution: "Yes, coffee.",
+                    num_correct_answer_tokens: 2,
+                },
+                highlight: [],
+                indicator_type: {
+                    name: "HARD_CHALLENGE",
+                },
+                sentence: "Vâng, cà phê.",
+                solution_key: "ffeccaf3c2f4186af483aca536d3a29a",
+                source_language: "vi",
+                target_language: "en",
+                tokens: ["Yes", "coffee"],
+                translation: "Yes, coffee.",
+                wrong_tokens: ["water", "rice", "or", "tea"],
+                text: "Vâng, cà phê.",
+                specific_type: "reverse_tap",
+                lexeme_ids_to_update: [
+                    "d94aa893b5c536f2a4664637d9bec191",
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "d94aa893b5c536f2a4664637d9bec191",
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "ffeccaf3c2f4186af483aca536d3a29a",
+            sentenceDiscussionId: "ffeccaf3c2f4186af483aca536d3a29a",
+            challengeGeneratorIdentifier: {
+                specificType: "reverse_tap",
+                generatorId: "ffeccaf3c2f4186af483aca536d3a29a",
+            },
+            indicatorType: "HARD_CHALLENGE",
+        },
+        {
+            prompt: "Vui lòng cho cà phê và sữa.",
+            correctSolutions: ["Coffee and milk, please."],
+            compactTranslations: [
+                "Coffee and milk, please.",
+                "[Give me/Give us/] [a/some/] [milk/cow milk/cow's milk] and [a/some/] coffee, [please/if you please].",
+                "Please [give me/give us/] [a/some/] coffee [and/with] [milk/cow milk/cow's milk].",
+                "[Give me/Give us/] [a/some/] coffee [and/with] [milk/cow milk/cow's milk], [please/if you please].",
+            ],
+            correctTokens: ["Coffee", "and", "milk", "please"],
+            wrongTokens: ["iced", "yes", "or", "noodles"],
+            choices: [
+                {
+                    text: "Coffee",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/junioren/2a3dada74442d7fc1b7f124eff3db403",
+                },
+                {
+                    text: "and",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/junioren/d601ba11e3eed4babdd4db69ced84cbf",
+                },
+                {
+                    text: "milk",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/junioren/0619d1c854b21dc27c8b9e88ed4a2c73",
+                },
+                {
+                    text: "please",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/junioren/7aa710047b2cef3d7b254fdd36c44805",
+                },
+                {
+                    text: "iced",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/junioren/a84b16fcdc8496ffc12f25b51c945bfa",
+                },
+                {
+                    text: "yes",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/junioren/916b7a58c6f261da2817dbd2b2199d92",
+                },
+                {
+                    text: "or",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/junioren/a623de0e92aacdcf98360ee61c7097bc",
+                },
+                {
+                    text: "noodles",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/junioren/6040dfa9a462f69617c8fdb6609dc199",
+                },
+            ],
+            correctIndices: [0, 1, 2, 3],
+            sourceLanguage: "vi",
+            targetLanguage: "en",
+            solutionTts:
+                "https://d1vq87e9lcf771.cloudfront.net/junioren/770254ff89fc5ea90f088dcc1df2ebc8",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "please",
+                            orig: "Please",
+                        },
+                        {
+                            to: 22,
+                            lenient: "coffee",
+                            orig: "Coffee",
+                        },
+                        {
+                            to: 28,
+                            lenient: "",
+                        },
+                        {
+                            to: 64,
+                            lenient: "give",
+                            orig: "Give",
+                        },
+                        {
+                            to: 64,
+                            lenient: "gi̇ve",
+                            orig: "Gi̇ve",
+                        },
+                        {
+                            to: 64,
+                            lenient: "gıve",
+                            orig: "Gıve",
+                        },
+                        {
+                            to: 64,
+                            lenient: "gi̇ve",
+                        },
+                        {
+                            to: 64,
+                            lenient: "gıve",
+                        },
+                        {
+                            to: 68,
+                            lenient: "give",
+                            orig: "Give",
+                        },
+                        {
+                            to: 68,
+                            lenient: "gi̇ve",
+                            orig: "Gi̇ve",
+                        },
+                        {
+                            to: 68,
+                            lenient: "gıve",
+                            orig: "Gıve",
+                        },
+                        {
+                            to: 68,
+                            lenient: "gi̇ve",
+                        },
+                        {
+                            to: 68,
+                            lenient: "gıve",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "",
+                        },
+                        {
+                            to: 17,
+                            lenient: "give",
+                        },
+                        {
+                            to: 17,
+                            lenient: "gi̇ve",
+                        },
+                        {
+                            to: 17,
+                            lenient: "gıve",
+                        },
+                        {
+                            to: 20,
+                            lenient: "give",
+                        },
+                        {
+                            to: 20,
+                            lenient: "gi̇ve",
+                        },
+                        {
+                            to: 20,
+                            lenient: "gıve",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: "",
+                        },
+                        {
+                            to: 16,
+                            lenient: "a",
+                        },
+                        {
+                            to: 16,
+                            lenient: "an",
+                            type: "typo",
+                            orig: "a",
+                        },
+                        {
+                            to: 16,
+                            lenient: "some",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "coffee",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 8,
+                            lenient: "and",
+                        },
+                        {
+                            to: 8,
+                            lenient: "&",
+                        },
+                        {
+                            to: 8,
+                            lenient: "with",
+                        },
+                        {
+                            to: 8,
+                            lenient: "wi̇th",
+                        },
+                        {
+                            to: 8,
+                            lenient: "wıth",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "cow",
+                        },
+                        {
+                            to: 10,
+                            lenient: "cow's",
+                        },
+                        {
+                            to: 10,
+                            lenient: "cow's",
+                            orig: "cow’s",
+                        },
+                        {
+                            to: 12,
+                            lenient: "cow'",
+                            auto: true,
+                        },
+                        {
+                            to: 12,
+                            lenient: "cow'",
+                            orig: "cow’",
+                        },
+                        {
+                            to: 14,
+                            lenient: "cow",
+                            type: "typo",
+                            auto: true,
+                        },
+                        {
+                            to: 70,
+                            lenient: "milk",
+                            orig: "milk.",
+                        },
+                        {
+                            to: 70,
+                            lenient: "mılk",
+                            orig: "mılk.",
+                        },
+                        {
+                            to: 70,
+                            lenient: "mılk",
+                        },
+                        {
+                            to: 70,
+                            lenient: "mi̇lk",
+                            orig: "mi̇lk.",
+                        },
+                        {
+                            to: 70,
+                            lenient: "mi̇lk",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 70,
+                            lenient: "milk",
+                            orig: "milk.",
+                        },
+                        {
+                            to: 70,
+                            lenient: "mılk",
+                            orig: "mılk.",
+                        },
+                        {
+                            to: 70,
+                            lenient: "mılk",
+                        },
+                        {
+                            to: 70,
+                            lenient: "mi̇lk",
+                            orig: "mi̇lk.",
+                        },
+                        {
+                            to: 70,
+                            lenient: "mi̇lk",
+                        },
+                    ],
+                    [
+                        {
+                            to: 13,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "s",
+                            auto: true,
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "s",
+                            type: "typo",
+                            auto: true,
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 18,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 19,
+                            lenient: "me",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 21,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 19,
+                            lenient: "us",
+                        },
+                    ],
+                    [
+                        {
+                            to: 23,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: "and",
+                        },
+                        {
+                            to: 24,
+                            lenient: "&",
+                        },
+                    ],
+                    [
+                        {
+                            to: 25,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 26,
+                            lenient: "milk",
+                            orig: "milk,",
+                        },
+                        {
+                            to: 26,
+                            lenient: "mılk",
+                            orig: "mılk,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 26,
+                            lenient: "milk",
+                            orig: "mılk,",
+                            type: "accent",
+                        },
+                        {
+                            to: 26,
+                            lenient: "mi̇lk",
+                            orig: "mi̇lk,",
+                        },
+                        {
+                            to: 26,
+                            lenient: "mılk",
+                        },
+                        {
+                            to: 26,
+                            lenient: "mi̇lk",
+                        },
+                    ],
+                    [
+                        {
+                            to: 27,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 70,
+                            lenient: "please",
+                            orig: "please.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 29,
+                            lenient: "",
+                        },
+                        {
+                            to: 62,
+                            lenient: "a",
+                        },
+                        {
+                            to: 62,
+                            lenient: "an",
+                            type: "typo",
+                            orig: "a",
+                        },
+                        {
+                            to: 62,
+                            lenient: "some",
+                        },
+                    ],
+                    [
+                        {
+                            to: 30,
+                            lenient: "cow",
+                        },
+                        {
+                            to: 30,
+                            lenient: "cow's",
+                        },
+                        {
+                            to: 30,
+                            lenient: "cow's",
+                            orig: "cow’s",
+                        },
+                        {
+                            to: 42,
+                            lenient: "cow'",
+                            auto: true,
+                        },
+                        {
+                            to: 42,
+                            lenient: "cow'",
+                            orig: "cow’",
+                        },
+                        {
+                            to: 44,
+                            lenient: "cow",
+                            type: "typo",
+                            auto: true,
+                        },
+                        {
+                            to: 32,
+                            lenient: "milk",
+                        },
+                        {
+                            to: 32,
+                            lenient: "mılk",
+                        },
+                        {
+                            to: 32,
+                            lenient: "mi̇lk",
+                        },
+                        {
+                            to: 46,
+                            lenient: "coffee",
+                        },
+                    ],
+                    [
+                        {
+                            to: 31,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 32,
+                            lenient: "milk",
+                        },
+                        {
+                            to: 32,
+                            lenient: "mılk",
+                        },
+                        {
+                            to: 32,
+                            lenient: "mi̇lk",
+                        },
+                    ],
+                    [
+                        {
+                            to: 33,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 34,
+                            lenient: "and",
+                        },
+                        {
+                            to: 34,
+                            lenient: "&",
+                        },
+                    ],
+                    [
+                        {
+                            to: 35,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 36,
+                            lenient: "",
+                        },
+                        {
+                            to: 41,
+                            lenient: "a",
+                        },
+                        {
+                            to: 41,
+                            lenient: "an",
+                            type: "typo",
+                            orig: "a",
+                        },
+                        {
+                            to: 41,
+                            lenient: "some",
+                        },
+                    ],
+                    [
+                        {
+                            to: 37,
+                            lenient: "coffee",
+                            orig: "coffee,",
+                        },
+                    ],
+                    [
+                        {
+                            to: 38,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 39,
+                            lenient: "if",
+                        },
+                        {
+                            to: 39,
+                            lenient: "i̇f",
+                        },
+                        {
+                            to: 39,
+                            lenient: "ıf",
+                        },
+                        {
+                            to: 70,
+                            lenient: "please",
+                            orig: "please.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 40,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 26,
+                            lenient: "you",
+                        },
+                    ],
+                    [
+                        {
+                            to: 36,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 43,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 30,
+                            lenient: "s",
+                            auto: true,
+                        },
+                    ],
+                    [
+                        {
+                            to: 45,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 30,
+                            lenient: "s",
+                            type: "typo",
+                            auto: true,
+                        },
+                    ],
+                    [
+                        {
+                            to: 47,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 48,
+                            lenient: "and",
+                        },
+                        {
+                            to: 48,
+                            lenient: "&",
+                        },
+                        {
+                            to: 48,
+                            lenient: "with",
+                        },
+                        {
+                            to: 48,
+                            lenient: "wi̇th",
+                        },
+                        {
+                            to: 48,
+                            lenient: "wıth",
+                        },
+                    ],
+                    [
+                        {
+                            to: 49,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 50,
+                            lenient: "cow",
+                        },
+                        {
+                            to: 24,
+                            lenient: "cow",
+                        },
+                        {
+                            to: 50,
+                            lenient: "cow's",
+                        },
+                        {
+                            to: 50,
+                            lenient: "cow's",
+                            orig: "cow’s",
+                        },
+                        {
+                            to: 54,
+                            lenient: "cow'",
+                            auto: true,
+                        },
+                        {
+                            to: 54,
+                            lenient: "cow'",
+                            orig: "cow’",
+                        },
+                        {
+                            to: 56,
+                            lenient: "cow",
+                            type: "typo",
+                            auto: true,
+                        },
+                        {
+                            to: 24,
+                            lenient: "cow's",
+                        },
+                        {
+                            to: 24,
+                            lenient: "cow's",
+                            orig: "cow’s",
+                        },
+                        {
+                            to: 58,
+                            lenient: "cow'",
+                            auto: true,
+                        },
+                        {
+                            to: 58,
+                            lenient: "cow'",
+                            orig: "cow’",
+                        },
+                        {
+                            to: 60,
+                            lenient: "cow",
+                            type: "typo",
+                            auto: true,
+                        },
+                        {
+                            to: 52,
+                            lenient: "milk",
+                            orig: "milk,",
+                        },
+                        {
+                            to: 52,
+                            lenient: "mılk",
+                            orig: "mılk,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 52,
+                            lenient: "milk",
+                            orig: "mılk,",
+                            type: "accent",
+                        },
+                        {
+                            to: 52,
+                            lenient: "mi̇lk",
+                            orig: "mi̇lk,",
+                        },
+                        {
+                            to: 52,
+                            lenient: "mılk",
+                        },
+                        {
+                            to: 52,
+                            lenient: "mi̇lk",
+                        },
+                        {
+                            to: 26,
+                            lenient: "milk",
+                            orig: "milk,",
+                        },
+                        {
+                            to: 26,
+                            lenient: "mılk",
+                            orig: "mılk,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 26,
+                            lenient: "milk",
+                            orig: "mılk,",
+                            type: "accent",
+                        },
+                        {
+                            to: 26,
+                            lenient: "mi̇lk",
+                            orig: "mi̇lk,",
+                        },
+                        {
+                            to: 26,
+                            lenient: "mılk",
+                        },
+                        {
+                            to: 26,
+                            lenient: "mi̇lk",
+                        },
+                    ],
+                    [
+                        {
+                            to: 51,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 52,
+                            lenient: "milk",
+                            orig: "milk,",
+                        },
+                        {
+                            to: 52,
+                            lenient: "mılk",
+                            orig: "mılk,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 52,
+                            lenient: "milk",
+                            orig: "mılk,",
+                            type: "accent",
+                        },
+                        {
+                            to: 52,
+                            lenient: "mi̇lk",
+                            orig: "mi̇lk,",
+                        },
+                        {
+                            to: 52,
+                            lenient: "mılk",
+                        },
+                        {
+                            to: 52,
+                            lenient: "mi̇lk",
+                        },
+                    ],
+                    [
+                        {
+                            to: 53,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 39,
+                            lenient: "if",
+                        },
+                        {
+                            to: 39,
+                            lenient: "i̇f",
+                        },
+                        {
+                            to: 39,
+                            lenient: "ıf",
+                        },
+                    ],
+                    [
+                        {
+                            to: 55,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 50,
+                            lenient: "s",
+                            auto: true,
+                        },
+                    ],
+                    [
+                        {
+                            to: 57,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 50,
+                            lenient: "s",
+                            type: "typo",
+                            auto: true,
+                        },
+                    ],
+                    [
+                        {
+                            to: 59,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: "s",
+                            auto: true,
+                        },
+                    ],
+                    [
+                        {
+                            to: 61,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: "s",
+                            type: "typo",
+                            auto: true,
+                        },
+                    ],
+                    [
+                        {
+                            to: 63,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 30,
+                            lenient: "cow",
+                        },
+                        {
+                            to: 30,
+                            lenient: "cow's",
+                        },
+                        {
+                            to: 30,
+                            lenient: "cow's",
+                            orig: "cow’s",
+                        },
+                        {
+                            to: 42,
+                            lenient: "cow'",
+                            auto: true,
+                        },
+                        {
+                            to: 42,
+                            lenient: "cow'",
+                            orig: "cow’",
+                        },
+                        {
+                            to: 44,
+                            lenient: "cow",
+                            type: "typo",
+                            auto: true,
+                        },
+                        {
+                            to: 32,
+                            lenient: "milk",
+                        },
+                        {
+                            to: 32,
+                            lenient: "mılk",
+                        },
+                        {
+                            to: 32,
+                            lenient: "mi̇lk",
+                        },
+                        {
+                            to: 46,
+                            lenient: "coffee",
+                        },
+                    ],
+                    [
+                        {
+                            to: 65,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 66,
+                            lenient: "me",
+                        },
+                    ],
+                    [
+                        {
+                            to: 67,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 63,
+                            lenient: "",
+                        },
+                        {
+                            to: 62,
+                            lenient: "a",
+                        },
+                        {
+                            to: 62,
+                            lenient: "an",
+                            type: "typo",
+                            orig: "a",
+                        },
+                        {
+                            to: 62,
+                            lenient: "some",
+                        },
+                    ],
+                    [
+                        {
+                            to: 69,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 66,
+                            lenient: "us",
+                        },
+                    ],
+                    [],
+                ],
+                language: "en",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "f21a429c717dd93b9f5723f20d87ab8a",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "0d9244f805fd55af1281a1bcb1a2cba6",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "55f383178cf0fdc463ef1ebf91bd288d",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "d1bbffb5492216c3c1aee1ce49ef79c7",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Vui",
+                    hintTable: {
+                        headers: ["vui", "lòng", "cho"],
+                        rows: [
+                            [
+                                {
+                                    colspan: 3,
+                                    hint: "please",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 2,
+                                    hint: "please",
+                                },
+                                {
+                                    colspan: 1,
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "happy",
+                                },
+                                {
+                                    colspan: 2,
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "nice",
+                                },
+                                {
+                                    colspan: 2,
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "fun",
+                                },
+                                {
+                                    colspan: 2,
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "lòng",
+                    hintTable: {
+                        headers: ["vui", "lòng", "cho"],
+                        rows: [
+                            [
+                                {
+                                    colspan: 3,
+                                    hint: "please",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 2,
+                                    hint: "please",
+                                },
+                                {
+                                    colspan: 1,
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "cho",
+                    hintTable: {
+                        headers: ["vui", "lòng", "cho"],
+                        rows: [
+                            [
+                                {
+                                    colspan: 3,
+                                    hint: "please",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 2,
+                                },
+                                {
+                                    colspan: 1,
+                                    hint: "please",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 2,
+                                },
+                                {
+                                    colspan: 1,
+                                    hint: "give",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 2,
+                                },
+                                {
+                                    colspan: 1,
+                                    hint: "for",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "cà",
+                    hintTable: {
+                        headers: ["cà", "phê"],
+                        rows: [
+                            [
+                                {
+                                    colspan: 2,
+                                    hint: "coffee",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "phê",
+                    hintTable: {
+                        headers: ["cà", "phê"],
+                        rows: [
+                            [
+                                {
+                                    colspan: 2,
+                                    hint: "coffee",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "và",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "and",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "sữa",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "milk",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "(the) milk",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ".",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/danh/2b6ba2659665ed9502c3b29f13a414dc",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/244cf36bd8b473a3e76edfd4b917b9cb",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/244cf36bd8b473a3e76edfd4b917b9cb",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/3749d548da7d349c89c158483beaff29",
+                },
+                gender: "male",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Junior_CORRECT_Cropped.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Junior_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Junior_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "55127596633e4d32922f239e7270a55b",
+            challengeResponseTrackingProperties: {
+                best_solution: "Coffee and milk, please.",
+                level_session_index: 0,
+                grading_graph_size: 6258,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 4.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.6586037,
+                content_length: 24.0,
+                tagged_kc_ids: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.6586037,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 24,
+                    best_solution: "Coffee and milk, please.",
+                    num_correct_answer_tokens: 4,
+                },
+                highlight: [],
+                indicator_type: {
+                    name: "HARD_CHALLENGE",
+                },
+                sentence: "Vui lòng cho cà phê và sữa.",
+                solution_key: "a59d51fe862c3ba74a3ac23cf3a51180",
+                source_language: "vi",
+                target_language: "en",
+                tokens: ["Coffee", "and", "milk", "please"],
+                translation: "Coffee and milk, please.",
+                wrong_tokens: ["iced", "yes", "or", "noodles"],
+                text: "Vui lòng cho cà phê và sữa.",
+                specific_type: "reverse_tap",
+                lexeme_ids_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "a59d51fe862c3ba74a3ac23cf3a51180",
+            sentenceDiscussionId: "a59d51fe862c3ba74a3ac23cf3a51180",
+            challengeGeneratorIdentifier: {
+                specificType: "reverse_tap",
+                generatorId: "a59d51fe862c3ba74a3ac23cf3a51180",
+            },
+            indicatorType: "HARD_CHALLENGE",
+        },
+    ],
+    easierAdaptiveChallenges: [
+        {
+            prompt: "Milk, please.",
+            correctSolutions: ["Vui lòng cho sữa."],
+            compactTranslations: [
+                "Vui lòng cho sữa.",
+                "[Xin/] [vui lòng/làm ơn/cảm phiền] [hãy/] [cho/lấy cho/cho xin/cho tôi/cho tôi xin/lấy cho tôi/đem cho tôi/mang cho tôi/mang ra cho tôi/] [một/1/] [cốc/ly/tách/] sữa [nhé/nha/ạ/].",
+                "[Cho/Lấy cho/Xin hãy cho/Xin hãy lấy cho/Cho xin/Cho tôi xin/Lấy cho tôi/Xin hãy lấy cho tôi/Đem cho tôi/Mang cho tôi/Mang ra cho tôi/Đem ra cho tôi/] [một/1/] [cốc/ly/tách/] sữa [nhé/nha/ạ/], [xin/] [vui lòng/làm ơn/cảm phiền].",
+                "[Một/1/] [cốc/ly/tách/] sữa [nhé/nha/ạ/đi/đi nhé/đi ạ].",
+                "[Xin hãy/Hãy/] [cho/cho tôi/lấy cho tôi/lấy tôi/đem cho tôi/mang cho tôi/cho tôi xin] [một/1/] [cốc/ly/tách/] sữa [nhé/nha/ạ/].",
+            ],
+            correctTokens: ["Vui", "lòng", "cho", "sữa"],
+            wrongTokens: ["trà", "nước", "và", "nóng"],
+            choices: [
+                {
+                    text: "Vui",
+                },
+                {
+                    text: "lòng",
+                },
+                {
+                    text: "cho",
+                },
+                {
+                    text: "sữa",
+                },
+                {
+                    text: "trà",
+                },
+                {
+                    text: "nước",
+                },
+                {
+                    text: "và",
+                },
+                {
+                    text: "nóng",
+                },
+            ],
+            correctIndices: [0, 1, 2, 3],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "",
+                        },
+                        {
+                            to: 33,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 35,
+                            lenient: "",
+                        },
+                        {
+                            to: 54,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 56,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 58,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 60,
+                            lenient: "lấy",
+                            orig: "Lấy",
+                        },
+                        {
+                            to: 62,
+                            lenient: "lấy",
+                            orig: "Lấy",
+                        },
+                        {
+                            to: 62,
+                            lenient: "mang",
+                            orig: "Mang",
+                        },
+                        {
+                            to: 66,
+                            lenient: "mang",
+                            orig: "Mang",
+                        },
+                        {
+                            to: 68,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 70,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 74,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 62,
+                            lenient: "đem",
+                            orig: "Đem",
+                        },
+                        {
+                            to: 66,
+                            lenient: "đem",
+                            orig: "Đem",
+                        },
+                        {
+                            to: 78,
+                            lenient: "vui",
+                            orig: "Vui",
+                        },
+                        {
+                            to: 84,
+                            lenient: "",
+                        },
+                        {
+                            to: 85,
+                            lenient: "hãy",
+                            orig: "Hãy",
+                        },
+                        {
+                            to: 87,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                        {
+                            to: 89,
+                            lenient: "",
+                        },
+                        {
+                            to: 99,
+                            lenient: "1",
+                        },
+                        {
+                            to: 99,
+                            lenient: "một",
+                            orig: "Một",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 29,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 31,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: "phiền",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: "",
+                        },
+                        {
+                            to: 28,
+                            lenient: "hãy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 8,
+                            lenient: "",
+                        },
+                        {
+                            to: 15,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 16,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 18,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 20,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 22,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 24,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 24,
+                            lenient: "mang",
+                        },
+                        {
+                            to: 26,
+                            lenient: "mang",
+                        },
+                        {
+                            to: 24,
+                            lenient: "đem",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: "",
+                        },
+                        {
+                            to: 14,
+                            lenient: "1",
+                        },
+                        {
+                            to: 14,
+                            lenient: "một",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "",
+                        },
+                        {
+                            to: 13,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 13,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 13,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "",
+                            orig: ".",
+                        },
+                        {
+                            to: 101,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 101,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 101,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 8,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 17,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 19,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 20,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 21,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 23,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 25,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 27,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: "ra",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 30,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: "ơn",
+                        },
+                    ],
+                    [
+                        {
+                            to: 32,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 34,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 29,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 31,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 36,
+                            lenient: "",
+                        },
+                        {
+                            to: 52,
+                            lenient: "1",
+                        },
+                        {
+                            to: 52,
+                            lenient: "một",
+                        },
+                    ],
+                    [
+                        {
+                            to: 37,
+                            lenient: "",
+                        },
+                        {
+                            to: 50,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 50,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 50,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 38,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 39,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 40,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 47,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 48,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 49,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 48,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 48,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 49,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 49,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 48,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 48,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 49,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 49,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                    ],
+                    [
+                        {
+                            to: 41,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 43,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 45,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 42,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "phiền",
+                            orig: "phiền.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 44,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "ơn",
+                            orig: "ơn.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "lòng",
+                            orig: "lòng.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 48,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 40,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 47,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 51,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 38,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 53,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 51,
+                            lenient: "",
+                        },
+                        {
+                            to: 50,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 50,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 50,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 55,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 53,
+                            lenient: "",
+                        },
+                        {
+                            to: 52,
+                            lenient: "1",
+                        },
+                        {
+                            to: 52,
+                            lenient: "một",
+                        },
+                    ],
+                    [
+                        {
+                            to: 57,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 58,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 59,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 61,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 63,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 64,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 65,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 54,
+                            lenient: "tôi",
+                        },
+                    ],
+                    [
+                        {
+                            to: 67,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "ra",
+                        },
+                    ],
+                    [
+                        {
+                            to: 69,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 60,
+                            lenient: "hãy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 71,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 72,
+                            lenient: "hãy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 73,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 60,
+                            lenient: "lấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 75,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 76,
+                            lenient: "hãy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 77,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "lấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 79,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 80,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 81,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 82,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 83,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "sữa",
+                            orig: "sữa.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 16,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 18,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 24,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 16,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 24,
+                            lenient: "mang",
+                        },
+                        {
+                            to: 24,
+                            lenient: "đem",
+                        },
+                    ],
+                    [
+                        {
+                            to: 86,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 16,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 18,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 24,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 16,
+                            lenient: "lấy",
+                        },
+                        {
+                            to: 24,
+                            lenient: "mang",
+                        },
+                        {
+                            to: 24,
+                            lenient: "đem",
+                        },
+                    ],
+                    [
+                        {
+                            to: 88,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 85,
+                            lenient: "hãy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 90,
+                            lenient: "",
+                        },
+                        {
+                            to: 97,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 97,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 97,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 91,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 92,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 101,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 93,
+                            lenient: "đi",
+                        },
+                        {
+                            to: 95,
+                            lenient: "đi",
+                        },
+                        {
+                            to: 101,
+                            lenient: "đi",
+                            orig: "đi.",
+                        },
+                        {
+                            to: 101,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 96,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 101,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 98,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 91,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 100,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 98,
+                            lenient: "",
+                        },
+                        {
+                            to: 97,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 97,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 97,
+                            lenient: "tách",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "55f383178cf0fdc463ef1ebf91bd288d",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "d1bbffb5492216c3c1aee1ce49ef79c7",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Milk",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/junioren/0619d1c854b21dc27c8b9e88ed4a2c73",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "sữa",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ",",
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "please",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/junioren/7aa710047b2cef3d7b254fdd36c44805",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng cho",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "nhé",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ".",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/junioren/69917102b4bced187b930a2a4f522ffa",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/244cf36bd8b473a3e76edfd4b917b9cb",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/244cf36bd8b473a3e76edfd4b917b9cb",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/3749d548da7d349c89c158483beaff29",
+                },
+                gender: "MALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Junior_CORRECT_Cropped_Excited.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Junior_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Junior_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "57d623b98802478a9fe02ba8f746d0b8",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 5892,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 4.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.7066036,
+                content_length: 13.0,
+                tagged_kc_ids: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.7066036,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 13,
+                    num_correct_answer_tokens: 4,
+                },
+                highlight: [],
+                indicator_type: {
+                    name: "EASY_CHALLENGE",
+                },
+                sentence: "Milk, please.",
+                solution_key: "ce7dd20c9ce3b6c769edc8037154c732",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Vui", "lòng", "cho", "sữa"],
+                translation: "Vui lòng cho sữa.",
+                wrong_tokens: ["trà", "nước", "và", "nóng"],
+                text: "Milk, please.",
+                specific_type: "tap",
+                lexeme_ids_to_update: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "ce7dd20c9ce3b6c769edc8037154c732",
+            sentenceDiscussionId: "ce7dd20c9ce3b6c769edc8037154c732",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "ce7dd20c9ce3b6c769edc8037154c732",
+            },
+            indicatorType: "EASY_CHALLENGE",
+        },
+        {
+            prompt: "Coffee and milk, please.",
+            correctSolutions: ["Vui lòng cho cà phê và sữa."],
+            compactTranslations: [
+                "Vui lòng cho cà phê và sữa.",
+                "[Cà phê/Cafe] [và/với/cùng với/với cả] sữa [nhé/nha/ạ/đi/đi nhé/đi ạ].",
+                "[Cho/Lấy cho/] [cốc/ly/tách/] [cà phê/cafe] [và/với/cùng với/với cả] sữa [nhé/nha/ạ/], [xin/] [vui lòng/làm ơn/cảm phiền].",
+                "[Xin/] [vui lòng/làm ơn/cảm phiền/] [cho/lấy cho/cho xin] [tôi/tớ/mình/] [cốc/ly/tách/] [cà phê/cafe] [và/với/cùng với/với cả] sữa [nhé/nha/ạ/].",
+            ],
+            correctTokens: ["Vui", "lòng", "cho", "cà", "phê", "và", "sữa"],
+            wrongTokens: ["chào", "trà", "Xin", "cơm"],
+            choices: [
+                {
+                    text: "Vui",
+                },
+                {
+                    text: "lòng",
+                },
+                {
+                    text: "cho",
+                },
+                {
+                    text: "cà",
+                },
+                {
+                    text: "phê",
+                },
+                {
+                    text: "và",
+                },
+                {
+                    text: "sữa",
+                },
+                {
+                    text: "chào",
+                },
+                {
+                    text: "trà",
+                },
+                {
+                    text: "Xin",
+                },
+                {
+                    text: "cơm",
+                },
+            ],
+            correctIndices: [0, 1, 2, 3, 4, 5, 6],
+            sourceLanguage: "en",
+            targetLanguage: "vi",
+            grader: {
+                version: 0,
+                vertices: [
+                    [
+                        {
+                            to: 1,
+                            lenient: "",
+                        },
+                    ],
+                    [
+                        {
+                            to: 2,
+                            lenient: "vui",
+                            orig: "Vui",
+                        },
+                        {
+                            to: 14,
+                            lenient: "",
+                        },
+                        {
+                            to: 40,
+                            lenient: "cho",
+                            orig: "Cho",
+                        },
+                        {
+                            to: 42,
+                            lenient: "lấy",
+                            orig: "Lấy",
+                        },
+                        {
+                            to: 44,
+                            lenient: "cafe",
+                            orig: "Cafe",
+                        },
+                        {
+                            to: 58,
+                            lenient: "cà",
+                            orig: "Cà",
+                        },
+                        {
+                            to: 60,
+                            lenient: "",
+                        },
+                        {
+                            to: 92,
+                            lenient: "xin",
+                            orig: "Xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 3,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 4,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 5,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 6,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 7,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 8,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 9,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 10,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 11,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 12,
+                            lenient: "và",
+                        },
+                    ],
+                    [
+                        {
+                            to: 13,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "sữa",
+                            orig: "sữa.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 15,
+                            lenient: "",
+                        },
+                        {
+                            to: 38,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 38,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 38,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 36,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 17,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 18,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 20,
+                            lenient: "và",
+                        },
+                        {
+                            to: 20,
+                            lenient: "với",
+                        },
+                        {
+                            to: 34,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 19,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 20,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 21,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 22,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 23,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 31,
+                            lenient: "",
+                            orig: ",",
+                        },
+                        {
+                            to: 32,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 33,
+                            lenient: "nha",
+                            orig: "nha,",
+                        },
+                        {
+                            to: 32,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 32,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 33,
+                            lenient: "nhé",
+                            orig: "nhé,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 33,
+                            lenient: "nhe",
+                            orig: "nhé,",
+                            type: "accent",
+                        },
+                        {
+                            to: 32,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 32,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 32,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 32,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 32,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 33,
+                            lenient: "ạ",
+                            orig: "ạ,",
+                        },
+                        {
+                            weight: 1.0e-12,
+                            to: 33,
+                            lenient: "a",
+                            orig: "ạ,",
+                            type: "accent",
+                        },
+                        {
+                            to: 33,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 33,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                        {
+                            to: 33,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ,",
+                        },
+                    ],
+                    [
+                        {
+                            to: 25,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 27,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 29,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 26,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "phiền",
+                            orig: "phiền.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 28,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "ơn",
+                            orig: "ơn.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 30,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "lòng",
+                            orig: "lòng.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 32,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 24,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 31,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 35,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 20,
+                            lenient: "cả",
+                        },
+                    ],
+                    [
+                        {
+                            to: 37,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 39,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 16,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 36,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 41,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 39,
+                            lenient: "",
+                        },
+                        {
+                            to: 38,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 38,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 38,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 43,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 40,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 45,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 46,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 48,
+                            lenient: "và",
+                        },
+                        {
+                            to: 48,
+                            lenient: "với",
+                        },
+                        {
+                            to: 56,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 47,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 48,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 49,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 50,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 51,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 52,
+                            lenient: "đi",
+                        },
+                        {
+                            to: 54,
+                            lenient: "đi",
+                        },
+                        {
+                            to: 94,
+                            lenient: "đi",
+                            orig: "đi.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 53,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 55,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 57,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 48,
+                            lenient: "cả",
+                        },
+                    ],
+                    [
+                        {
+                            to: 59,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 44,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 61,
+                            lenient: "",
+                        },
+                        {
+                            to: 84,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 88,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 90,
+                            lenient: "vui",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 80,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 82,
+                            lenient: "lấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 63,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 64,
+                            lenient: "",
+                        },
+                        {
+                            to: 79,
+                            lenient: "mình",
+                        },
+                        {
+                            to: 79,
+                            lenient: "tôi",
+                        },
+                        {
+                            to: 79,
+                            lenient: "tớ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 65,
+                            lenient: "",
+                        },
+                        {
+                            to: 78,
+                            lenient: "cốc",
+                        },
+                        {
+                            to: 78,
+                            lenient: "ly",
+                        },
+                        {
+                            to: 78,
+                            lenient: "tách",
+                        },
+                    ],
+                    [
+                        {
+                            to: 66,
+                            lenient: "cafe",
+                        },
+                        {
+                            to: 76,
+                            lenient: "cà",
+                        },
+                    ],
+                    [
+                        {
+                            to: 67,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 68,
+                            lenient: "cùng",
+                        },
+                        {
+                            to: 70,
+                            lenient: "và",
+                        },
+                        {
+                            to: 70,
+                            lenient: "với",
+                        },
+                        {
+                            to: 74,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 69,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 70,
+                            lenient: "với",
+                        },
+                    ],
+                    [
+                        {
+                            to: 71,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 72,
+                            lenient: "sữa",
+                        },
+                    ],
+                    [
+                        {
+                            to: 73,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 94,
+                            lenient: "",
+                            orig: ".",
+                        },
+                        {
+                            to: 94,
+                            lenient: "nha",
+                            orig: "nha.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "nhé",
+                            orig: "nhé.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "ạ",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aw",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "aa",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                        {
+                            to: 94,
+                            lenient: "as",
+                            type: "typo",
+                            orig: "ạ.",
+                        },
+                    ],
+                    [
+                        {
+                            to: 75,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 70,
+                            lenient: "cả",
+                        },
+                    ],
+                    [
+                        {
+                            to: 77,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 66,
+                            lenient: "phê",
+                        },
+                    ],
+                    [
+                        {
+                            to: 65,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 64,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 81,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "xin",
+                        },
+                    ],
+                    [
+                        {
+                            to: 83,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "cho",
+                        },
+                    ],
+                    [
+                        {
+                            to: 85,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 86,
+                            lenient: "phiền",
+                        },
+                    ],
+                    [
+                        {
+                            to: 87,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 62,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 80,
+                            lenient: "cho",
+                        },
+                        {
+                            to: 82,
+                            lenient: "lấy",
+                        },
+                    ],
+                    [
+                        {
+                            to: 89,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 86,
+                            lenient: "ơn",
+                        },
+                    ],
+                    [
+                        {
+                            to: 91,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 86,
+                            lenient: "lòng",
+                        },
+                    ],
+                    [
+                        {
+                            to: 93,
+                            lenient: " ",
+                        },
+                    ],
+                    [
+                        {
+                            to: 87,
+                            lenient: "",
+                        },
+                        {
+                            to: 84,
+                            lenient: "cảm",
+                        },
+                        {
+                            to: 88,
+                            lenient: "làm",
+                        },
+                        {
+                            to: 90,
+                            lenient: "vui",
+                        },
+                    ],
+                    [],
+                ],
+                language: "vi",
+                whitespaceDelimited: true,
+            },
+            taggedKcIds: [
+                {
+                    legacyId: "f21a429c717dd93b9f5723f20d87ab8a",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "0d9244f805fd55af1281a1bcb1a2cba6",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "55f383178cf0fdc463ef1ebf91bd288d",
+                    kcTypeStr: "lex",
+                },
+                {
+                    legacyId: "d1bbffb5492216c3c1aee1ce49ef79c7",
+                    kcTypeStr: "lex",
+                },
+            ],
+            tokens: [
+                {
+                    value: "Coffee",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/vikramen/0794a713fb97748c8718fac31b6f6ef3",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "cà phê",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "and",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/vikramen/6b325a5e0286e69cbd90c426ed11a726",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "và",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "với",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "còn",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "milk",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/vikramen/f3ee2aa9277d81022140c9632a29e8cc",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "sữa",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ",",
+                },
+                {
+                    value: " ",
+                },
+                {
+                    value: "please",
+                    tts: "https://d1vq87e9lcf771.cloudfront.net/vikramen/492e3a72e64a0e8c8823e0fdfcf6a889",
+                    hintTable: {
+                        headers: [],
+                        rows: [
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng cho",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "vui lòng",
+                                },
+                            ],
+                            [
+                                {
+                                    colspan: 1,
+                                    hint: "nhé",
+                                },
+                            ],
+                        ],
+                    },
+                },
+                {
+                    value: ".",
+                },
+            ],
+            tts: "https://d1vq87e9lcf771.cloudfront.net/vikramen/e2aec73a5e0f5d70ac56fa6a10857a47",
+            character: {
+                url: "https://d2pur3iezf4d1j.cloudfront.net/images/61e19bb4a1ff1d94e58d58b33db58c36",
+                image: {
+                    pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/61e19bb4a1ff1d94e58d58b33db58c36",
+                    svg: "https://d2pur3iezf4d1j.cloudfront.net/images/52a5a774c4de18f4a4e8c91d91788347",
+                },
+                gender: "MALE",
+                correctAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Vikram_CORRECT_Cropped_SpiritFingers.json",
+                incorrectAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Dan_INCORRECT_Cropped.json",
+                idleAnimation:
+                    "https://simg-ssl.duolingo.com/lottie/Vikram_IDLE_Cropped.json",
+            },
+            type: "translate",
+            id: "a990678d77984f4e9ba600117aec46f6",
+            challengeResponseTrackingProperties: {
+                level_session_index: 0,
+                grading_graph_size: 5647,
+                num_tap_distractors: 4.0,
+                birdbrain_source: "birdbrain_v2",
+                num_correct_answer_tokens: 7.0,
+                generation_timestamp: 1679724754975,
+                is_v2: true,
+                birdbrain_probability: 0.6383798,
+                content_length: 24.0,
+                tagged_kc_ids: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+            },
+            metadata: {
+                challenge_construction_insights: {
+                    birdbrain_probability: 0.6383798,
+                    birdbrain_source: "birdbrain_v2",
+                    num_tap_distractors: 4,
+                    content_length: 24,
+                    num_correct_answer_tokens: 7,
+                },
+                highlight: [],
+                indicator_type: {
+                    name: "EASY_CHALLENGE",
+                },
+                sentence: "Coffee and milk, please.",
+                solution_key: "a5d8e5b6271116bf4fa16eee26c00b39",
+                source_language: "en",
+                target_language: "vi",
+                tokens: ["Vui", "lòng", "cho", "cà", "phê", "và", "sữa"],
+                translation: "Vui lòng cho cà phê và sữa.",
+                wrong_tokens: ["chào", "trà", "Xin", "cơm"],
+                text: "Coffee and milk, please.",
+                specific_type: "tap",
+                lexeme_ids_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                type: "translate",
+                lexemes_to_update: [
+                    "f21a429c717dd93b9f5723f20d87ab8a",
+                    "0d9244f805fd55af1281a1bcb1a2cba6",
+                    "55f383178cf0fdc463ef1ebf91bd288d",
+                    "d1bbffb5492216c3c1aee1ce49ef79c7",
+                ],
+                generic_lexeme_map: {},
+                num_comments: 0,
+                learning_language: "en",
+                from_language: "vi",
+            },
+            newWords: [],
+            progressUpdates: [],
+            sentenceId: "a5d8e5b6271116bf4fa16eee26c00b39",
+            sentenceDiscussionId: "a5d8e5b6271116bf4fa16eee26c00b39",
+            challengeGeneratorIdentifier: {
+                specificType: "tap",
+                generatorId: "a5d8e5b6271116bf4fa16eee26c00b39",
+            },
+            indicatorType: "EASY_CHALLENGE",
+        },
+    ],
+    mistakesReplacementChallenges: [],
+    adaptiveInterleavedChallenges: {
+        challenges: [
+            {
+                prompt: "Coffee and milk!",
+                correctSolutions: ["Cà phê và sữa!"],
+                compactTranslations: [
+                    "Cà phê và sữa!",
+                    "[Cà phê/Cafe/Cho cà phê] [và/với/cùng với/với cả] sữa [đi/nhé/]!",
+                ],
+                correctTokens: ["Cà", "phê", "và", "sữa"],
+                wrongTokens: ["tạm biệt", "Vâng", "chào", "Vui"],
+                choices: [
+                    {
+                        text: "Cà",
+                    },
+                    {
+                        text: "phê",
+                    },
+                    {
+                        text: "và",
+                    },
+                    {
+                        text: "sữa",
+                    },
+                    {
+                        text: "tạm biệt",
+                    },
+                    {
+                        text: "Vâng",
+                    },
+                    {
+                        text: "chào",
+                    },
+                    {
+                        text: "Vui",
+                    },
+                ],
+                correctIndices: [0, 1, 2, 3],
+                sourceLanguage: "en",
+                targetLanguage: "vi",
+                grader: {
+                    version: 0,
+                    vertices: [
+                        [
+                            {
+                                to: 1,
+                                lenient: "",
+                            },
+                        ],
+                        [
+                            {
+                                to: 2,
+                                lenient: "cafe",
+                                orig: "Cafe",
+                            },
+                            {
+                                to: 12,
+                                lenient: "cho",
+                                orig: "Cho",
+                            },
+                            {
+                                to: 14,
+                                lenient: "cà",
+                                orig: "Cà",
+                            },
+                            {
+                                to: 16,
+                                lenient: "cà",
+                                orig: "Cà",
+                            },
+                        ],
+                        [
+                            {
+                                to: 3,
+                                lenient: " ",
+                            },
+                        ],
+                        [
+                            {
+                                to: 4,
+                                lenient: "cùng",
+                            },
+                            {
+                                to: 6,
+                                lenient: "và",
+                            },
+                            {
+                                to: 6,
+                                lenient: "với",
+                            },
+                            {
+                                to: 10,
+                                lenient: "với",
+                            },
+                        ],
+                        [
+                            {
+                                to: 5,
+                                lenient: " ",
+                            },
+                        ],
+                        [
+                            {
+                                to: 6,
+                                lenient: "với",
+                            },
+                        ],
+                        [
+                            {
+                                to: 7,
+                                lenient: " ",
+                            },
+                        ],
+                        [
+                            {
+                                to: 8,
+                                lenient: "sữa",
+                            },
+                        ],
+                        [
+                            {
+                                to: 9,
+                                lenient: " ",
+                            },
+                        ],
+                        [
+                            {
+                                to: 22,
+                                lenient: "",
+                                orig: "!",
+                            },
+                            {
+                                to: 22,
+                                lenient: "nhé",
+                                orig: "nhé!",
+                            },
+                            {
+                                to: 22,
+                                lenient: "đi",
+                                orig: "đi!",
+                            },
+                        ],
+                        [
+                            {
+                                to: 11,
+                                lenient: " ",
+                            },
+                        ],
+                        [
+                            {
+                                to: 6,
+                                lenient: "cả",
+                            },
+                        ],
+                        [
+                            {
+                                to: 13,
+                                lenient: " ",
+                            },
+                        ],
+                        [
+                            {
+                                to: 14,
+                                lenient: "cà",
+                            },
+                        ],
+                        [
+                            {
+                                to: 15,
+                                lenient: " ",
+                            },
+                        ],
+                        [
+                            {
+                                to: 2,
+                                lenient: "phê",
+                            },
+                        ],
+                        [
+                            {
+                                to: 17,
+                                lenient: " ",
+                            },
+                        ],
+                        [
+                            {
+                                to: 18,
+                                lenient: "phê",
+                            },
+                        ],
+                        [
+                            {
+                                to: 19,
+                                lenient: " ",
+                            },
+                        ],
+                        [
+                            {
+                                to: 20,
+                                lenient: "và",
+                            },
+                        ],
+                        [
+                            {
+                                to: 21,
+                                lenient: " ",
+                            },
+                        ],
+                        [
+                            {
+                                to: 22,
+                                lenient: "sữa",
+                                orig: "sữa!",
+                            },
+                        ],
+                        [],
+                    ],
+                    language: "vi",
+                    whitespaceDelimited: true,
+                },
+                taggedKcIds: [
+                    {
+                        legacyId: "f21a429c717dd93b9f5723f20d87ab8a",
+                        kcTypeStr: "lex",
+                    },
+                    {
+                        legacyId: "0d9244f805fd55af1281a1bcb1a2cba6",
+                        kcTypeStr: "lex",
+                    },
+                    {
+                        legacyId: "55f383178cf0fdc463ef1ebf91bd288d",
+                        kcTypeStr: "lex",
+                    },
+                ],
+                tokens: [
+                    {
+                        value: "Coffee",
+                        tts: "https://d1vq87e9lcf771.cloudfront.net/falstaffen/a4c54cfc8fc48b719a8e6178ac8828f8",
+                        hintTable: {
+                            headers: [],
+                            rows: [
+                                [
+                                    {
+                                        colspan: 1,
+                                        hint: "cà phê",
+                                    },
+                                ],
+                            ],
+                        },
+                    },
+                    {
+                        value: " ",
+                    },
+                    {
+                        value: "and",
+                        tts: "https://d1vq87e9lcf771.cloudfront.net/falstaffen/5fbd681b7a4362f8f9cc41a8d822fb71",
+                        hintTable: {
+                            headers: [],
+                            rows: [
+                                [
+                                    {
+                                        colspan: 1,
+                                        hint: "và",
+                                    },
+                                ],
+                                [
+                                    {
+                                        colspan: 1,
+                                        hint: "với",
+                                    },
+                                ],
+                                [
+                                    {
+                                        colspan: 1,
+                                        hint: "còn",
+                                    },
+                                ],
+                            ],
+                        },
+                    },
+                    {
+                        value: " ",
+                    },
+                    {
+                        value: "milk",
+                        tts: "https://d1vq87e9lcf771.cloudfront.net/falstaffen/2a82b6b42b77c397ede11097369b7f8a",
+                        hintTable: {
+                            headers: [],
+                            rows: [
+                                [
+                                    {
+                                        colspan: 1,
+                                        hint: "sữa",
+                                    },
+                                ],
+                            ],
+                        },
+                    },
+                    {
+                        value: "!",
+                    },
+                ],
+                tts: "https://d1vq87e9lcf771.cloudfront.net/falstaffen/4200f60eeeb19f985d9a994636d43415",
+                character: {
+                    url: "https://d2pur3iezf4d1j.cloudfront.net/images/51d3bded9ecbd8bf6e9869041c437ba9",
+                    image: {
+                        pdf: "https://d2pur3iezf4d1j.cloudfront.net/images/51d3bded9ecbd8bf6e9869041c437ba9",
+                        svg: "https://d2pur3iezf4d1j.cloudfront.net/images/0f284113af41f7f7296263183701a13b",
+                    },
+                    gender: "MALE",
+                    correctAnimation:
+                        "https://simg-ssl.duolingo.com/lottie/Bear_CORRECT_Cropped.json",
+                    incorrectAnimation:
+                        "https://simg-ssl.duolingo.com/lottie/Bear_INCORRECT_Cropped.json",
+                    idleAnimation:
+                        "https://simg-ssl.duolingo.com/lottie/Falstaff_IDLE_Cropped.json",
+                },
+                type: "translate",
+                id: "eea8de495b804b21ae58d8f4c360e59e",
+                challengeResponseTrackingProperties: {
+                    level_session_index: 0,
+                    grading_graph_size: 983,
+                    num_tap_distractors: 4.0,
+                    num_correct_answer_tokens: 4.0,
+                    generation_timestamp: 1679724754975,
+                    is_v2: true,
+                    tagged_kc_ids: [
+                        "f21a429c717dd93b9f5723f20d87ab8a",
+                        "0d9244f805fd55af1281a1bcb1a2cba6",
+                        "55f383178cf0fdc463ef1ebf91bd288d",
+                    ],
+                },
+                metadata: {
+                    challenge_construction_insights: {
+                        num_tap_distractors: 4,
+                        num_correct_answer_tokens: 4,
+                    },
+                    highlight: ["Coffee", "and", "milk"],
+                    sentence: "Coffee and milk!",
+                    solution_key: "6ec4c45a383e232473e7a4d88be491f3",
+                    source_language: "en",
+                    target_language: "vi",
+                    tokens: ["Cà", "phê", "và", "sữa"],
+                    translation: "Cà phê và sữa!",
+                    wrong_tokens: ["tạm biệt", "Vâng", "chào", "Vui"],
+                    text: "Coffee and milk!",
+                    specific_type: "tap",
+                    lexeme_ids_to_update: [
+                        "f21a429c717dd93b9f5723f20d87ab8a",
+                        "0d9244f805fd55af1281a1bcb1a2cba6",
+                        "55f383178cf0fdc463ef1ebf91bd288d",
+                    ],
+                    type: "translate",
+                    lexemes_to_update: [
+                        "f21a429c717dd93b9f5723f20d87ab8a",
+                        "0d9244f805fd55af1281a1bcb1a2cba6",
+                        "55f383178cf0fdc463ef1ebf91bd288d",
+                    ],
+                    generic_lexeme_map: {},
+                    num_comments: 0,
+                    learning_language: "en",
+                    from_language: "vi",
+                },
+                newWords: ["Coffee", "and", "milk"],
+                progressUpdates: [],
+                sentenceId: "6ec4c45a383e232473e7a4d88be491f3",
+                sentenceDiscussionId: "6ec4c45a383e232473e7a4d88be491f3",
+                challengeGeneratorIdentifier: {
+                    specificType: "tap",
+                    generatorId: "6ec4c45a383e232473e7a4d88be491f3",
+                },
+            },
+        ],
+        harderComboConsecutives: 5,
+        easierComboConsecutives: 1,
+        harderChallengeReplacementIndices: [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+        ],
+        easierChallengeReplacementIndices: [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+        ],
+        speakOrListenReplacementIndices: [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+        ],
+    },
+    metadata: {
+        id: "Nd1v0g9b3JtyAaxL",
+        checkpoint_quiz_elements: [],
+        type: "lesson",
+        target_lexeme_ids: [
+            "55f383178cf0fdc463ef1ebf91bd288d",
+            "f21a429c717dd93b9f5723f20d87ab8a",
+            "ce973b348662dd5828cc1c7b6505b668",
+            "d94aa893b5c536f2a4664637d9bec191",
+            "0d9244f805fd55af1281a1bcb1a2cba6",
+            "d1bbffb5492216c3c1aee1ce49ef79c7",
+        ],
+        teaches_lexeme_ids: [
+            "f21a429c717dd93b9f5723f20d87ab8a",
+            "55f383178cf0fdc463ef1ebf91bd288d",
+            "ce973b348662dd5828cc1c7b6505b668",
+            "d94aa893b5c536f2a4664637d9bec191",
+            "d1bbffb5492216c3c1aee1ce49ef79c7",
+            "0d9244f805fd55af1281a1bcb1a2cba6",
+        ],
+        kc_strength_model_version: 2,
+        pass_strength: 1.3606884152195617,
+        min_strength_increment: 0.1,
+        min_strength_decrement: 0.075,
+        mixture_models: {
+            "55f383178cf0fdc463ef1ebf91bd288d": {},
+            ce973b348662dd5828cc1c7b6505b668: {},
+            "0d9244f805fd55af1281a1bcb1a2cba6": {},
+            d94aa893b5c536f2a4664637d9bec191: {},
+            f21a429c717dd93b9f5723f20d87ab8a: {},
+            d1bbffb5492216c3c1aee1ce49ef79c7: {},
+        },
+        language: "en",
+        from_language: "vi",
+        ui_language: "vi",
+        language_string: "English",
+        tts_enabled: true,
+        skill_id: "5270a313c05e576957c200a745fea658",
+        skill_tree_id: "d0ad5fadbcebad14d0e7656356708486",
+        skill_tree_level: 1,
+        skill_name: "Cơ bản",
+        skill_title: "Cơ bản",
+        skill_index: 1,
+        skill_color: "blue",
+        beginner: true,
+        lesson_number: 1,
+        first_lesson: true,
+        level_index: 0,
+        level_session_index: 0,
+        hints_url: "d2.duolingo.com/api/1/dictionary/hints",
+        experiments: [
+            "linfra_cds_built_summ_listen_tap_v1",
+            "linfra_cds_built_summ_listen_complete_1",
+            "linfra_cds_built_summ_listen_v1",
+            "linfra_cds_built_summ_listen_speak_v1",
+            "linfra_cds_built_summ_speak_v1",
+        ],
+        experiments_with_treatment_contexts: {
+            linfra_cds_built_summ_listen_tap_v1: ["postFilter", "preFilter"],
+            linfra_cds_built_summ_listen_complete_1: ["preFilter"],
+            linfra_cds_built_summ_listen_v1: ["preFilter"],
+            linfra_cds_built_summ_listen_speak_v1: ["preFilter"],
+            linfra_cds_built_summ_speak_v1: ["preFilter"],
+        },
+        is_restore: false,
+        session_construction_insights: {
+            challenge_pool_before_picking: [],
+            rejected_challenges_info: [],
+            num_challenges_after_default_quality_score_filtering: 18,
+            picked_challenges_info: {
+                challenges: [],
+                parent_target_kcids: {},
+            },
+        },
+        show_best_translation_in_grading_ribbon: true,
+    },
+    ttsAnnotations: {
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/08a90e2588c74334d32b02f5f5e50dd3":
+            {
+                visemes:
+                    "120\t96\t234\n103\t330\t195\n113\t525\t390\n100\t926\t729",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/beaen/d911b99586407285544c767b92982685":
+            {
+                visemes: "102\t128\t140\n103\t268\t421\n100\t700\t715",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/vikramen/e2aec73a5e0f5d70ac56fa6a10857a47":
+            {
+                visemes:
+                    "118\t128\t101\n112\t229\t156\n109\t385\t78\n105\t463\t148\n101\t612\t54\n105\t667\t54\n105\t721\t23\n107\t745\t54\n103\t799\t54\n108\t854\t171\n118\t1026\t101\n107\t1128\t242\n108\t1370\t78\n105\t1448\t234\n113\t1682\t257\n100\t1950\t737",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/9fe82aa2a1c2e7d680519ae7acf008a4":
+            {
+                visemes:
+                    "118\t128\t109\n104\t237\t148\n109\t385\t101\n105\t487\t187\n102\t674\t62\n105\t737\t117\n105\t854\t23\n107\t878\t23\n103\t901\t85\n108\t987\t148\n118\t1135\t171\n107\t1307\t312\n108\t1620\t70\n105\t1690\t234\n113\t1924\t335\n100\t2270\t729",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/694d36d50f9779e02e828bc24f3f376b":
+            {
+                visemes: "104\t96\t343\n120\t439\t281\n100\t731\t781",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/miranda/3768c70fa4f40d9366bbf52ffd234ac0":
+            {
+                visemes:
+                    "118\t32\t125\n112\t157\t148\n109\t305\t93\n105\t399\t132\n101\t532\t70\n105\t602\t54\n105\t657\t23\n107\t680\t46\n103\t727\t62\n108\t789\t132\n118\t922\t312\n100\t1245\t98",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/junioren/2a3dada74442d7fc1b7f124eff3db403":
+            {
+                visemes:
+                    "118\t128\t117\n112\t245\t164\n109\t409\t93\n105\t503\t281\n100\t794\t765",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/beaen/52512b5b213f1323bd34c7978cb139a6":
+            {
+                visemes:
+                    "101\t128\t320\n105\t448\t85\n105\t534\t187\n100\t731\t732",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/zarien/42656ffa1f4f166d1734c3a005592016":
+            {
+                visemes:
+                    "103\t128\t148\n101\t276\t250\n113\t526\t195\n100\t731\t876",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/falstaffen/e016b7369db33eeacafd71e80c1659c5":
+            {
+                visemes:
+                    "103\t128\t195\n101\t323\t195\n113\t518\t312\n118\t831\t195\n104\t1026\t132\n109\t1159\t117\n105\t1276\t312\n100\t1598\t249",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/miranda/5c4b35c4e7a5d8b8d32fb1e9d1fff6d3":
+            {
+                visemes:
+                    "118\t32\t125\n112\t157\t148\n109\t305\t109\n105\t414\t304\n100\t729\t134",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/3966e375db89d84680fab50078b9fa5e":
+            {
+                visemes:
+                    "107\t96\t156\n108\t252\t62\n105\t314\t226\n113\t541\t312\n100\t863\t720",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/9dc15af4158b38033225195033ef6121":
+            {
+                visemes:
+                    "103\t128\t218\n101\t346\t179\n113\t526\t390\n100\t927\t728",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/falstaffen/4200f60eeeb19f985d9a994636d43415":
+            {
+                visemes:
+                    "118\t128\t101\n104\t229\t140\n109\t370\t101\n105\t471\t203\n101\t674\t210\n105\t885\t62\n105\t948\t31\n107\t979\t117\n103\t1096\t46\n108\t1143\t156\n118\t1299\t257\n100\t1567\t280",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/junioren/a623de0e92aacdcf98360ee61c7097bc":
+            {
+                visemes: "104\t128\t296\n120\t424\t296\n100\t731\t756",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/miranda/1e98d4a348c99786b74fd6e5feb43148":
+            {
+                visemes:
+                    "102\t0\t187\n112\t187\t187\n105\t375\t312\n100\t697\t118",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/beaen/2b8abb9a9588ecbe3d70efcf77f26bf7":
+            {
+                visemes:
+                    "107\t128\t148\n103\t276\t78\n108\t354\t78\n118\t432\t62\n101\t495\t85\n105\t581\t54\n105\t635\t23\n118\t659\t101\n112\t760\t117\n109\t878\t93\n105\t971\t296\n100\t1278\t737",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/junioren/a84b16fcdc8496ffc12f25b51c945bfa":
+            {
+                visemes:
+                    "103\t128\t320\n113\t448\t226\n105\t674\t171\n100\t856\t799",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/beaen/2e8cd78e30e51c6643beafb84602f13c":
+            {
+                visemes:
+                    "118\t128\t117\n112\t245\t109\n109\t354\t109\n105\t463\t320\n100\t794\t717",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/vikramen/f3ee2aa9277d81022140c9632a29e8cc":
+            {
+                visemes:
+                    "107\t128\t171\n103\t299\t101\n108\t401\t156\n118\t557\t226\n100\t794\t789",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/beaen/6c2508d7d39fa419f3d75856159dcb5a":
+            {
+                visemes: "102\t128\t125\n103\t253\t468\n100\t731\t708",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/junioren/770254ff89fc5ea90f088dcc1df2ebc8":
+            {
+                visemes:
+                    "118\t128\t140\n112\t268\t148\n109\t417\t93\n105\t510\t234\n101\t745\t148\n105\t893\t156\n105\t1049\t39\n107\t1088\t31\n103\t1120\t101\n108\t1221\t125\n118\t1346\t164\n107\t1510\t125\n108\t1635\t39\n105\t1674\t398\n113\t2073\t281\n100\t2364\t779",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/ed94a9c2cd8f0f5dc1f017750ac99e9b":
+            {
+                visemes:
+                    "103\t128\t218\n101\t346\t179\n113\t526\t390\n100\t927\t728",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/acc8109446679686e7b78dfc9a21d14b":
+            {
+                visemes:
+                    "107\t96\t195\n103\t291\t85\n108\t377\t164\n118\t541\t273\n100\t824\t759",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/falstaffen/7dc95c57e230126b6ede44408266cec0":
+            {
+                visemes:
+                    "103\t128\t203\n101\t331\t187\n113\t518\t367\n100\t895\t232",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/37a5d19960f33d6f3f4c9c51719592d1":
+            {
+                visemes:
+                    "118\t96\t140\n104\t236\t156\n109\t392\t109\n105\t502\t312\n100\t824\t735",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/c4310d17c4047d15452b0b23ea88c2ad":
+            {
+                visemes:
+                    "103\t128\t179\n101\t307\t156\n113\t463\t312\n118\t776\t312\n104\t1088\t164\n109\t1253\t101\n105\t1354\t296\n100\t1661\t738",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/junioren/6040dfa9a462f69617c8fdb6609dc199":
+            {
+                visemes:
+                    "105\t128\t187\n104\t315\t140\n105\t456\t23\n102\t479\t70\n108\t549\t132\n113\t682\t390\n100\t1083\t716",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/583f299988a289dc687a96665bfeecdb":
+            {
+                visemes: "105\t96\t164\n105\t260\t460\n100\t731\t757",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/zarien/05832eb0ac4abf3e2a2e4bc178ab20bf":
+            {
+                visemes:
+                    "103\t128\t140\n101\t268\t226\n113\t495\t289\n100\t794\t789",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/b461e8db483aae69b4d0a1eebd4dda2c":
+            {
+                visemes:
+                    "107\t128\t179\n103\t307\t101\n108\t409\t125\n118\t534\t203\n107\t737\t328\n108\t1065\t78\n105\t1143\t234\n113\t1378\t335\n100\t1723\t748",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/miranda/3642ddb2554e44e12cf7136989720ec6":
+            {
+                visemes:
+                    "101\t0\t359\n105\t359\t148\n105\t507\t179\n100\t697\t142",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/falstaffen/0b77baf65ea965b6df3da0a5bcd2adc1":
+            {
+                visemes:
+                    "102\t128\t140\n103\t268\t500\n105\t768\t148\n104\t917\t140\n104\t1057\t398\n100\t1466\t237",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/junioren/69917102b4bced187b930a2a4f522ffa":
+            {
+                visemes:
+                    "107\t128\t148\n103\t276\t156\n108\t432\t101\n118\t534\t148\n107\t682\t164\n108\t846\t39\n105\t885\t359\n113\t1245\t343\n100\t1598\t753",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/beaen/57d53fc1017d148b77875df7c12186b0":
+            {
+                visemes:
+                    "107\t128\t117\n108\t245\t46\n105\t292\t242\n113\t534\t281\n100\t825\t734",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/falstaffen/2a82b6b42b77c397ede11097369b7f8a":
+            {
+                visemes:
+                    "107\t128\t195\n103\t323\t46\n108\t370\t117\n118\t487\t398\n100\t895\t304",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/zarien/8895161d551d975ca53bbedb58cdba34":
+            {
+                visemes:
+                    "107\t96\t132\n108\t228\t39\n105\t267\t281\n113\t549\t265\n100\t824\t783",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/miranda/8eff9a0dc6c96cd19937a7c4c995c133":
+            {
+                visemes:
+                    "103\t0\t164\n101\t164\t156\n113\t320\t398\n100\t728\t87",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/vikramen/0794a713fb97748c8718fac31b6f6ef3":
+            {
+                visemes:
+                    "118\t128\t101\n112\t229\t179\n109\t409\t93\n105\t503\t281\n100\t794\t789",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/miranda/da4a41f15b09e98515f389ca3482c99d":
+            {
+                visemes: "102\t0\t179\n103\t179\t414\n100\t603\t116",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/junioren/7aa710047b2cef3d7b254fdd36c44805":
+            {
+                visemes:
+                    "107\t128\t140\n108\t268\t62\n105\t331\t281\n113\t612\t335\n100\t958\t769",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/beaen/2746db625598971b54d3966ba507d160":
+            {
+                visemes: "102\t128\t140\n103\t268\t421\n100\t700\t715",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/oscaren/d20f8298a95dc91df62b03c41c045084":
+            {
+                visemes:
+                    "101\t96\t335\n105\t431\t156\n105\t588\t226\n100\t824\t735",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/falstaffen/5fbd681b7a4362f8f9cc41a8d822fb71":
+            {
+                visemes:
+                    "101\t128\t320\n105\t448\t218\n105\t667\t218\n100\t895\t256",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/junioren/0619d1c854b21dc27c8b9e88ed4a2c73":
+            {
+                visemes:
+                    "107\t128\t148\n103\t276\t125\n108\t401\t109\n118\t510\t304\n100\t825\t758",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/junioren/d601ba11e3eed4babdd4db69ced84cbf":
+            {
+                visemes:
+                    "101\t128\t304\n105\t432\t93\n105\t526\t226\n100\t763\t725",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/zarien/5eead7d35dc25a27b9b624bece62aa5a":
+            {
+                visemes:
+                    "107\t128\t125\n103\t253\t93\n108\t346\t93\n118\t440\t164\n107\t604\t203\n108\t807\t46\n105\t854\t546\n113\t1401\t23\n100\t1434\t773",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/falstaffen/162c7e5330abdada655ef1ed992d7380":
+            {
+                visemes:
+                    "105\t128\t187\n104\t315\t148\n104\t463\t453\n100\t927\t248",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/oscaren/30ec7d09b0b9555e6db6a8e8abe85620":
+            {
+                visemes:
+                    "118\t128\t109\n112\t237\t171\n109\t409\t109\n105\t518\t328\n100\t856\t751",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/falstaffen/a4c54cfc8fc48b719a8e6178ac8828f8":
+            {
+                visemes:
+                    "118\t96\t156\n104\t252\t117\n109\t369\t109\n105\t478\t335\n100\t824\t279",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/miranda/d66a0d5b3c279d4f245a91f297d610d6":
+            {
+                visemes:
+                    "107\t0\t125\n103\t125\t70\n108\t195\t164\n118\t359\t296\n100\t666\t125",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/vikramen/492e3a72e64a0e8c8823e0fdfcf6a889":
+            {
+                visemes:
+                    "107\t128\t109\n108\t237\t78\n105\t315\t250\n113\t565\t281\n100\t856\t751",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/oscaren/9213215fb4f08d46a6def69367328f45":
+            {
+                visemes:
+                    "107\t128\t140\n103\t268\t62\n108\t331\t140\n118\t471\t375\n100\t856\t775",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/miranda/5a642b17f3d75eebbfcdb07b26327b6c":
+            {
+                visemes: "105\t0\t171\n105\t171\t390\n100\t572\t99",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/junioren/916b7a58c6f261da2817dbd2b2199d92":
+            {
+                visemes:
+                    "103\t128\t242\n101\t370\t203\n113\t573\t406\n100\t989\t738",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/beaen/980d25e143974fe1ccd2e1dea453eea6":
+            {
+                visemes:
+                    "107\t128\t93\n103\t221\t164\n108\t385\t125\n118\t510\t242\n100\t763\t749",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/677d36ebdf487c0a934ce8adb6ea7c4f":
+            {
+                visemes:
+                    "110\t96\t187\n104\t283\t195\n105\t478\t31\n100\t510\t304\n100\t824\t735",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/oscaren/1c82d70df3188ae3823ad18dd2fc5fac":
+            {
+                visemes:
+                    "118\t96\t132\n112\t228\t171\n109\t400\t109\n105\t510\t171\n101\t681\t54\n105\t736\t125\n105\t861\t23\n107\t885\t39\n103\t924\t54\n108\t978\t156\n118\t1135\t351\n100\t1496\t759",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/miranda/e9e2ca3310ba13e9530a5cfd838c338f":
+            {
+                visemes:
+                    "118\t32\t242\n112\t274\t273\n109\t547\t195\n105\t742\t429\n101\t1172\t1273\n105\t2446\t148\n105\t2594\t398\n107\t2992\t664\n103\t3657\t257\n108\t3914\t257\n118\t4172\t421\n100\t4604\t675",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/falstaffen/1fe05377ce4ed8099668239e48e26c48":
+            {
+                visemes: "102\t128\t171\n103\t299\t515\n100\t825\t254",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/beaen/cabae3a0af5a0b9e3421debdb71726ee":
+            {
+                visemes:
+                    "118\t96\t140\n112\t236\t124\n109\t361\t85\n105\t447\t125\n101\t572\t125\n105\t697\t93\n105\t791\t23\n107\t814\t23\n103\t838\t85\n108\t924\t132\n118\t1056\t140\n107\t1197\t179\n108\t1377\t23\n105\t1400\t281\n113\t1681\t226\n100\t1918\t721",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/vikramen/6b325a5e0286e69cbd90c426ed11a726":
+            {
+                visemes:
+                    "101\t128\t320\n105\t448\t85\n105\t534\t187\n100\t731\t732",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/eddyen/f8bbe7530cfb5e8dbaf1ad18c2a005d0":
+            {
+                visemes:
+                    "102\t96\t335\n105\t431\t117\n105\t549\t234\n100\t793\t694",
+            },
+        "https://d1vq87e9lcf771.cloudfront.net/zarien/0f8bf19faf7d21b99884e109bd7f36a1":
+            {
+                visemes:
+                    "107\t128\t93\n103\t221\t171\n108\t393\t78\n118\t471\t250\n100\t731\t732",
+            },
+    },
+    trackingProperties: {
+        percent_target_kc_coverage: 1.0,
+        skill_x_coord: 1,
+        skill_tree_id: "d0ad5fadbcebad14d0e7656356708486",
+        num_adaptive_challenges_gt_tap: 2,
+        data_version: "default",
+        max_repeated_challenge_type_count: 12,
+        tree_level: 1,
+        lexemes_were_reordered: false,
+        uses_birdbrain_sorting: true,
+        type: "lesson",
+        num_challenges_generated: 15,
+        is_shorter_than_expected: false,
+        uses_birdbrain_picking: false,
+        num_challenges_after_failure_rate_filter: 18,
+        num_easier_adaptive_challenges_gt: 2,
+        learning_language: "en",
+        num_challenges_gt_tap: 12,
+        num_challenges_with_challenge_stats: 15,
+        max_repeated_challenge_type: "tap",
+        generation_timestamp: 1679724754975,
+        max_repeated_sentence_count: 1,
+        max_repeated_challenge_count: 1,
+        max_repeated_undirected_sentence_count: 1,
+        num_low_quality_challenges: 6,
+        sentences_count: 13,
+        num_challenges_gt: 15,
+        num_easier_adaptive_challenges_generated: 2,
+        num_sensitive_content_filtered: 0,
+        distinct_sentences_count: 13,
+        num_adaptive_challenges_generated: 2,
+        num_challenges_gt_listen_tap: 1,
+        max_repeated_sentence: "e811a2f52e870ec41e8dd1c6a61e53fb",
+        uses_birdbrain: true,
+        read_from_cache: false,
+        num_adaptive_challenges_gt: 2,
+        from_language: "vi",
+        percent_low_quality_challenges: 0.4,
+        sum_content_length: 164,
+        percent_kc_coverage: 1.0,
+        max_consecutive_challenge_type_count: 8,
+        expected_length: 15,
+        offline: false,
+        num_interleaved_adaptive_challenges_gt: 0,
+        activity_uuid: "e5940146-8fb9-4885-8f3a-3cfddfc3c13c",
+        num_sensitivity_labels_of_user: 0,
+        level_index: 0,
+        avg_content_length: 10.933333333333334,
+        level_session_index: 0,
+        generation_app_version: "5.0",
+        max_consecutive_challenge_type: "tap",
+        max_repeated_undirected_sentence: "e811a2f52e870ec41e8dd1c6a61e53fb",
+        skill_name: "Cơ bản",
+        distinct_undirected_sentences_count: 13,
+        skill_id: "5270a313c05e576957c200a745fea658",
+        grading_graph_sizes_sum: 37270,
+        num_challenges_gt_name_example: 2,
+        lesson_number: 1,
+    },
+    beginner: true,
+    skillId: "5270a313c05e576957c200a745fea658",
+    sessionStartExperiments: [
+        "linfra_cds_built_summ_listen_tap_v1",
+        "linfra_cds_built_summ_listen_complete_1",
+        "linfra_cds_built_summ_listen_v1",
+        "linfra_cds_built_summ_listen_speak_v1",
+        "linfra_cds_built_summ_speak_v1",
+    ],
+    lessonIndex: 0,
+    levelIndex: 0,
+    levelSessionIndex: 0,
+    preSessionScreens: [],
+    challengeTimeTakenCutoff: 60000,
+    explanations: {},
+    progressUpdates: [],
+    isV2: true,
+    showBestTranslationInGradingRibbon: true,
+});
+
+export default data;
